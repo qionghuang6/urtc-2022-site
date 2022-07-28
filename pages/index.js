@@ -16,22 +16,34 @@ export default function Index() {
       <Container maxWidth="lg">
         <Banner />
         <Box sx={{ my: 4 }}>
-          <Typography variant="h4" component="h1" color="white" gutterBottom>
-            Hello world!
+          <Typography sx={{
+            fontFamily: 'Gloria Hallelujah',
+          }}
+            variant="h4" align="center" component="h1" color="white" gutterBottom
+          >
+            Hello world! Tammy Chen is a Tomato/Potato?
           </Typography>
         </Box>
         <Grid container spacing="48px">
           <Grid item xs={12} md={6}>
             <GlassBox>
+              <Typography variant="h4" align="center" component="h1" color="white" gutterBottom>
+                Test Heading
+              </Typography>
               <Typography variant="body1" component="h1" color="white" gutterBottom>
                 {lorem}
               </Typography>
             </GlassBox>
           </ Grid>
           <Grid item xs={12} md={6}>
-            <GlassBox background='linear-gradient(135deg, rgba(33, 147, 176, 0.7), rgb(109, 213, 237, 0.7))'>
+            <GlassBox background='linear-gradient(135deg, rgba(33, 147, 200, 0.7), rgb(109, 213, 237, 0.7))'>
               <Typography variant="body1" component="h1" color="white" gutterBottom>
-                {lorem}
+                {lorem.substring(200, 1600)}
+              </Typography>
+            </GlassBox>
+            <GlassBox background='linear-gradient(45deg, rgba(255,0,0,0.8), rgb(255, 255, 0, 0.8))'>
+              <Typography variant="h4" component="h1" color="white" gutterBottom>
+                Potato
               </Typography>
             </GlassBox>
           </Grid>

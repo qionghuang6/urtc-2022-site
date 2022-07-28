@@ -11,6 +11,7 @@ export default function GlassBox({background = defaultGrad, sx, children}) {
                 background,
                 borderRadius: "2rem",
                 p: "1rem",
+                marginBottom: "3rem",
                 ...sx,
             }}
         >   
