@@ -3,13 +3,12 @@ import {Box, Typography} from '@mui/material';
 
 export default function Copyright() {
   return (
-    <Box position="absolute" right="2rem" bottom="1rem">
+    <Box position="fixed" right="1rem" bottom="4px" p="8px" borderRadius="8px" backgroundColor="rgba(0,0,0, 0.7)">
       <a href="https://accessibility.mit.edu/">
         <Typography variant="body2" align="right" color="white" sx={{textDecoration: 'underline'}}>Accessibility</Typography>
       </a>
       <Typography variant="body2" align="right" color="white">
-        {'Copyright © '}
-        {'IEEE URTC '}
+        {'© IEEE URTC '}
         {new Date().getFullYear()}
       </Typography>
     </Box>
