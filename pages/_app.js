@@ -6,6 +6,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { CacheProvider } from '@emotion/react';
 import theme from '../src/theme';
 import createEmotionCache from '../src/createEmotionCache';
+import Box from '@mui/material/Box';
 
 import Copyright from '../src/Copyright';
 import SiteNavigation from '../src/SiteNavigation';
@@ -26,7 +27,9 @@ export default function MyApp(props) {
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
         <SiteNavigation />
-        <Component {...pageProps} />
+        <Box mt="100px">
+          <Component {...pageProps} />
+        </Box>
         <Copyright />
         <Socials />
       </ThemeProvider>
