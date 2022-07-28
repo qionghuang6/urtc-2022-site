@@ -1,12 +1,17 @@
 import * as React from 'react';
-import Typography from '@mui/material/Typography';
+import {Box, Typography} from '@mui/material';
 
 export default function Copyright() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
-        MIT URTC
-      {new Date().getFullYear()}.
-    </Typography>
+    <Box position="absolute" right="2rem" bottom="1rem">
+      <a href="https://accessibility.mit.edu/">
+        <Typography variant="body2" align="right" color="white" sx={{textDecoration: 'underline'}}>Accessibility</Typography>
+      </a>
+      <Typography variant="body2" align="right" color="white">
+        {'Copyright © '}
+        {'IEEE URTC '}
+        {new Date().getFullYear()}
+      </Typography>
+    </Box>
   );
 }

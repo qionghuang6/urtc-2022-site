@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import Link from '../src/Link';
 import Copyright from '../src/Copyright';
 
-export default function About() {
+export default function Sponsorship() {
   return (
     <Container maxWidth="sm">
       <Box sx={{ my: 4 }}>
