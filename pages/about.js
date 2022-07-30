@@ -9,17 +9,24 @@ import Link from '../src/Link';
 import Copyright from '../src/Copyright';
 
 export default function About() {
+  const title = 'About | URTC 2022'
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" color="white" gutterBottom>
-          Next.js example
-        </Typography>
-        <Button variant="contained" component={Link} noLinkStyle href="/">
-          Go to the main page
-        </Button>
-        <Copyright />
-      </Box>
-    </Container>
+    <>
+      <Head>
+        <title>{title}</title>
+        <meta property="og:title" content={title} />
+      </Head>
+      <Container maxWidth="sm">
+        <Box sx={{ my: 4 }}>
+          <Typography variant="h4" component="h1" color="white" gutterBottom>
+            Next.js example
+          </Typography>
+          <Button variant="contained" component={Link} noLinkStyle href="/">
+            Go to the main page
+          </Button>
+          <Copyright />
+        </Box>
+      </Container>
+    </>
   );
 }
