@@ -21,17 +21,22 @@ export default function Index() {
           }}
             variant="h4" align="center" component="h1" color="white" gutterBottom
           >
-            Hello world! Tammy Chen is a Tomato/Potato?
+            work in progress
           </Typography>
         </Box>
         <Grid container spacing="48px">
           <Grid item xs={12} md={6}>
             <GlassBox>
               <Typography variant="h4" align="center" component="h1" color="white" gutterBottom>
-                Test Heading
+                What is URTC?
               </Typography>
               <Typography variant="body1" component="h1" color="white" gutterBottom>
-                {lorem}
+              MIT URTC is an internationally-renowned research conference, for undergraduates and by undergraduates.
+
+              Our annual conferences are themed around incredible breakthroughs in engineering and technological research made by student researchers at the undergraduate level all over the country. With our yearly events, participants are given the exciting opportunity to present, discuss, and develop solutions for advancing technology for humanity.
+
+              Staffed by a group of students from MIT working in collaboration with the Institute of Electrical and Electronics and Engineers (IEEE), we boast a wide variety of programming at each conference such as paper/poster presentations by our student presenters, talks and panels by industry leaders, and networking and social events.
+
               </Typography>
             </GlassBox>
           </ Grid>
