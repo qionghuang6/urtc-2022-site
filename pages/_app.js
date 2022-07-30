@@ -27,6 +27,8 @@ export default function MyApp(props) {
         <meta property="og:description" content="MIT URTC is an internationally-renowned research conference, for undergraduates and by undergraduates. Our annual conferences are themed around incredible breakthroughs in engineering and technological research made by student researchers at the undergraduate level all over the country." />
         <meta property="og:image" content="/public/urtc-2022.png" />
       </Head>
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQDRW3X"
+          height="0" width="0" style={{display:'none', visibility:'hidden'}}></iframe></noscript>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
