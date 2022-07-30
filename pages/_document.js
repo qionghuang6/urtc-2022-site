@@ -1,4 +1,6 @@
 import * as React from 'react';
+import Script from 'next/script'
+
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import createEmotionServer from '@emotion/server/create-instance';
 import theme from '../src/theme';
@@ -15,8 +17,16 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nunito+Sans&family=Roboto&display=swap" rel="stylesheet" />
+          
           {/* Inject MUI styles first to match with the prepend: true configuration. */}
           {this.props.emotionStyleTags}
+
+          {/* Google Tag Manager */}
+          <Script strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-MQDRW3X');`}}></Script>
         </Head>
         <body>
           <Main />
