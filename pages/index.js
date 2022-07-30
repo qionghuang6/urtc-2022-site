@@ -42,13 +42,23 @@ export default function Index() {
           </ Grid>
           <Grid item xs={12} md={6}>
             <GlassBox background='linear-gradient(135deg, rgba(33, 147, 200, 0.7), rgb(109, 213, 237, 0.7))'>
+            <Typography variant="h4" align="center" component="h1" color="white" gutterBottom>
+                Logistics
+              </Typography>
               <Typography variant="body1" component="h1" color="white" gutterBottom>
-                {lorem.substring(200, 1600)}
+              This year, URTC will be held under a hybrid model—we will combine virtual elements from our 2020 and 2021 conferences and in-person elements from all the years that came before that! This change aims to allow participants an authentic conference experience with like-minded peers in the same physical environment while also providing those who are unable to travel to MIT to experience the conference virtually. Both student presenters and general attendees are eligible to participate in either method.
+
+              Note: we are not hosting two separate in-person and virtual conferences! Instead, we are providing a means for URTC participants to attend and present virtually through live streaming. To accommodate this combined method, many of our events will be run in a modified format.
+
+              When registering for the conference, attendees can choose to attend either in-person or virtually.
               </Typography>
             </GlassBox>
             <GlassBox background='linear-gradient(45deg, rgba(255,0,0,0.8), rgb(255, 255, 0, 0.8))'>
-              <Typography variant="h4" component="h1" color="white" gutterBottom>
-                Potato
+            <Typography variant="h4" align="center" component="h1" color="white" gutterBottom>
+                Location
+              </Typography>
+              <Typography variant="body1" component="h1" color="white" gutterBottom>
+              URTC 2022 will take place in the Ray and Maria Stata Center (Building 32, 32 Vassar Street). More information about the venue will be posted nearer to the date of the conference.
               </Typography>
             </GlassBox>
           </Grid>
