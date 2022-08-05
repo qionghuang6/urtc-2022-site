@@ -25,7 +25,7 @@ export default function MyApp(props) {
         <title>URTC 2022</title>
         <meta property="og:title" content="URTC 2022" />
         <meta property="og:description" content="MIT URTC is an internationally-renowned research conference, for undergraduates and by undergraduates. Our annual conferences are themed around incredible breakthroughs in engineering and technological research made by student researchers at the undergraduate level all over the country." />
-        <meta property="og:image" content="/public/urtc-2022.png" />
+        <meta property="og:image" content="/urtc-2022.png" />
       </Head>
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQDRW3X"
           height="0" width="0" style={{display:'none', visibility:'hidden'}}></iframe></noscript>
