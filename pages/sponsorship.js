@@ -5,8 +5,8 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Link from '../src/Link';
 import Copyright from '../src/Copyright';
+
 
 export default function Sponsorship() {
   const title = 'Sponsorship | URTC 2022'
@@ -16,14 +16,15 @@ export default function Sponsorship() {
         <title>{title}</title>
         <meta property="og:title" content={title} />
       </Head>
+
       <Container maxWidth="sm">
         <Box sx={{ my: 4 }}>
           <Typography variant="h4" component="h1" color="white" gutterBottom>
-            Next.js example
+            Sponsorship
           </Typography>
-          <Button variant="contained" component={Link} noLinkStyle href="/">
-            Go to the main page
-          </Button>
+          <Typography variant="string" paragraph="true" color="white" gutterBottom>
+            MIT URTC has grown its influence in the last decade, reaching to hundreds of submissions and even students internationally. We have received past partnerships from Microsoft, Lockheed Martin, Two Sigma Investments, and Analog Devices. When you sponsor, you help every aspect of the event come together. Contributions go towards providing t-shirts and cater- ing services, renting out the venue and necessary equipment, publishing the conference proceedings, and countless other ex- penses associated with running a conference. With your help, we can make the 2022 Undergraduate Research Technology Conference our best conference yet!
+          </Typography>
           <Copyright />
         </Box>
       </Container>

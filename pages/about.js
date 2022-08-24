@@ -41,13 +41,13 @@ export default function About() {
           <Typography variant="string" component="h2" color="white" gutterBottom>
             Conference Agenda
           </Typography>
-          <Typography variant="string" component="h3" color="white" gutterBottom>
+          <Typography variant="overline" component="h3" color="white" gutterBottom>
             Opening Ceremony
           </Typography>
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
             URTC begins formally with an opening ceremony led by our conference chairs—Tammy Chen, George Liu, and Ellie Montemayor, as well as our IEEE advisor Gim Soon Wan—to welcome participants and affirm the need and utility of the conference’s organization, as well as to provide a further introduction into the state of the technological world to motivate interest in and prelude into the main elements of the conference.
           </Typography>
-          <Typography variant="string" component="h3" color="white" gutterBottom>
+          <Typography variant="overline" component="h3" color="white" gutterBottom>
             Papers, Posters and Lightning Talks
           </Typography>
           <Typography display="block" variant="string" paragraph="true" color="white" gutterBottom>
@@ -58,19 +58,19 @@ export default function About() {
             Poster presentations are designed for a more condensed snapshot of the results of research. While poster presenters are also given the opportunity to discuss their work in some specified block of time during the conference, these discussions are more informal and typically conversational in the perspective of speaker-audience interactions. Posters will remain in exhibition throughout the duration of the conference, even outside of the allotted presenting time.
             Lightning talks are organized like the paper presentations but are meant to, as suggested by their naming, provide quick, condensed presentations of the most fundamental aspects of students’ research. While lightning talks are also presented in a keynote format, presenters are limited to 5 minutes of presentation time each.
           </Typography>
-          <Typography variant="string" component="h3" color="white" gutterBottom>
+          <Typography variant="overline" component="h3" color="white" gutterBottom>
             Guest Speakers and Panelists
           </Typography>
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
             In addition to student presentations, each year we invite renowned tech experts and leaders from various industries in technology to speak at URTC. These speakers, armed with their years of knowledge in the workplace, provide exciting perspectives on next-generation technologies, applications in everything ranging from environmental conservation to medical care, and even advice for undergrad and grad school. Past speakers and panelists have included professors and veteran researchers from MIT, engineers from Big Tech companies like Microsoft, and current graduate students associated with MIT.
           </Typography>
-          <Typography variant="string" component="h3" color="white" gutterBottom>
+          <Typography variant="overline" component="h3" color="white" gutterBottom>
             Networking and Social Events
           </Typography>
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
             In addition to all of these speaker-attendee elements involved in the conference, we also feature several more interactive events for attendees to enjoy. On each day of the conference, we have several unstructured “student lounge” breaks for attendees to use to recompose themselves following a series of panels or a student presentation session as well as a lunch break with catered services. Some of our more structured social events include networking sessions, where attendees are given the opportunity to interact with one another, with our student presenters, and often with some of our attending panelists/tech experts for developing professional contacts; group recreational activities such as playing cooperative and strategy-oriented party games or watching technology-themed films; and presentation feedback sessions.
           </Typography>
-          <Typography variant="string" component="h3" color="white" gutterBottom>
+          <Typography variant="overline" component="h3" color="white" gutterBottom>
             Closing Ceremony and Best Paper Awards
           </Typography>
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
