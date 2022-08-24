@@ -42,6 +42,7 @@ export default function SiteNavigation() {
                         component="a"
                         href="/"
                         fontFamily="Montserrat"
+                        fontWeight="700"
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },
@@ -83,7 +84,7 @@ export default function SiteNavigation() {
                         >
                             {pages.map((page) => (
                                 <MenuItem key={page} onClick={handleCloseNavMenu} component="a" href={pageMap[page]}>
-                                    <Typography textAlign="center">{page}</Typography>
+                                    <Typography fontFamily="Montserrat" fontWeight="500" textAlign="center">{page}</Typography>
                                 </MenuItem>
                             ))}
                         </Menu>
@@ -93,6 +94,8 @@ export default function SiteNavigation() {
                         noWrap
                         component="a"
                         href=""
+                        fontFamily="Montserrat"
+                        fontWeight="700"
                         sx={{
                             mr: 2,
                             display: { xs: 'flex', md: 'none' },
@@ -117,6 +120,8 @@ export default function SiteNavigation() {
                                     mx: 0.2,
                                     color: 'white',
                                     display: 'block',
+                                    fontFamily: 'Montserrat',
+                                    fontWeight: '400',
                                     '&:hover': {
                                         color: 'pink'
                                     }

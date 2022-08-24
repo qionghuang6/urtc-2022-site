@@ -1,5 +1,5 @@
 import {
-    Box,
+    Box, Typography,
 } from '@mui/material';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
@@ -27,7 +27,7 @@ export default function GlassBox({background = defaultGrad, href="", sx={}, chil
                     window.location.href = href;
                 }
             }}
-            props={other}
+            {...other}
         >   
             { href ? <OpenInNewIcon style={{position: 'absolute', right: '1.25rem', top: '1.25rem', color: 'white'}} /> : null }
             {children}
