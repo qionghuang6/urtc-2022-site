@@ -15,18 +15,9 @@ export default function Index() {
     <>
       <Container maxWidth="lg">
         <Banner />
-        <Box sx={{ my: 4 }}>
-          <Typography sx={{
-            fontFamily: 'Gloria Hallelujah',
-          }}
-            variant="h4" align="center" component="h1" color="white" gutterBottom
-          >
-            work in progress
-          </Typography>
-        </Box>
-        <Grid container spacing="48px">
+        <Grid container spacing="6px">
           <Grid item xs={12} md={6}>
-            <GlassBox>
+            <GlassBox href="./about">
               <Typography variant="h4" align="center" component="h1" color="white" gutterBottom>
                 What is URTC?
               </Typography>

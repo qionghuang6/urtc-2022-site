@@ -23,7 +23,8 @@
     "react": "latest",
     "react-collapsible": "^2.10.0",
     "react-dom": "latest",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "three": "^0.143.0"
   },
   "devDependencies": {
     "eslint": "latest",

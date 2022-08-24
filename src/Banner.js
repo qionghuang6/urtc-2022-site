@@ -1,22 +1,18 @@
 import {
-    Container,
-    Box,
     Typography,
 } from '@mui/material';
+import GlassBox from './GlassBox';
 
 export default function Banner() {
     return (
-        <Box
+        <GlassBox
             sm={10}
             sx={{
-                backgroundColor:'purple',
-                width: '100%',
-                borderRadius: "2rem",
-                py: "2rem",
-                mt: "2rem",
+                marginTop: '-24px'
             }}
+            background="rgba(148,0,211,0.7)"
         >
-            <Typography variant="h2" align="center" color="#fff">
+            <Typography variant="h2" align="center" color="#fff" fontFamily="Montserrat">
                 MIT URTC 2022
             </Typography>
             <Typography variant="h4" align="center" color="#fff">
@@ -25,6 +21,6 @@ export default function Banner() {
             <Typography variant="h4" align="center" color="#fff">
                 September 30 - October 2, 2022
             </Typography>
-        </Box>
+        </GlassBox>
     );
 }

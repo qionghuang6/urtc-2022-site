@@ -16,20 +16,23 @@ export default function SiteNavigation() {
         setAnchorElNav(null);
     };
 
-    const [opacity, setOpacity] = useState(0.3);
+    const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
         window.addEventListener("scroll", function (_event) {
-            if (opacity != 1) {
-                setOpacity(1)
+            if (window.scrollY > 30 && !scrolled) {
+                setScrolled(true);
+            } else if (window.scrollY < 30 && scrolled) {
+                setScrolled(false);
             }
         })
-    }, [])
+    }, [scrolled])
 
     return (
         <AppBar position="fixed" sx={{
-            backgroundColor: `rgba(68, 23, 68, ${opacity})`,
-            transition: 'background-color 1s linear',
+            backgroundColor: `rgba(68, 23, 68, ${scrolled ? 0.7 : 0})`,
+            transition: 'all 0.5s linear',
+            backdropFilter: scrolled ? `blur(6px)` : 'none'
         }}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
@@ -38,10 +41,10 @@ export default function SiteNavigation() {
                         noWrap
                         component="a"
                         href="/"
+                        fontFamily="Montserrat"
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },
-                            fontWeight: 700,
                             color: 'inherit',
                             textDecoration: 'none',
                         }}
@@ -108,8 +111,16 @@ export default function SiteNavigation() {
                                 onClick={handleCloseNavMenu}
                                 component="a"
                                 href={pageMap[page]}
-                                variant="outlined"
-                                sx={{ my: 2, mx: 0.75, borderColor: 'gray', color: 'white', display: 'block' }}
+                                size="large"
+                                sx={{
+                                    my: 1,
+                                    mx: 0.2,
+                                    color: 'white',
+                                    display: 'block',
+                                    '&:hover': {
+                                        color: 'pink'
+                                    }
+                                }}
                             >
                                 {page}
                             </Button>
