@@ -8,6 +8,7 @@ import Button from '@mui/material/Button';
 import Link from '../src/Link';
 import Copyright from '../src/Copyright';
 
+
 export default function Submission() {
   const title = 'Submission | URTC 2022'
   return (
@@ -74,8 +75,14 @@ export default function Submission() {
 
           </Typography>
           <br></br>
-          <Button variant="contained" component={Link} noLinkStyle href="/">
-            Go to the main page
+          <Button variant="contained" component={Link} noLinkStyle href="/poster_presentation_2022.pdf">
+            Poster Presentation
+          </Button>
+          <Button variant="contained" component={Link} noLinkStyle href="/paper_submission_2022.pdf">
+            Paper Presentation
+          </Button>
+          <Button variant="contained" component={Link} noLinkStyle href="/conference-template-letter.docx">
+            Paper Template
           </Button>
           <Copyright />
         </Box>

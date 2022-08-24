@@ -26,6 +26,7 @@ export default function About() {
             Our annual conferences are themed around incredible breakthroughs in engineering and technological research made by student researchers at the undergraduate level all over the country. With our yearly events, participants are given the exciting opportunity to present, discuss, and develop solutions for advancing technology for humanity.
             Staffed by a group of students from MIT working in collaboration with the Institute of Electrical and Electronics and Engineers (IEEE), we boast a wide variety of programming at each conference such as paper/poster presentations by our student presenters, talks and panels by industry leaders, and networking and social events.
           </Typography>
+          <img src="/conference_1.png" width="100%"></img>
           <Typography variant="string" component="h1" color="white" gutterBottom>
             Program At A Glance
           </Typography>
@@ -34,10 +35,8 @@ export default function About() {
           </Typography>
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
             URTC is organized around our different “tracks,” which we identify as the most prevailing themes in modern technology research. Each element of the conference hits on one of these key themes; our overarching goal each year is to have everyone participating come out of the conference with better awareness, appreciation, and ambition for the problems posed and the solutions given in each component of the technological world.
-
-            [Image: 2022 Tracks]
-
           </Typography>
+          <img src="/tracks.png" width="100%"></img>
           <Typography variant="string" component="h2" color="white" gutterBottom>
             Conference Agenda
           </Typography>
