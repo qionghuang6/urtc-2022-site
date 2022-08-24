@@ -4,7 +4,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Link from '../src/Link';
-import Copyright from '../src/Copyright';
+
+const lorem = new Array(100).fill(`Lorem ipsum dolor sit amet, consectetur adipiscing elit.`).join(' ');
 
 export default function FAQ() {
   return (
@@ -16,7 +17,9 @@ export default function FAQ() {
         <Button variant="contained" component={Link} noLinkStyle href="/">
           Go to the main page
         </Button>
-        <Copyright />
+        <Typography color="white">
+          {lorem}
+        </Typography>
       </Box>
     </Container>
   );

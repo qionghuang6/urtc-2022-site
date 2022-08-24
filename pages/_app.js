@@ -11,6 +11,7 @@ import Box from '@mui/material/Box';
 import Copyright from '../src/Copyright';
 import SiteNavigation from '../src/SiteNavigation';
 import Socials from '../src/ContactWithSocials'
+import Background from '../src/Background';
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
@@ -38,6 +39,7 @@ export default function MyApp(props) {
         </Box>
         <Copyright />
         <Socials />
+        <Background />
       </ThemeProvider>
     </CacheProvider>
   );

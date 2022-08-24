@@ -13,20 +13,11 @@ const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e
 export default function Index() {
   return (
     <>
+      <Banner />
       <Container maxWidth="lg">
-        <Banner />
-        <Box sx={{ my: 4 }}>
-          <Typography sx={{
-            fontFamily: 'Gloria Hallelujah',
-          }}
-            variant="h4" align="center" component="h1" color="white" gutterBottom
-          >
-            work in progress
-          </Typography>
-        </Box>
-        <Grid container spacing="48px">
+        <Grid container spacing="6px">
           <Grid item xs={12} md={6}>
-            <GlassBox>
+            <GlassBox href="./about">
               <Typography variant="h4" align="center" component="h1" color="white" gutterBottom>
                 What is URTC?
               </Typography>
@@ -41,7 +32,7 @@ export default function Index() {
             </GlassBox>
           </ Grid>
           <Grid item xs={12} md={6}>
-            <GlassBox background='linear-gradient(135deg, rgba(33, 147, 200, 0.7), rgb(109, 213, 237, 0.7))'>
+            <GlassBox background='linear-gradient(135deg, rgba(33, 147, 200, 0.7), rgb(109, 213, 237, 0.7))' href='/resources'>
             <Typography variant="h4" align="center" component="h1" color="white" gutterBottom>
                 Logistics
               </Typography>
