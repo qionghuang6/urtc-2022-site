@@ -1,0 +1,21 @@
+import { Typography, Box, Grid } from '@mui/material'
+import * as organizers from './organizer_info.json'
+
+import OrganizerHeadshot from './OrganizerHeadshot';
+
+
+export default function Organizers() {
+    const headshots = organizers.map(organizer => {
+        return <Grid item xs={6} sm={3} md={2}><OrganizerHeadshot key={organizer.name} {...organizer} /></Grid>
+    })
+    return (
+        <Box>
+            <Typography color="white" variant="h2">Organizers</Typography>
+            <Box>
+                <Grid container spacing={3}>
+                    {headshots}
+                </Grid>
+            </Box>
+        </Box>
+    );
+} 
