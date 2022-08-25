@@ -1,4 +1,4 @@
-[
+export const organizers = [
   {
     "email": "tammyc@mit.edu",
     "name": "Tammy Chen",

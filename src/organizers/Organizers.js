@@ -1,5 +1,5 @@
 import { Typography, Box, Grid } from '@mui/material'
-import * as organizers from './organizer_info.json'
+import { organizers } from './organizer_info'
 
 import OrganizerHeadshot from './OrganizerHeadshot';
 

@@ -41,7 +41,7 @@ export default function Banner() {
                             verticalAlign: 'middle',    
                             display: mobile || mid ? 'inline' : 'none'
                         }}></div>
-                        <img style={{ verticalAlign: 'middle', display: mobile || mid ? 'inline' : 'none', width: "100%", maxWidth: '550px'}} src="/logo.png" marginY="auto" />
+                        <img style={{ verticalAlign: 'middle', display: mobile || mid ? 'inline' : 'none', width: "100%", maxWidth: '550px'}} src="/logo.png" />
                     </Grid>
                     <Grid item xs={12} sm={7}>
                         <Typography variant="h3" align={mobile? "center" : "right"} fontFamily="Montserrat" fontWeight="500" color="#fff">
