@@ -19,7 +19,7 @@ export default function Index() {
         <Grid container spacing="6px">
           <Grid item xs={12} md={6}>
             <GlassBox href="./about">
-              <Typography variant="h4" align="center" component="h1" color="white" gutterBottom>
+              <Typography variant="h4" align="center" fontFamily="Montserrat" fontWeight="700" component="h1" color="white" gutterBottom>
                 What is URTC?
               </Typography>
               <Typography variant="body1" component="h1" color="white" gutterBottom>
@@ -28,13 +28,12 @@ export default function Index() {
               Our annual conferences are themed around incredible breakthroughs in engineering and technological research made by student researchers at the undergraduate level all over the country. With our yearly events, participants are given the exciting opportunity to present, discuss, and develop solutions for advancing technology for humanity.
 
               Staffed by a group of students from MIT working in collaboration with the Institute of Electrical and Electronics and Engineers (IEEE), we boast a wide variety of programming at each conference such as paper/poster presentations by our student presenters, talks and panels by industry leaders, and networking and social events.
-
               </Typography>
             </GlassBox>
           </ Grid>
           <Grid item xs={12} md={6}>
-            <GlassBox background='linear-gradient(135deg, rgba(33, 147, 200, 0.7), rgb(109, 213, 237, 0.7))' href='/resources'>
-            <Typography variant="h4" align="center" component="h1" color="white" gutterBottom>
+            <GlassBox background='linear-gradient(135deg, rgba(33, 147, 200, 0.6), rgb(109, 213, 237, 0.6))' href='/resources'>
+            <Typography variant="h4" align="center" component="h1" fontFamily="Montserrat" fontWeight="700" color="white" gutterBottom>
                 Logistics
               </Typography>
               <Typography variant="body1" component="h1" color="white" gutterBottom>
@@ -45,8 +44,8 @@ export default function Index() {
               When registering for the conference, attendees can choose to attend either in-person or virtually.
               </Typography>
             </GlassBox>
-            <GlassBox background='linear-gradient(45deg, rgba(255,0,0,0.8), rgb(255, 255, 0, 0.8))'>
-            <Typography variant="h4" align="center" component="h1" color="white" gutterBottom>
+            <GlassBox background='linear-gradient(45deg, rgba(255,0,0,0.6), rgb(255, 255, 0, 0.6))'>
+            <Typography variant="h4" align="center" fontFamily="Montserrat" fontWeight="700" component="h1" color="white" gutterBottom>
                 Location
               </Typography>
               <Typography variant="body1" component="h1" color="white" gutterBottom>
@@ -55,6 +54,18 @@ export default function Index() {
             </GlassBox>
           </Grid>
         </Grid>
+        <Typography variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="right">
+          Schedule
+        </Typography>
+        <GlassBox padding="6rem" marginBottom="2rem"  background='linear-gradient(135deg, rgba(33, 147, 200, 0.6), rgb(109, 213, 237, 0.6))' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+          <Typography variant="h4" align="center" component="h1" color="white"> Click Here to see the Schedule! </Typography>
+        </GlassBox>
+        <Typography variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="right">
+          Speakers &amp; Panelists
+        </Typography>
+        <GlassBox padding="6rem" marginBottom="2rem" background='linear-gradient(135deg, rgba(33, 147, 200, 0.6), rgb(109, 213, 237, 0.6))' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+          <Typography variant="h4" align="center" component="h1" color="white"> Click Here to see the Speakers! :D </Typography>
+        </GlassBox>
         <Organizers/>
         <Box mt="20rem"/>
       </Container>

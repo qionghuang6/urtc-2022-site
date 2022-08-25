@@ -3,7 +3,7 @@ import {
 } from '@mui/material';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
-const defaultGrad = 'linear-gradient(135deg, rgba(238, 156, 167, 0.7), rgb(255, 221, 225, 0.7))';
+const defaultGrad = 'linear-gradient(135deg, rgba(238, 156, 167, 0.5), rgb(255, 221, 225, 0.5))';
 
 export default function GlassBox({background = defaultGrad, href="", sx={}, children, ...other}) {
     return (
@@ -20,6 +20,7 @@ export default function GlassBox({background = defaultGrad, href="", sx={}, chil
                     cursor: href ? "pointer" : 'default',
                 },
                 transition: 'outline 0.25s linear',
+                position: "relative",
                 ...sx
             }}
             onClick={() => {

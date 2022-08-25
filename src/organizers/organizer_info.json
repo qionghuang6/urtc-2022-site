@@ -1,5 +1,16 @@
 [
   {
+    "email": "tammyc@mit.edu",
+    "name": "Tammy Chen",
+    "img": "tammy.jpeg",
+    "team": "Conference Co-Chair",
+    "intro": "I'm Tammy Chen, majoring in 6-14. I came to MIT from Brooklyn, New York.",
+    "position": "I am one of this year's conference chairs which means I make sure the conference goes smoothly behind the scene. I am responsible for overseeing the different departments in URTC (logistics, technology, sponsorship, publicity) & conference planning on a large scale.",
+    "interests": "I love learning more about artificial intelligence & investigating more into the virtual reality realm.",
+    "spare_time": "I am a culprit of investing too much time into fantasy sports & analytics (particularly football and basketball) + playing Valorant. I also love taking long walks & visiting new places.",
+    "random": "Chicken nuggets with guacamole is a superior food combination + I am beyond scared of heights."
+  },
+  {
     "email": "",
     "img": "ellie.png",
     "name": "Ellie Montemayor",
@@ -9,6 +20,28 @@
     "interests": "I'm in love with all things wave physics! I love acoustic and radio engineering, and research work I've done involve thermoelectricity, can-tennas, and music in computers.",
     "spare_time": "I like to read weird, nerdy books and dusty old technical papers, make fun stuff like digital art on graphing calculators, and gradually wear away at my spare time by tacking on way too many commitments to my schedule.",
     "random": "Two random things about me: I don't know how to ride a bike, and I'm a massive Beatles fangirl."
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "George Liu",
+    "team": "Conference Co-Chair",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "huangq@mit.edu",
+    "name": "Qiong Zhou Huang",
+    "img": "qiong.jpg",
+    "team": "Technology Chair",
+    "intro": "I'm Qiong Zhou Huang, majoring in 6-4. I came to MIT from Brooklyn, New York.",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
   },
   {
     "email": "robertcc@mit.edu",
@@ -44,14 +77,80 @@
     "random": "I'm a twin, and I get very excited when I find tennis balls."
   },
   {
-    "email": "tammyc@mit.edu",
-    "name": "Tammy Chen",
+    "email": "",
     "img": "tammy.jpeg",
-    "team": "Conference Co-Chair",
-    "intro": "I'm Tammy Chen, majoring in 6-14. I came to MIT from Brooklyn, New York.",
-    "position": "I am one of this year's conference chairs which means I make sure the conference goes smoothly behind the scene. I am responsible for overseeing the different departments in URTC (logistics, technology, sponsorship, publicity) & conference planning on a large scale.",
-    "interests": "I love learning more about artificial intelligence & investigating more into the virtual reality realm.",
-    "spare_time": "I am a culprit of investing too much time into fantasy sports & analytics (particularly football and basketball) + playing Valorant. I also love taking long walks & visiting new places.",
-    "random": "Chicken nuggets with guacamole is a superior food combination + I am beyond scared of heights."
+    "name": "Gianna",
+    "team": "Tammy Clone",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "karen",
+    "team": "Clone",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "MeenuTammyChen",
+    "team": "Another Tammy",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "anotherpersonTammy Chen",
+    "team": "Another Tammy",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "Tammy Chen",
+    "team": "Another Tammy",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "Tammy Chen",
+    "team": "Another Tammy",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "Tammy Chen",
+    "team": "Another Tammy",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
   }
 ]

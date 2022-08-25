@@ -10,7 +10,7 @@ export default function Organizers() {
     })
     return (
         <Box>
-            <Typography color="white" variant="h2">Organizers</Typography>
+            <Typography color="white" variant="h2" align="right" fontFamily="Montserrat" fontWeight="700" paddingBottom="12px">Organizers</Typography>
             <Box>
                 <Grid container spacing={3}>
                     {headshots}
