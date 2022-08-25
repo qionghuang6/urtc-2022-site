@@ -1,0 +1,156 @@
+export const organizers = [
+  {
+    "email": "tammyc@mit.edu",
+    "name": "Tammy Chen",
+    "img": "tammy.jpeg",
+    "team": "Conference Co-Chair",
+    "intro": "I'm Tammy Chen, majoring in 6-14. I came to MIT from Brooklyn, New York.",
+    "position": "I am one of this year's conference chairs which means I make sure the conference goes smoothly behind the scene. I am responsible for overseeing the different departments in URTC (logistics, technology, sponsorship, publicity) & conference planning on a large scale.",
+    "interests": "I love learning more about artificial intelligence & investigating more into the virtual reality realm.",
+    "spare_time": "I am a culprit of investing too much time into fantasy sports & analytics (particularly football and basketball) + playing Valorant. I also love taking long walks & visiting new places.",
+    "random": "Chicken nuggets with guacamole is a superior food combination + I am beyond scared of heights."
+  },
+  {
+    "email": "",
+    "img": "ellie.png",
+    "name": "Ellie Montemayor",
+    "team": "Conference Co-Chair",
+    "intro": "I'm Ellie Montemayor, majoring in Course 8 (Physics). I came to Cambridge from Bethesda, Maryland.",
+    "position": "I'm one of this year's conference chairs, which basically means that I'm one of the four people who get a billion emails the week before the submission deadline from people who have questions about URTC, and am the self-professed most important member of the committee. I also just generally help do stuff in a lot of different aspects of the conference, from editing our website and working on day-of logistics to frantically emailing universities, potential sponsors, and other random people.",
+    "interests": "I'm in love with all things wave physics! I love acoustic and radio engineering, and research work I've done involve thermoelectricity, can-tennas, and music in computers.",
+    "spare_time": "I like to read weird, nerdy books and dusty old technical papers, make fun stuff like digital art on graphing calculators, and gradually wear away at my spare time by tacking on way too many commitments to my schedule.",
+    "random": "Two random things about me: I don't know how to ride a bike, and I'm a massive Beatles fangirl."
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "George Liu",
+    "team": "Conference Co-Chair",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "huangq@mit.edu",
+    "name": "Qiong Zhou Huang",
+    "img": "qiong.jpg",
+    "team": "Technology Chair",
+    "intro": "I'm Qiong Zhou Huang, majoring in 6-4. I came to MIT from Brooklyn, New York.",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "robertcc@mit.edu",
+    "img": "robert.jpg",
+    "name": "Robert Chen",
+    "team": "Technology",
+    "intro": "My name is Robert Chen, and I'm a Course 6 (Computer Science) major from Lexington, Massachusetts.",
+    "position": "I'm on the technology team, so I help out with the website and other tech-related aspects of the conference.",
+    "interests": "I'm interested in algorithms, machine learning, and finance. I have done research in computational psycholinguistics and applied cryptography.",
+    "spare_time": "I'm a risk-averse adventurer who enjoys hiking and bouldering, horror movie enthusiast, chess beginner, and closeted weeb.",
+    "random": "I'm on a mission to try every Mountain Dew flavor, and my favorite movie character is Megamind."
+  },
+  {
+    "email": "cyung@mit.edu",
+    "img": "cathy.jpg",
+    "name": "Cathy Yung",
+    "team": "Logistics",
+    "intro": "I'm Cathy Yung, currently majoring in Course 18C (Mathematics with Computer Science). I am from Germantown, Maryland!",
+    "position": "I am one of the logistic chairs, so essentially, I help make sure the conference runs super smoothly. From reaching out to speakers, to organizing panel sessions, to time scheduling, I am responsible for making sure all these happen. My position also includes coordinating the venue (and in COVID years, the virtual technology) needed for the conference.",
+    "interests": "Recently, I've been pretty into technology used for assisting people who are disabled. For example, people who have been paralyzed can use technology that tracks their eye movement to communicate with others and move around independently.",
+    "spare_time": "I enjoy playing volleyball and tennis with my friends, as well as planning day trips + vacations. I'm also currently learning how to play guitar.",
+    "random": "1. I sneeze when I look at the sun. 2. I hate balsamic vinegar."
+  },
+  {
+    "email": "lasyab@mit.edu",
+    "img": "lasya.jpg",
+    "name": "Lasya Balachandran",
+    "team": "Logistics",
+    "intro": "I'm Lasya Balachandran, and I'm majoring in Course 6-2 (Electrical Engineering and Computer Science). I'm from Marlboro, New Jersey.",
+    "position": "I'm on the logistics team, so I help out with reaching out to speakers and panelists, organizing events during the conference, and coordinating venues, including buildings/rooms and housing for in-person attendees and Hopin for virtual attendees.",
+    "interests": "I'm interested in autonomy, robotics, and embedded systems. I am currently doing research on enabling safe human-robot interaction.",
+    "spare_time": "I like to play tennis, ultimate frisbee, and basketball. I also enjoy running and hiking with friends.",
+    "random": "I'm a twin, and I get very excited when I find tennis balls."
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "Gianna",
+    "team": "Tammy Clone",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "karen",
+    "team": "Clone",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "MeenuTammyChen",
+    "team": "Another Tammy",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "anotherpersonTammy Chen",
+    "team": "Another Tammy",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "Tammy Chen",
+    "team": "Another Tammy",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "Tammy Chen",
+    "team": "Another Tammy",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
+    "email": "",
+    "img": "tammy.jpeg",
+    "name": "Tammy Chen",
+    "team": "Another Tammy",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  }
+]
