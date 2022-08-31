@@ -5,8 +5,8 @@ import OrganizerHeadshot from './OrganizerHeadshot';
 
 
 export default function Organizers() {
-    const headshots = organizers.map(organizer => {
-        return <Grid item xs={6} sm={3} md={2}><OrganizerHeadshot key={organizer.name} {...organizer} /></Grid>
+    const headshots = organizers.map((organizer, i) => {
+        return <Grid key={i} item xs={6} sm={3} lg={2}><OrganizerHeadshot key={organizer.name} {...organizer} /></Grid>
     })
     return (
         <Box>

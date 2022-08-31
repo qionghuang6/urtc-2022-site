@@ -75,10 +75,10 @@ export default function Banner() {
                     </Grid>
                 </Grid>
                 <Box textAlign={mobile ? 'center' : 'right'} mt="16px">
-                    <Button variant="outlined" sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', borderColor: 'white'}}>
+                    <Button variant="outlined" component="a" target="_blank" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FURTC2022" sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', borderColor: 'white'}}>
                             Submit Your Research
                     </Button>
-                    <Button variant="outlined" sx={{fontSize:  mobile? '16px':'24px', marginX: '8px', color: 'white', borderColor: 'white'}}>
+                    <Button href="#calendar" variant="outlined" sx={{fontSize:  mobile? '16px':'24px', marginX: '8px', color: 'white', borderColor: 'white'}}>
                             Schedule
                     </Button>
                 </Box>
