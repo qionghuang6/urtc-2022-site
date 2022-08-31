@@ -14,6 +14,11 @@ export default function OrganizerHeadshot({ name, img, team, ...other }) {
         if (imageRef) {
             setHeight(imageRef.current.height);
         }
+        window.addEventListener('resize', () => {
+            if (imageRef) {
+                setHeight(imageRef.current.height);
+            }
+        }, false);
     }, [imageRef])
 
     const boxStyles = {
@@ -56,6 +61,17 @@ export default function OrganizerHeadshot({ name, img, team, ...other }) {
         borderRadius: '16px',
     };
 
+    const lookup = {
+        "email": "Email",
+        "name": "Name",
+        "team": "Role",
+        "intro": "Introduction",
+        "position": "URTC Work",
+        "interests": "Interests",
+        "spare_time": "Spare Team",
+        "random": "Random Facts About Me",
+      }
+
     return (
         <>
             <Box position="relative" sx={{ height: 'fit-content', height, ...boxStyles }} onClick={handleOpen}>
@@ -73,14 +89,18 @@ export default function OrganizerHeadshot({ name, img, team, ...other }) {
             >
                 <Box style={modalStyle}>
                     <Typography variant="h6" color="white">
-                        {Object.entries({name, team, ...other}).map(([key, value]) => (
-                            <>
-                                <Typography key={key} variant="h6" color="white">
-                                    {key}
-                                </Typography>
-                                <Typography variant="body1" color="white">{value.length > 1 ? value : 'I did not fill out this part of the form :((((((('}</Typography>
-                            </>
-                        ))}
+                        {Object.entries({name, team, ...other}).map(([key, value]) => {
+                            if (value) {
+                                return (<Box marginBottom="6px" key={key}>
+                                    <Typography variant="h6" fontFamily="Montserrat" fontWeight="700" color="white">
+                                        {key in lookup ? lookup[key] : key}
+                                    </Typography>
+                                    <Typography variant="body1" color="white">{value}</Typography>
+                                </Box>)
+                            } else {
+                                return (<Box key={key}></Box>)
+                            }
+                    })}
                     </Typography>
                     <Button variant="contained" onClick={handleClose}> Close </Button>
                 </Box>

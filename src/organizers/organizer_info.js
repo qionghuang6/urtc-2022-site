@@ -22,10 +22,21 @@ export const organizers = [
     "random": "Two random things about me: I don't know how to ride a bike, and I'm a massive Beatles fangirl."
   },
   {
-    "email": "",
-    "img": "tammy.jpeg",
+    "email": "ggliu@mit.edu",
+    "img": "george.jpg",
     "name": "George Liu",
     "team": "Conference Co-Chair",
+    "intro": "I'm George Liu, majoring in 6-14 (Computer Science, Economics, and Data Science). I'm originally from Naperville, Illinois.",
+    "position": "I'm one of this year's conference chairs, which (supposedly) means I have a lot of responsibility. It's also my first year as part of the URTC team, so much of my time has been spent doing the grunt work while the more experienced conference chairs actually plan the logistics.",
+    "interests": "I'm most interested in computational social sciences. I've done some research so far at MIT, most of which pertains to public policy. ",
+    "spare_time": "I play soccer, video games, and take naps. I wish I had something more interesting to say here.",
+    "random": "I share a birthday (and birthplace) with Justin Bieber, and am very afraid of heights"
+  },
+  {
+    "email": "",
+    "img": "gianna.jpg",
+    "name": "Gianna Torpey",
+    "team": "Publicity Chair",
     "intro": "",
     "position": "",
     "interests": "",
@@ -38,7 +49,7 @@ export const organizers = [
     "img": "qiong.jpg",
     "team": "Technology Chair",
     "intro": "I'm Qiong Zhou Huang, majoring in 6-4. I came to MIT from Brooklyn, New York.",
-    "position": "",
+    "position": "I make urtc.mit.edu :D",
     "interests": "",
     "spare_time": "",
     "random": ""
@@ -55,10 +66,21 @@ export const organizers = [
     "random": "I'm on a mission to try every Mountain Dew flavor, and my favorite movie character is Megamind."
   },
   {
+    "email": "",
+    "img": "karen.jpg",
+    "name": "Karen Liberman",
+    "team": "Technology",
+    "intro": "",
+    "position": "",
+    "interests": "",
+    "spare_time": "",
+    "random": ""
+  },
+  {
     "email": "cyung@mit.edu",
     "img": "cathy.jpg",
     "name": "Cathy Yung",
-    "team": "Logistics",
+    "team": "Logistics Chair",
     "intro": "I'm Cathy Yung, currently majoring in Course 18C (Mathematics with Computer Science). I am from Germantown, Maryland!",
     "position": "I am one of the logistic chairs, so essentially, I help make sure the conference runs super smoothly. From reaching out to speakers, to organizing panel sessions, to time scheduling, I am responsible for making sure all these happen. My position also includes coordinating the venue (and in COVID years, the virtual technology) needed for the conference.",
     "interests": "Recently, I've been pretty into technology used for assisting people who are disabled. For example, people who have been paralyzed can use technology that tracks their eye movement to communicate with others and move around independently.",
@@ -78,9 +100,9 @@ export const organizers = [
   },
   {
     "email": "",
-    "img": "tammy.jpeg",
-    "name": "Gianna",
-    "team": "Tammy Clone",
+    "img": "default.jpg",
+    "name": "Neil Deshmukh",
+    "team": "Logistics",
     "intro": "",
     "position": "",
     "interests": "",
@@ -89,9 +111,9 @@ export const organizers = [
   },
   {
     "email": "",
-    "img": "tammy.jpeg",
-    "name": "karen",
-    "team": "Clone",
+    "img": "lucas.jpg",
+    "name": "Lucas Chu",
+    "team": "Logistics",
     "intro": "",
     "position": "",
     "interests": "",
@@ -100,9 +122,20 @@ export const organizers = [
   },
   {
     "email": "",
-    "img": "tammy.jpeg",
-    "name": "MeenuTammyChen",
-    "team": "Another Tammy",
+    "img": "ritik.jpeg",
+    "name": "Ritik Patnaik",
+    "team": "Advisor",
+    "intro": "My name is Ritik Patnaik, a senior majoring in Course 6-2 (EECS). I’m originally from Plano, Texas.",
+    "position": "I’m an advisor for this year’s conference. I am supporting the co-chairs as we transition back in to our in-person event, providing a knowledge base of how the conference was run pre-pandemic. This is my fourth year helping organize the event, after co-chairing the virtual conference last year with Meenu. This is my fifth year being involved in URTC as I presented at the conference during my senior year of high school.",
+    "interests": "I love the embedded system and IOT technology space! I love seeing the applications microcontrollers and sensors have in all parts of our lives. PCB design is an art!",
+    "spare_time": "I enjoy playing recreational sports, listening to music during my endurance runs, and spending time near/in water (preferably clean bodies of water!)",
+    "random": "I enjoy watching Bollywood movies and I’ve met the owner of the Cowboys, Jerry Jones."
+  },
+  {
+    "email": "",
+    "img": "meenu.jpg",
+    "name": "Meenu Singh",
+    "team": "Advisor",
     "intro": "",
     "position": "",
     "interests": "",
@@ -111,9 +144,9 @@ export const organizers = [
   },
   {
     "email": "",
-    "img": "tammy.jpeg",
-    "name": "anotherpersonTammy Chen",
-    "team": "Another Tammy",
+    "img": "fiona.jpg",
+    "name": "Fiona Cai",
+    "team": "Advisor",
     "intro": "",
     "position": "",
     "interests": "",
@@ -122,35 +155,13 @@ export const organizers = [
   },
   {
     "email": "",
-    "img": "tammy.jpeg",
-    "name": "Tammy Chen",
-    "team": "Another Tammy",
+    "img": "shulammite.jpg",
+    "name": "Shulammite Lim",
+    "team": "Advisor",
     "intro": "",
     "position": "",
     "interests": "",
     "spare_time": "",
     "random": ""
   },
-  {
-    "email": "",
-    "img": "tammy.jpeg",
-    "name": "Tammy Chen",
-    "team": "Another Tammy",
-    "intro": "",
-    "position": "",
-    "interests": "",
-    "spare_time": "",
-    "random": ""
-  },
-  {
-    "email": "",
-    "img": "tammy.jpeg",
-    "name": "Tammy Chen",
-    "team": "Another Tammy",
-    "intro": "",
-    "position": "",
-    "interests": "",
-    "spare_time": "",
-    "random": ""
-  }
 ]
