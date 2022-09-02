@@ -6,7 +6,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Link from '../src/Link';
-import Copyright from '../src/Copyright';
+
+import GlassBox from '../src/GlassBox';
 
 
 export default function Submission() {
@@ -17,8 +18,8 @@ export default function Submission() {
         <title>{title}</title>
         <meta property="og:title" content={title} />
       </Head>
-      <Container maxWidth="sm">
-        <Box sx={{ my: 4 }}>
+      <Container maxWidth="md">
+        <GlassBox sx={{ my: 4, mx: 0 }} background="rgba(30,30,30,0.5)">
           <Typography variant="string" component="h1" color="white" gutterBottom>
             Submission Guidelines
           </Typography>
@@ -75,17 +76,17 @@ export default function Submission() {
 
           </Typography>
           <br></br>
-          <Button variant="contained" component={Link} noLinkStyle href="/poster_presentation_2022.pdf">
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/poster_presentation_2022.pdf">
             Poster Presentation
           </Button>
-          <Button variant="contained" component={Link} noLinkStyle href="/paper_submission_2022.pdf">
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/paper_submission_2022.pdf">
             Paper Presentation
           </Button>
-          <Button variant="contained" component={Link} noLinkStyle href="/conference-template-letter.docx">
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/conference-template-letter.docx">
             Paper Template
           </Button>
-          <Copyright />
-        </Box>
+        </GlassBox>
+        <Box paddingBottom="3rem"></Box>
       </Container>
     </>
   );

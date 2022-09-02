@@ -18,7 +18,7 @@ export default function Resources() {
       <Container maxWidth="sm">
         <Box sx={{ my: 4 }}>
           <Typography variant="h4" component="h1" color="white" gutterBottom>
-            Next.js example
+            WIP?
           </Typography>
           <Button variant="contained" component={Link} noLinkStyle href="/">
             Go to the main page

@@ -3,10 +3,11 @@ import Head from 'next/head';
 
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Link from '../src/Link';
 import Copyright from '../src/Copyright';
+
+import GlassBox from '../src/GlassBox';
 
 export default function Contact() {
   const title = 'Contact | URTC 2022'
@@ -16,16 +17,15 @@ export default function Contact() {
         <title>{title}</title>
         <meta property="og:title" content={title} />
       </Head>
-      <Container maxWidth="sm">
-        <Box sx={{ my: 4 }}>
-          <Typography variant="h6" component="h1" color="white" gutterBottom>
-            If you have any questions/concerns, contact us at <a href="mailto:ieee-ucc-chairs@mit.edu">ieee-ucc-chairs@mit.edu</a>.
+      <Container maxWidth="md">
+        <GlassBox sx={{ my: 4 }}>
+          <Typography variant="h5" component="h1" color="white" marginBottom="1rem">
+            If you have any questions/concerns, contact us at:  <a href="mailto:ieee-ucc-chairs@mit.edu"><Typography variant="h5" component="h1" color="white">ieee-ucc-chairs@mit.edu</Typography></a>
           </Typography>
-          <Button variant="contained" component={Link} noLinkStyle href="/">
-            Go to the main page
+          <Button sx={{color: 'white', borderColor: 'white'}} variant="outlined" size="large" component={Link} noLinkStyle href="/">
+            Return to the main page
           </Button>
-          <Copyright />
-        </Box>
+        </GlassBox>
       </Container>
     </>
   );

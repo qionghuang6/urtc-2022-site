@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Link from '../src/Link';
 import Copyright from '../src/Copyright';
+import GlassBox from '../src/GlassBox';
 
 export default function About() {
   const title = 'About | URTC 2022'
@@ -16,8 +17,8 @@ export default function About() {
         <title>{title}</title>
         <meta property="og:title" content={title} />
       </Head>
-      <Container maxWidth="sm">
-        <Box sx={{ my: 4 }}>
+      <Container maxWidth="md">
+        <GlassBox sx={{ my: 4, mx: 0 }} background="rgba(30,30,30,0.5)">
           <Typography variant="string" component="h1" color="white" gutterBottom>
             What is URTC?
           </Typography>
@@ -76,11 +77,11 @@ export default function About() {
             And, when everyone has had their fill of all our exciting events, URTC ends with an announcement of the year’s best paper awards and a closing ceremony that reflects on the content shared during the conference and reaffirms the need for continual critical evaluation of technology through gatherings and forums like URTC in the endless pursuit of knowledge.
           </Typography>
           <br></br>
-          <Button variant="contained" component={Link} noLinkStyle href="/">
-            Go to the main page
+          <Button sx={{color: 'white', borderColor: 'white'}} size="large" variant="outlined" component={Link} noLinkStyle href="/">
+            Return to the main page
           </Button>
-          <Copyright />
-        </Box>
+        </GlassBox>
+        <Box paddingBottom="3rem"></Box>
       </Container>
     </>
   );
