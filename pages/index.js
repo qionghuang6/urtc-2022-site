@@ -22,6 +22,14 @@ export default function Index({events}) {
       <Banner />
       <Container maxWidth="lg">
         <Grid container spacing="6px">
+          <Grid item xs={12} >
+            <GlassBox background="rgba(0, 255, 242, 0.5)" href="https://events.vtools.ieee.org/m/322774">
+              <Typography align="center" variant="h4" component="h1" color="white">
+                Registration is Now Open!
+              </Typography>
+              <Typography align="center" variant="h5" color="white">Click Here to Register!</Typography>
+            </GlassBox>
+            </Grid>
           <Grid item xs={12} md={6}>
             <GlassBox href="./about">
               <Typography variant="h4" align="center" fontFamily="Montserrat" fontWeight="700" component="h1" color="white" gutterBottom>

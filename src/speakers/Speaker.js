@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from 'react'
 import { Typography, Box, Modal, Button } from '@mui/material'
+import CloseIcon from '@mui/icons-material/Close';
 
 
 export default function OrganizerHeadshot({ name, img, affiliation, ...other }) {
@@ -77,10 +78,10 @@ export default function OrganizerHeadshot({ name, img, affiliation, ...other }) 
             <Box position="relative" sx={{ height: 'fit-content', height, ...boxStyles }} onClick={handleOpen}>
                 <img ref={imageRef} src={`speakers/${img}`} style={imageStyles} />
                 <Box style={textBoxStyles}>
-                    <Typography variant="body2" style={nameStyles} color="white">{name}</Typography>
+                    <Typography variant="body1" style={nameStyles} color="white">{name}</Typography>
                 </Box>
                 <Box style={{ ...textBoxStyles, top: '4px', bottom: undefined }}>
-                    <Typography variant="body2" style={teamStyles} color="white">{affiliation}</Typography>
+                    <Typography variant="body1" style={teamStyles} color="white">{affiliation}</Typography>
                 </Box>
             </Box>
             <Modal
@@ -88,6 +89,7 @@ export default function OrganizerHeadshot({ name, img, affiliation, ...other }) 
                 onClose={handleClose}
             >
                 <Box style={modalStyle}>
+                    <Button  style={{position: 'absolute', right: '1.25rem', top: '1.25rem', color: 'white'}} ><CloseIcon onClick={handleClose} /></Button>
                     <Typography variant="h6" color="white">
                         {Object.entries({name, affiliation, ...other}).map(([key, value]) => {
                             if (value) {    
