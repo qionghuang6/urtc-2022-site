@@ -2,7 +2,7 @@ import { Box, Grid, Typography} from '@mui/material'
 import GlassBox from '../GlassBox'
 import { sponsors } from './sponsor_info'
 
-export default function Sponsors() {
+export default function Sponsors({page}) {
     const imageStyle = {
         borderRadius: '16px',
         width: '100%',
@@ -14,11 +14,11 @@ export default function Sponsors() {
         <Box>
             <Grid container spacing={3}>
                 {sponsorComps}
-                <Grid item xs={12} sm={6} lg={4}>
-                    <GlassBox href="/sponsorship">
+                {!page && (<Grid item xs={12} sm={6} lg={4}>
+                    <GlassBox href="/sponsorship" sx={{ margin: 0}}>
                         <Typography color="white" variant="h5" align="center" paddingBottom="12px">Interested in becoming a sponsor? Visit the Sponsorship page! </Typography>
                     </GlassBox>
-                </Grid>
+                </Grid>)}
             </Grid>
         </Box>
     );

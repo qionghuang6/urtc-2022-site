@@ -9,7 +9,7 @@ export default function Organizers() {
         return <Grid key={i} item xs={6} sm={3} lg={2}><OrganizerHeadshot key={organizer.name} {...organizer} /></Grid>
     })
     return (
-        <Box>
+        <Box sx={{ marginTop: '36px'}}>
             <Typography color="white" variant="h2" align="right" fontFamily="Montserrat" fontWeight="700" paddingBottom="12px">Organizers</Typography>
             <Box>
                 <Grid container spacing={3}>

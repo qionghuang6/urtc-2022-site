@@ -30,7 +30,7 @@ export default function Sponsorship() {
             View Sponsorship Packet
           </Button>
         </GlassBox>
-        <Sponsors/>
+        <Sponsors page={true}/>
       </Container>
     </>
   );

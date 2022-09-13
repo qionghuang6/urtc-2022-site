@@ -7,7 +7,7 @@ import Link from '../src/Link';
 import GlassBox from '../src/GlassBox';
 
 var general = [
-  ["How prestigious is URTC?", "From our perspective, we’re just as prestigious as other national/international conferences at the undergraduate level! We host hundreds of undergraduates each year from top institutions throughout the globe, feature guest speakers from many of the best organizations in tech, and are even sponsored by some of those said organizations!"],
+  // ["How prestigious is URTC?", "From our perspective, we’re just as prestigious as other national/international conferences at the undergraduate level! We host hundreds of undergraduates each year from top institutions throughout the globe, feature guest speakers from many of the best organizations in tech, and are even sponsored by some of those said organizations!"],
   ["Is URTC a competition?", "No, URTC is a collaborative/exploratory forum for sharing and presenting student research and innovations made in the technological sphere! Our conference is aimed towards generating interest and discussion in new breakthroughs in technological research."]
 ]
 var registration = [
@@ -51,21 +51,30 @@ var financial = [
 export default function FAQ() {
   return (
     <Container maxWidth="lg">
-      <GlassBox sx={{ my: 4, mx: 0, paddingBottom: '4rem' }} background="rgba(20,20,20, 0.5)">
+      <GlassBox sx={{ my: 3, mx: 0, paddingY: '1rem' }} background="rgba(100,100,20, 0.5)">
           <Typography color="white"  variant="h4" sx={{marginTop: '12px'}} >General</Typography>
-          {general.map((item) => <Box key={item[0]}><Typography sx={{marginTop: '8px'}} color="white" >{item[0]}</Typography><Typography color="white" variant="body2">{item[1]}</Typography></Box>)}
-          <Typography color="white" variant="h4" sx={{marginTop: '12px'}}>Registration</Typography>
-          {registration.map((item) => <Box key={item[0]}><Typography sx={{marginTop: '8px'}} color="white" >{item[0]}</Typography><Typography color="white" variant="body2">{item[1]}</Typography></Box>)}
-          <Typography color="white"  variant="h4" sx={{marginTop: '12px'}}>I Am A:</Typography>
-          {iAmA.map((item) => <Box key={item[0]}><Typography sx={{marginTop: '8px'}}  color="white" >{item[0]}</Typography><Typography color="white" variant="body2">{item[1]}</Typography></Box>)}
-          <Typography color="white"  variant="h4" sx={{marginTop: '12px'}}>Submission</Typography>
-          {submission.map((item) => <Box key={item[0]}><Typography sx={{marginTop: '8px'}}  color="white" >{item[0]}</Typography><Typography color="white" variant="body2">{item[1]}</Typography></Box>)}
-          <Typography color="white" variant="h4" sx={{marginTop: '12px'}}>Technical:</Typography>
-          {technical.map((item) => <Box key={item[0]}><Typography sx={{marginTop: '8px'}}  color="white" >{item[0]}</Typography><Typography color="white" variant="body2">{item[1]}</Typography></Box>)}
-          <Button sx={{color: 'white', borderColor: 'white', marginTop: '1rem'}} variant="outlined" size="large" component={Link} noLinkStyle href="/">
-            Return to the main page
-          </Button>
+          {general.map((item) => <Box key={item[0]}><Typography variant="h6" sx={{marginTop: '8px'}} color="white" >{item[0]}</Typography><Typography color="#e6e6e6" variant="body1">&#x2022; {item[1]}</Typography></Box>)}
       </GlassBox>
+      <GlassBox sx={{ my: 3, mx: 0, paddingY: '1rem' }} background="rgba(20,100,20, 0.5)">
+          <Typography color="white" variant="h4" sx={{marginTop: '12px'}}>Registration</Typography>
+          {registration.map((item) => <Box key={item[0]}><Typography variant="h6"  sx={{marginTop: '8px'}} color="white" >{item[0]}</Typography><Typography color="#e6e6e6" variant="body1">&#x2022; {item[1]}</Typography></Box>)}
+      </GlassBox>
+      <GlassBox sx={{ my: 3, mx: 0, paddingY: '1rem' }} background="rgba(50,50,150, 0.5)">
+          <Typography color="white"  variant="h4" sx={{marginTop: '12px'}}>I Am A:</Typography>
+          {iAmA.map((item) => <Box key={item[0]}><Typography variant="h6"  sx={{marginTop: '8px'}}  color="white" >{item[0]}</Typography><Typography color="#e6e6e6" variant="body1">&#x2022; {item[1]}</Typography></Box>)}
+      </GlassBox>
+      <GlassBox sx={{ my: 3, mx: 0, paddingY: '1rem' }} background="rgba(218,20,160, 0.5)">
+          <Typography color="white"  variant="h4" sx={{marginTop: '12px'}}>Submission</Typography>
+          {submission.map((item) => <Box key={item[0]}><Typography variant="h6"  sx={{marginTop: '8px'}}  color="white" >{item[0]}</Typography><Typography color="#e6e6e6" variant="body1">&#x2022; {item[1]}</Typography></Box>)}
+      </GlassBox>
+      <GlassBox sx={{ marginTop: 3, marginBottom: 0, mx: 0, paddingY: '1rem' }} background="rgba(60,130,230, 0.5)">
+          <Typography color="white" variant="h4" sx={{marginTop: '12px'}}>Technical:</Typography>
+          {technical.map((item) => <Box key={item[0]}><Typography variant="h6"  sx={{marginTop: '8px'}}  color="white" >{item[0]}</Typography><Typography color="#e6e6e6" variant="body1">&#x2022; {item[1]}</Typography></Box>)}
+      </GlassBox>
+      <Button sx={{color: 'white', borderColor: 'white', marginTop: '1rem', width: '100%'}} variant="outlined" size="large" component={Link} noLinkStyle href="/">
+        Return to the main page
+      </Button>
+      <Box sx={{paddingY: '2rem'}}></Box>
     </Container>
   );
 }

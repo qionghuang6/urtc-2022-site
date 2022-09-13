@@ -13,8 +13,6 @@ import Calendar from '../src/Calendar';
 import Speakers from '../src/speakers/Speakers';
 import Sponsors from '../src/sponsors/Sponsors';
 
-const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? \n But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-
 export default function Index({events}) {
   const [calendarExpanded, setCalendarExpanded ] = React.useState(false);
   return (
@@ -28,6 +26,14 @@ export default function Index({events}) {
                 Registration is Now Open!
               </Typography>
               <Typography align="center" variant="h5" color="white">Click Here to Register!</Typography>
+            </GlassBox>
+            </Grid>
+            <Grid item xs={12} >
+            <GlassBox background="rgba(255,0,0, 0.5)" href="https://now.mit.edu/policies/campus-access-and-visitors/">
+              <Typography align="center" variant="body1" component="h1" color="white">
+                Note: All attendees are required to be up to date with COVID-19 Vaccinations as per MIT Policies. Non-MIT attendees will be required to register for Tim Tickets (Registration details to come later).
+              </Typography>
+              <Typography align="center" variant="h6" color="white">For more info on MIT's COVID-19 and visitor policies, visit now.mit.edu. </Typography>
             </GlassBox>
             </Grid>
           <Grid item xs={12} md={6}>
@@ -75,7 +81,7 @@ export default function Index({events}) {
         <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="right">
           Schedule
         </Typography>
-        <GlassBox background="linear-gradient(135deg, rgba(238, 156, 167, 0.2), rgb(255, 221, 225, 0.2))" sx={{ paddingTop: '8px', paddingBottom: '0px', paddingX: '0px'}}>
+        <GlassBox background="linear-gradient(135deg, rgba(238, 156, 167, 0.2), rgb(255, 221, 225, 0.2))" sx={{ paddingTop: '8px', paddingBottom: '0px', paddingX: '0px', marginX: 0}}>
           <Box sx={{ overflow: 'scroll', height: !calendarExpanded ? '300px': 'fit-content'}}>
             <Calendar events={events} />
           </Box>
