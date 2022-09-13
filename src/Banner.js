@@ -6,9 +6,15 @@ import {
     Container,
     Box,
     Button,
+    IconButton,
 } from '@mui/material';
 import GlassBox from './GlassBox';
 import GradientTypography from './GradientTypography';
+
+import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 export default function Banner() {
     const mobile = useMediaQuery('(max-width:599px)');
@@ -21,6 +27,15 @@ export default function Banner() {
         }, 2000);
         return () => clearInterval(interval);
     }, [gradientBanner])
+
+    const iconStyle = {
+        width: '48px',
+        height: '48px',
+        '&:hover': {
+            color: 'rgb(180,180,180)',
+        },
+        transition: 'color 0.25s linear',
+    }
 
     return (
         <Container maxWidth="xl">
@@ -75,6 +90,35 @@ export default function Banner() {
                     </Grid>
                 </Grid>
                 <Box textAlign={mobile ? 'center' : 'right'} mt="16px">
+                    <>
+                        <IconButton
+                            href="https://www.facebook.com/MITURTC/"
+                            sx={{ color: 'white', padding: '8px', paddingLeft: 0}}
+                        >
+                            <FacebookRoundedIcon sx={iconStyle}/>
+                        </IconButton>
+                        <IconButton
+                            size="large"
+                            href="https://www.instagram.com/miturtc/"
+                            sx={{ color: 'white', padding: '8px'}}
+                        >
+                            <InstagramIcon sx={iconStyle}/>
+                        </IconButton>
+                        <IconButton
+                            size="large"
+                            href="https://www.instagram.com/miturtc/"
+                            sx={{ color: 'white', padding: '8px'}}
+                        >
+                            <YouTubeIcon sx={iconStyle}/>
+                        </IconButton>
+                        <IconButton
+                            size="large"
+                            href="https://www.linkedin.com/company/mit-urtc/"
+                            sx={{ color: 'white', padding: '8px'}}
+                        >
+                            <LinkedInIcon sx={iconStyle}/>
+                        </IconButton>
+                    </>
                     <Button variant="outlined" component="a" target="_blank" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FURTC2022" sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', borderColor: 'white'}}>
                             Submit Your Research
                     </Button>
