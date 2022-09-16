@@ -8,7 +8,7 @@ export default function Sponsors({page}) {
         width: '100%',
     }
     const sponsorComps = sponsors.map((s, i) => {
-        return <Grid key={i} item xs={12} sm={6} lg={4}><img style={imageStyle} src={`sponsors/${s.img}`} /></Grid>
+        return <Grid key={i} item xs={12} sm={6} lg={4}><a href={s.href}><img style={imageStyle} alt={s.name} src={`sponsors/${s.img}`} /></a></Grid>
     })
     return (
         <Box>
