@@ -18,8 +18,8 @@ export default function Index({events}) {
   return (
     <>
       <Banner />
-      <Container maxWidth="lg">
-        <Grid container spacing="6px">
+      <Container maxWidth="xl">
+        <Grid container spacing="0px">
           <Grid item xs={12} >
             <GlassBox background="rgba(0, 255, 242, 0.5)" href="https://events.vtools.ieee.org/m/322774">
               <Typography align="center" variant="h4" component="h1" color="white">
@@ -27,15 +27,28 @@ export default function Index({events}) {
               </Typography>
               <Typography align="center" variant="h5" color="white">Click Here to Register!</Typography>
             </GlassBox>
-            </Grid>
-            <Grid item xs={12} >
-            <GlassBox background="rgba(255,0,0, 0.5)" href="https://now.mit.edu/policies/campus-access-and-visitors/">
-              <Typography align="center" variant="body1" component="h1" color="white">
-                Note: All attendees are required to be up to date with COVID-19 Vaccinations as per MIT Policies. Non-MIT attendees will be required to register for Tim Tickets (Registration details to come later).
+          </Grid>
+          <Grid item xs={6} >
+            <GlassBox background="rgba(222, 95, 218, 0.5)" href="https://now.mit.edu/policies/campus-access-and-visitors/">
+              <Typography align="center" variant="h6" component="h1" color="white">
+                Note: All attendees are required to be up to date with COVID-19 Vaccinations as per MIT Policies. (Required for Tim Tickets)
               </Typography>
-              <Typography align="center" variant="h6" color="white">For more info on MIT's COVID-19 and visitor policies, visit now.mit.edu. </Typography>
+              <Typography align="center" variant="body1" color="white">For more info on MIT's COVID-19 and visitor policies, visit now.mit.edu. </Typography>
             </GlassBox>
-            </Grid>
+          </Grid>
+          <Grid item xs={6} >
+            <GlassBox background="rgba(222, 95, 218, 0.5)" href="https://visitors.mit.edu/?event=53baaf2e-c3b7-4f52-8577-3f235c2ef92f">
+              <Typography align="center" variant="h4" component="h1" color="white">
+                Sign Up for Tim Tickets Now!
+              </Typography>
+              <Typography align="center" variant="body1" color="white">Tim Tickets are required for all non-MIT affliated guests to enter the conference: https://visitors.mit.edu/?event=53baaf2e-c3b7-4f52-8577-3f235c2ef92f</Typography>
+            </GlassBox>
+          </Grid>
+        </ Grid>
+      </Container>
+      <Container maxWidth="lg">
+        <Grid container spacing ="6px">
+          <Box paddingTop="24px"></Box>
           <Grid item xs={12} md={6}>
             <GlassBox href="./about">
               <Typography variant="h4" align="center" fontFamily="Montserrat" fontWeight="700" component="h1" color="white" gutterBottom>
