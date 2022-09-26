@@ -12,6 +12,7 @@ import Organizers from '../src/organizers/Organizers';
 import Calendar from '../src/Calendar';
 import Speakers from '../src/speakers/Speakers';
 import Sponsors from '../src/sponsors/Sponsors';
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
 export default function Index({ events }) {
   const [calendarExpanded, setCalendarExpanded] = React.useState(false);
@@ -64,7 +65,7 @@ export default function Index({ events }) {
             </GlassBox>
             <GlassBox background='linear-gradient(45deg, rgba(232,123,213,0.6), rgb(222, 55, 123, 0.6))' href="/submission">
               <Typography variant="h4" align="center" fontFamily="Montserrat" fontWeight="700" component="h1" color="white" gutterBottom href="/submission">
-                Find Submission Information, Resources, and Templates!
+                Find Submission and Presentation Guidelines Here!
               </Typography>
             </GlassBox>
           </ Grid>
@@ -96,16 +97,16 @@ export default function Index({ events }) {
         </Typography>
         <Grid container direction="row" justifyContent="space-around" alignItems="end" spacing={1} sx={{marginBottom: '8px'}}>
           <Grid item>
-            <Button variant="outlined" sx={{color: 'white', borderColor: 'white'}} href="/urtc_2022_program_table.pdf">Program Overview Table</Button>
+            <Button variant="outlined" sx={{color: 'white', borderColor: 'white'}} href="/urtc_2022_program_table.pdf"><PictureAsPdfIcon/>{'\u00A0'}Program Overview Table</Button>
           </Grid>
           <Grid item>
-            <Button variant="outlined" sx={{color: 'white', borderColor: 'white'}} href="/urtc_2022_paper_presentation_schedule.pdf">Paper Presentation Schedule</Button>
+            <Button variant="outlined" sx={{color: 'white', borderColor: 'white'}} href="/urtc_2022_paper_presentation_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Paper Presentation Schedule</Button>
           </Grid>
           <Grid item>
-            <Button variant="outlined" sx={{color: 'white', borderColor: 'white'}} href="/urtc_2022_poster_presentation_schedule.pdf">Poster Presentation Schedule</Button>
+            <Button variant="outlined" sx={{color: 'white', borderColor: 'white'}} href="/urtc_2022_poster_presentation_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Poster Presentation Schedule</Button>
           </Grid>
           <Grid item>
-            <Button variant="outlined" sx={{color: 'white', borderColor: 'white'}} href="/urtc_2022_lightning_talk_schedule.pdf">Lightning Talk Schedule</Button>
+            <Button variant="outlined" sx={{color: 'white', borderColor: 'white'}} href="/urtc_2022_lightning_talk_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Lightning Talk Schedule</Button>
           </Grid>
         </Grid>
         <GlassBox background="linear-gradient(135deg, rgba(238, 156, 167, 0.2), rgb(255, 221, 225, 0.2))" sx={{ paddingTop: '8px', paddingBottom: '0px', paddingX: '0px', marginX: 0 }}>
