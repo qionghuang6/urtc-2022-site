@@ -48,8 +48,8 @@ export const organizers = [
     "name": "Qiong Zhou Huang",
     "img": "qiong.jpg",
     "team": "Technology Chair",
-    "intro": "I'm Qiong Zhou Huang, majoring in 6-4. I came to MIT from Brooklyn, New York.",
-    "position": "I make urtc.mit.edu :D",
+    "intro": "I'm Qiong Zhou Huang, majoring in Electrical Engineering and Computer Science. I'm from Brooklyn, New York. 🗽",
+    "position": "As tech chair 🪑, I work on the magical technology that makes this website and other parts of the conference run.",
     "interests": "",
     "spare_time": "",
     "random": ""
