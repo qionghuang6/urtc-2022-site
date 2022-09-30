@@ -43,8 +43,7 @@ export default function Banner() {
                 sx={{
                     marginTop: '-24px',
                     backdropFilter: "blur(1px)",
-                    marginBottom: '0',
-                    marginBottom: '3rem',
+                    marginBottom: '0.5rem',
                 }}
                 background="rgba(0,0,0,0)"
             >

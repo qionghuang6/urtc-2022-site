@@ -22,11 +22,11 @@ export default function Index({ events }) {
       <Container maxWidth="xl">
         <Grid container spacing="0px">
           <Grid item xs={12} >
-            <GlassBox background="rgba(0, 255, 242, 0.5)" href="https://events.vtools.ieee.org/m/322774">
-              <Typography align="center" variant="h4" component="h1" color="white">
-                Registration is Now Open!
+            <GlassBox background='linear-gradient(45deg, rgba(196, 113, 242,0.8), rgb(247, 108, 198, 0.8))' href="/conference">
+              <Typography align="center" variant="text" component="h1" color="white">
+                Day-of Conference Information
               </Typography>
-              <Typography align="center" variant="h5" color="white">Click Here to Register!</Typography>
+              <Typography align="center" variant="h5" color="white">Click Here!</Typography>
             </GlassBox>
           </Grid>
           <Grid item xs={12} md={6} >
@@ -50,6 +50,14 @@ export default function Index({ events }) {
       <Container maxWidth="lg">
         <Grid container spacing="6px">
           <Box paddingTop="24px"></Box>
+          <Grid item xs={12} >
+            <GlassBox background="rgba(0, 255, 242, 0.5)" href="https://events.vtools.ieee.org/m/322774">
+              <Typography align="center" variant="h4" component="h1" color="white">
+                Registration is Now Open!
+              </Typography>
+              <Typography align="center" variant="h5" color="white">Click Here to Register!</Typography>
+            </GlassBox>
+          </Grid>
           <Grid item xs={12} md={6}>
             <GlassBox href="./about">
               <Typography variant="h4" align="center" fontFamily="Montserrat" fontWeight="700" component="h1" color="white" gutterBottom>
@@ -87,7 +95,7 @@ export default function Index({ events }) {
                 Location
               </Typography>
               <Typography variant="body1" component="h1" color="white" gutterBottom>
-                URTC 2022 will take place in the Ray and Maria Stata Center (Building 32, 32 Vassar Street). More information about the venue will be posted nearer to the date of the conference.
+                URTC 2022 will take place in the Ray and Maria Stata Center (Building 32, 32 Vassar Street)
               </Typography>
             </GlassBox>
           </Grid>

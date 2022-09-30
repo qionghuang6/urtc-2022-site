@@ -11,6 +11,9 @@ import Copyright from '../src/Copyright';
 import GlassBox from '../src/GlassBox';
 import Sponsors from '../src/sponsors/Sponsors';
 
+import InfoIcon from '@mui/icons-material/Info';
+
+import LiveTvIcon from '@mui/icons-material/LiveTv';
 
 export default function URTC() {
   const title = '2022 Info | URTC 2022'
@@ -23,10 +26,10 @@ export default function URTC() {
       <Container maxWidth="md">
         <GlassBox sx={{ my: 4, mx: 0 }} background="rgba(30,30,30,0.5)">
           <Typography variant="h4" component="h1" color="white" gutterBottom>
-            MIT IEEE URTC / Information
+          <InfoIcon /> MIT IEEE URTC / Information
           </Typography>
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
-            Welcome to the MIT IEEE Undergraduate Research Technology Conference! On this website, you'll find all the resources and links you'll need for the weekend. It will be updated at the end of each night.
+            Welcome to the MIT IEEE Undergraduate Research Technology Conference! On this page, you'll find all the resources and links you'll need for the weekend. It will be updated at the end of each night.
           </Typography>
           <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="https://bit.ly/slackurtc">
             Slack
@@ -50,7 +53,7 @@ export default function URTC() {
           <b>08:30PM - 10:00PM</b> | Presentation Check @ 32-123 <br/>
           <br></br>
           <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="https://us06web.zoom.us/j/86345266326?pwd=R3A5TzEzcWZWMFFESHZoWFZ3ek1CUT09">
-            Welcome Reception (Virtual)
+            <LiveTvIcon></LiveTvIcon>&nbsp;Welcome Reception (Zoom)
           </Button>
           <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="https://forms.gle/SXBjnCEvgYFWb9sT9">
             MIT Tours Sign-Up
@@ -68,7 +71,29 @@ export default function URTC() {
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
            <i>Stay tuned for more updates!</i>
           </Typography>
+          <Typography variant="string" component="h2" color="white" gutterBottom>
+            Sunday, October 2
+          </Typography>
+          <Typography variant="string" paragraph="true" color="white" gutterBottom>
+           <i>Stay tuned for more updates!</i>
+          </Typography>
+          <Typography variant="string" component="h1" color="white" gutterBottom>
+            Location:
+          </Typography>
+          <div class="mapouter" style={{position:'relative', textAlign: 'right', height: '400px', width:'100%'}}><div class="gmap_canvas" style={{overflow:'hidden', background:'none !important', height:'400px', width:'100%'}}><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=stata%20center&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br /><a href="https://www.embedgooglemap.net"></a></div></div>
         </GlassBox>
+        <GlassBox>
+          <Typography variant="text" component="h1" color="white" gutterBottom>
+            Need Help? Questions?:
+          </Typography>
+          <Typography component="a" href="https://bit.ly/slackurtc" variant="h5" paragraph="true" color="white" gutterBottom>
+            Reach us on Slack using the <i>#general</i> channel.
+          </Typography>
+          <Typography sx={{ marginTop: '8px'}}variant="h5" paragraph="true" color="white" gutterBottom>
+            In Case of Emergency: MIT Police: 617-253-1212
+          </Typography>
+        </GlassBox>
+        <br/><br/>
       </Container>
     </>
   );
