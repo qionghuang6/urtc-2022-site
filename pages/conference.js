@@ -61,7 +61,7 @@ export default function URTC() {
           <b>7:30AM-8:30AM</b> 		|		Breakfast & Registration<br/>
           <b>8:30AM-10:00AM	</b> 		|	Opening Plenary @ 32-123<br/>
           <b>10:30AM-12:30AM</b>  |		Oral Presentations #1 <br/>
-          <b>12:30AM-1:30PM</b> 	|		Lunch <br/>
+          <b>12:30PM-1:30PM</b> 	|		Lunch <br/>
           <b>1:30PM-3:30PM</b> 		|		Oral Presentations #2 <br/>
           <b>4:00PM-5:00PM</b> 		|	Virtual Escape Room<br/>
           <b>5:00PM-6:00PM</b> 		|	Women in STEM Panel<br/>
