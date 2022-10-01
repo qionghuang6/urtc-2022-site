@@ -42,40 +42,75 @@ export default function URTC() {
           </Button>
           <br></br>
           <br></br>
+          <Typography variant="string" component="h1" color="white" gutterBottom  sx={{marginBottom: '4px'}}>
+            Saturday, October 1
+          </Typography>
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px',  my: '2px'}} component={Link} noLinkStyle href="https://us06web.zoom.us/j/86755594260?pwd=d212N3JBdjExdzBuNFRQd0pIZkVkZz09">
+            <LiveTvIcon></LiveTvIcon>&nbsp;32-123 (Zoom)
+          </Button>
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px',  my: '2px'}} component={Link} noLinkStyle href="https://us06web.zoom.us/j/83949502285?pwd=dzdFdkZjVWhyckIwWTRNc2s0N1Y4Zz09">
+            <LiveTvIcon></LiveTvIcon>&nbsp;32-141 (Zoom)
+          </Button>
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px', my: '2px'}} component={Link} noLinkStyle href="https://us06web.zoom.us/j/82538229861?pwd=S005WjRKU3NrQnR3RU1TK3dENFA1UT09">
+            <LiveTvIcon></LiveTvIcon>&nbsp;32-155 (Zoom)
+          </Button>
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px', my: '2px'}} component={Link} noLinkStyle href="https://us06web.zoom.us/j/81542117341?pwd=VDduYmNRem90czcvaGhXRHFxbWI0Zz09">
+            <LiveTvIcon></LiveTvIcon>&nbsp;Sunday Virtual Presentation - Check-In Session (8:30pm)
+          </Button>
+          <Typography variant="string" paragraph="true" color="white" gutterBottom  sx={{marginTop: '12px'}}>
+          <b>7:30AM-8:30AM</b> 		|		Breakfast & Registration<br/>
+          <b>8:30AM-10:00AM	</b> 		|	Opening Plenary @ 32-123<br/>
+          <b>10:30AM-12:30AM</b>  |		Oral Presentations #1 <br/>
+          <b>12:30AM-1:30PM</b> 	|		Lunch <br/>
+          <b>1:30PM-3:30PM</b> 		|		Oral Presentations #2 <br/>
+          <b>4:00PM-5:00PM</b> 		|	Virtual Escape Room<br/>
+          <b>5:00PM-6:00PM</b> 		|	Women in STEM Panel<br/>
+          <b>6:00PM-7:00PM</b> 		|	Dinner<br/>
+          <b>7:00PM-8:00PM</b> 		|	Speaker / Edward Adelson<br/>
+          <b>8:00PM-8:30PM</b> 		|	Best Paper Award<br/>
+          <b>8:30PM-10:00PM</b> 	|		Presentation Check <br/>
+          </Typography>
+          <Typography variant="string" component="h3" color="white" gutterBottom  sx={{marginBottom: '4px'}}>
+            Oral Presentation Tracks and Rooms:
+          </Typography>
+          <Typography variant="string" paragraph="true" color="white" gutterBottom  sx={{marginTop: '12px'}}>
+          <b>32-123</b> | 10:30 AM | Machine Learning / Artificial Intelligence (AI) #1  <br/>
+          <b>32-141</b> | 10:30 AM | Computer Systems, Theoretical Computer Science |  Security & Communication  <br/>
+          <b>32-155</b> | 10:30 AM | BioEECS and Applied Physics | Circuits, Materials, and Nanotechnologies  <br/> <br/>
+          <b>32-123</b> | 1:30 PM | Robotics and Controls, Space Application and Tech  <br/>
+          <b>32-141</b> | 1:30 PM | Machine Learning / Artificial Intelligence (AI) #2  <br/>
+          <b>32-155</b> | 1:30 PM | Innovative Technologies | FIRST LEGO League Teams <br/>
+          </Typography>
           <Typography variant="string" component="h1" color="white" gutterBottom>
-            Friday, September 30
+            Sunday, October 2
           </Typography>
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
+          <b>7:30AM-8:30AM</b> 		|		Breakfast & Registration<br/>
+          <b>8:30AM-10:00AM	</b> 		|	Poster Session #1<br/>
+          <b>10:30AM-11:30AM</b> 		|		Sponsor Presentation<br/>
+          <b>11:30AM-12:30PM</b> 	|			Lightning Talks<br/>
+          <b>12:30PM-1:30PM	</b> 	|		Lunch<br/>
+          <b>1:30PM-3:00PM</b> 		|		Poster Session #2<br/>
+          <b>3:00PM-4:00PM</b> 	|			Closing Plenary<br/>
+          {/* <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="https://us06web.zoom.us/j/86345266326?pwd=R3A5TzEzcWZWMFFESHZoWFZ3ek1CUT09">
+            <LiveTvIcon></LiveTvIcon>&nbsp;Welcome Reception (Zoom)
+          </Button> */}
+          </Typography>
+          <Typography variant="string" component="h1" color="#a3a0a0" gutterBottom sx={{marginBottom: '0px'}}>
+            Friday, September 30
+          </Typography>
+          <Button variant="outlined" size="large" sx={{color: '#a3a0a0', borderColor: '#a3a0a0', mx: '6px'}} component={Link} noLinkStyle href="https://us06web.zoom.us/j/86345266326?pwd=R3A5TzEzcWZWMFFESHZoWFZ3ek1CUT09">
+            <LiveTvIcon></LiveTvIcon>&nbsp;Welcome Reception (Zoom)
+          </Button>
+          <Button variant="outlined" size="large" sx={{color: '#a3a0a0', borderColor: '#a3a0a0', mx: '6px'}} component={Link} noLinkStyle href="https://forms.gle/SXBjnCEvgYFWb9sT9">
+            MIT Tours Sign-Up
+          </Button>
+          <Typography variant="string" paragraph="true" color="#a3a0a0" gutterBottom sx={{marginTop: '8px'}}>
           <b>02:00PM - 03:30PM</b>  | MIT Tour #1 @ Stata Center (TSMC Lobby) <br/>
           <b>03:30PM - 05:00PM</b> | MIT Tour #2 @ Stata Center (TSMC Lobby) <br/>
           <b>06:00PM - 06:30PM</b> | Registration @ Stata Center <br/>
           <b>06:30PM - 08:30PM</b> | Welcome Reception @ Stata Center <br/>
           <b>08:30PM - 10:00PM</b> | Presentation Check @ 32-123 <br/>
-          <br></br>
-          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="https://us06web.zoom.us/j/86345266326?pwd=R3A5TzEzcWZWMFFESHZoWFZ3ek1CUT09">
-            <LiveTvIcon></LiveTvIcon>&nbsp;Welcome Reception (Zoom)
-          </Button>
-          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="https://forms.gle/SXBjnCEvgYFWb9sT9">
-            MIT Tours Sign-Up
-          </Button>
-          </Typography>
-          <Typography variant="string" component="h1" color="white" gutterBottom>
-            Saturday, October 1
-          </Typography>
-          <Typography variant="string" paragraph="true" color="white" gutterBottom>
-           <i>Stay tuned for more updates!</i>
-          </Typography>
-          <Typography variant="string" component="h1" color="white" gutterBottom>
-            Sunday, October 2
-          </Typography>
-          <Typography variant="string" paragraph="true" color="white" gutterBottom>
-           <i>Stay tuned for more updates!</i>
-          </Typography>
-          <Typography variant="string" component="h2" color="white" gutterBottom>
-            Sunday, October 2
-          </Typography>
-          <Typography variant="string" paragraph="true" color="white" gutterBottom>
-           <i>Stay tuned for more updates!</i>
           </Typography>
           <Typography variant="string" component="h1" color="white" gutterBottom>
             Location:

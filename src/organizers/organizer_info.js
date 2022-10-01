@@ -100,17 +100,6 @@ export const organizers = [
   },
   {
     "email": "",
-    "img": "default.jpg",
-    "name": "Neil Deshmukh",
-    "team": "Logistics",
-    "intro": "",
-    "position": "",
-    "interests": "",
-    "spare_time": "",
-    "random": ""
-  },
-  {
-    "email": "",
     "img": "lucas.jpg",
     "name": "Lucas Chu",
     "team": "Logistics",
@@ -135,28 +124,6 @@ export const organizers = [
     "email": "",
     "img": "meenu.jpg",
     "name": "Meenu Singh",
-    "team": "Advisor",
-    "intro": "",
-    "position": "",
-    "interests": "",
-    "spare_time": "",
-    "random": ""
-  },
-  {
-    "email": "",
-    "img": "fiona.jpg",
-    "name": "Fiona Cai",
-    "team": "Advisor",
-    "intro": "",
-    "position": "",
-    "interests": "",
-    "spare_time": "",
-    "random": ""
-  },
-  {
-    "email": "",
-    "img": "shulammite.jpg",
-    "name": "Shulammite Lim",
     "team": "Advisor",
     "intro": "",
     "position": "",
