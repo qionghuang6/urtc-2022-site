@@ -15,7 +15,9 @@ import InfoIcon from '@mui/icons-material/Info';
 
 import LiveTvIcon from '@mui/icons-material/LiveTv';
 
-export default function URTC() {
+import Calendar from '../src/Calendar';
+
+export default function URTC({events}) {
   const title = '2022 Info | URTC 2022'
   return (
     <>
@@ -42,6 +44,15 @@ export default function URTC() {
           </Button>
           <br></br>
           <br></br>
+          { events.items && events.items.length > 0 && (
+          <GlassBox background="rgba(0,0,0, 0.5)" sx={{ paddingTop: '8px', paddingBottom: '0px', paddingX: '0px', marginX: 0 }}>
+          <Typography align="center" variant="string" component="h1" color="white" gutterBottom  sx={{marginBottom: '4px'}}>
+            Happening Now!:
+          </Typography>
+          <Box sx={{ overflow: 'scroll', height: 'fit-content' }}>
+            <Calendar events={events} onlyNow={true}/>
+          </Box>
+          </GlassBox>)}
           <Typography variant="string" component="h1" color="white" gutterBottom  sx={{marginBottom: '4px'}}>
             Saturday, October 1
           </Typography>
@@ -132,4 +143,15 @@ export default function URTC() {
       </Container>
     </>
   );
+}
+
+export async function getStaticProps() {
+  const res = await fetch(`https://www.googleapis.com/calendar/v3/calendars/4ser6ti605mgrfc83fuv0u43ls@group.calendar.google.com/events?key=${process.env.GOOGLE_API_KEY}`);
+  const events = await res.json();
+  return {
+    props: {
+      events
+    },
+    revalidate: 60, // In seconds
+  }
 }

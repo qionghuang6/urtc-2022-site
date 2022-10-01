@@ -119,7 +119,7 @@ export default function Index({ events }) {
         </Grid>
         <GlassBox background="linear-gradient(135deg, rgba(238, 156, 167, 0.2), rgb(255, 221, 225, 0.2))" sx={{ paddingTop: '8px', paddingBottom: '0px', paddingX: '0px', marginX: 0 }}>
           <Box sx={{ overflow: 'scroll', height: !calendarExpanded ? '300px' : 'fit-content' }}>
-            <Calendar events={events} />
+            <Calendar events={events}/>
           </Box>
           <Button sx={{ color: 'white', backgroundColor: 'rgba(255,255,255, 0.2)', width: '100%' }} onClick={() => setCalendarExpanded(!calendarExpanded)}>{calendarExpanded ? 'Condense ' : 'Show All'} </Button>
         </GlassBox>
