@@ -23,7 +23,7 @@ export default function MyApp(props) {
     <CacheProvider value={emotionCache}>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <title>MIT URTC 2022</title>
+        <title>MIT URTC</title>
         <meta property="og:title" content="URTC 2022" />
         <meta property="og:description" content="MIT URTC is an internationally-renowned research conference, for undergraduates and by undergraduates. Our annual conferences are themed around incredible breakthroughs in engineering and technological research made by student researchers at the undergraduate level all over the country." />
         <meta property="og:image" content="/urtc-2022.png" />

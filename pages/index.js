@@ -22,14 +22,25 @@ export default function Index({ events }) {
       <Container maxWidth="xl">
         <Grid container spacing="0px">
           <Grid item xs={12} >
-            <GlassBox background='linear-gradient(45deg, rgba(196, 113, 242,0.8), rgb(247, 108, 198, 0.8))' href="/conference">
+            <GlassBox background='-webkit-linear-gradient(0deg, rgb(0,180,219, 0.8), rgb(0,131,176, 0.8))'>
               <Typography align="center" variant="text" component="h1" color="white">
-                Day-of Conference Information
+                URTC 2023 Dates
               </Typography>
-              <Typography align="center" variant="h5" color="white">Click Here!</Typography>
+              <Typography color="white" variant="h5" align="center">
+              Technical Paper Submission Deadline: <b>August 4, 2023</b> 
+              </Typography>
+              <Typography color="white" variant="h5" align="center">
+              Technical Paper Acceptance Notification: <b>August 27, 2023</b> 
+              </Typography>
+              <Typography color="white" variant="h5" align="center">
+              Poster and Lighting Talk Submissions Deadline: <b>September 3, 2023</b> 
+              </Typography>
+              <Typography color="white" variant="h5" align="center">
+              Poster and Lightning Talk Acceptance Notification: <b>September 10, 2023</b> 
+              </Typography>
             </GlassBox>
           </Grid>
-          <Grid item xs={12} md={6} >
+          {/* <Grid item xs={12} md={6} >
             <GlassBox background="rgba(222, 95, 218, 0.5)" href="https://now.mit.edu/policies/campus-access-and-visitors/">
               <Typography align="center" variant="h6" component="h1" color="white">
                 Note: All attendees are required to be up to date with COVID-19 Vaccinations as per MIT Policies. (Required for Tim Tickets)
@@ -44,19 +55,19 @@ export default function Index({ events }) {
               </Typography>
               <Typography align="center" variant="body1" color="white">Tim Tickets are required for all non-MIT affliated guests to enter the conference: https://visitors.mit.edu/?event=53baaf2e-c3b7-4f52-8577-3f235c2ef92f</Typography>
             </GlassBox>
-          </Grid>
+          </Grid> */}
         </ Grid>
       </Container>
       <Container maxWidth="lg">
         <Grid container spacing="6px">
           <Box paddingTop="24px"></Box>
           <Grid item xs={12} >
-            <GlassBox background="rgba(0, 255, 242, 0.5)" href="https://events.vtools.ieee.org/m/322774">
+            {/* <GlassBox background="rgba(0, 255, 242, 0.5)" href="https://events.vtools.ieee.org/m/322774">
               <Typography align="center" variant="h4" component="h1" color="white">
                 Registration is Now Open!
               </Typography>
               <Typography align="center" variant="h5" color="white">Click Here to Register!</Typography>
-            </GlassBox>
+            </GlassBox> */}
           </Grid>
           <Grid item xs={12} md={6}>
             <GlassBox href="./about">
@@ -71,14 +82,9 @@ export default function Index({ events }) {
                 Staffed by a group of students from MIT working in collaboration with the Institute of Electrical and Electronics and Engineers (IEEE), we boast a wide variety of programming at each conference such as paper/poster presentations by our student presenters, talks and panels by industry leaders, and networking and social events.
               </Typography>
             </GlassBox>
-            <GlassBox background='linear-gradient(45deg, rgba(232,123,213,0.6), rgb(222, 55, 123, 0.6))' href="/submission">
-              <Typography variant="h4" align="center" fontFamily="Montserrat" fontWeight="700" component="h1" color="white" gutterBottom href="/submission">
-                Find Submission and Presentation Guidelines Here!
-              </Typography>
-            </GlassBox>
           </ Grid>
           <Grid item xs={12} md={6}>
-            <GlassBox background='linear-gradient(135deg, rgba(33, 147, 200, 0.6), rgb(109, 213, 237, 0.6))'>
+            {/* <GlassBox background='linear-gradient(135deg, rgba(33, 147, 200, 0.6), rgb(109, 213, 237, 0.6))'>
               <Typography variant="h4" align="center" component="h1" fontFamily="Montserrat" fontWeight="700" color="white" gutterBottom>
                 Logistics
               </Typography>
@@ -89,19 +95,24 @@ export default function Index({ events }) {
 
                 When registering for the conference, attendees can choose to attend either in-person or virtually.
               </Typography>
-            </GlassBox>
+            </GlassBox> */}
             <GlassBox background='linear-gradient(45deg, rgba(255,0,0,0.6), rgb(255, 255, 0, 0.6))'>
               <Typography variant="h4" align="center" fontFamily="Montserrat" fontWeight="700" component="h1" color="white" gutterBottom>
                 Location
               </Typography>
               <Typography variant="body1" component="h1" color="white" gutterBottom>
-                URTC 2022 will take place in the Ray and Maria Stata Center (Building 32, 32 Vassar Street)
+                URTC 2023 will take place at the Ray and Maria Stata Center, home of MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL). The Stata Center is located at 32 Vassar Street, Cambridge, MA 02139.
+              </Typography>
+            </GlassBox>
+            <GlassBox background='linear-gradient(45deg, rgba(232,123,213,0.6), rgb(222, 55, 123, 0.6))' href="/submission">
+              <Typography variant="h4" align="center" fontFamily="Montserrat" fontWeight="700" component="h1" color="white" gutterBottom href="/submission">
+                Find Submission and Presentation Guidelines Here!
               </Typography>
             </GlassBox>
           </Grid>
         </Grid>
         <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="right">
-          Schedule
+          2022 Schedule
         </Typography>
         <Grid container direction="row" justifyContent="space-around" alignItems="end" spacing={1} sx={{marginBottom: '8px'}}>
           <Grid item>
@@ -124,7 +135,7 @@ export default function Index({ events }) {
           <Button sx={{ color: 'white', backgroundColor: 'rgba(255,255,255, 0.2)', width: '100%' }} onClick={() => setCalendarExpanded(!calendarExpanded)}>{calendarExpanded ? 'Condense ' : 'Show All'} </Button>
         </GlassBox>
         <Typography mt={3} variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="right">
-          Speakers &amp; Panelists
+          2022 Speakers &amp; Panelists
         </Typography>
         <Speakers />
         <Organizers />

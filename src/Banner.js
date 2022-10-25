@@ -84,7 +84,7 @@ export default function Banner() {
                             </GradientTypography>
                         </Box>
                         <Typography variant={mobile ? "h5" : "h4"} align={mobile ? 'left' : 'right'} color="#fff">
-                            September 30 - October 2, 2022
+                            October 6 - October 8, 2023
                         </Typography>
                     </Grid>
                 </Grid>
@@ -118,7 +118,7 @@ export default function Banner() {
                             <LinkedInIcon sx={iconStyle}/>
                         </IconButton>
                     </>
-                    <Button variant="outlined" component="a" target="_blank" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FURTC2022" sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', borderColor: 'white'}}>
+                    <Button variant="outlined" component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2023" sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', borderColor: 'white'}}>
                             Submit Your Research
                     </Button>
                     <Button href="#calendar" variant="outlined" sx={{fontSize:  mobile? '16px':'24px', marginX: '8px', color: 'white', borderColor: 'white'}}>
