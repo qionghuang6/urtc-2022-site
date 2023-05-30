@@ -112,6 +112,10 @@ export default function Index({ events }) {
           </Grid>
         </Grid>
         <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="right">
+          2023 Schedule (Coming Soon)
+
+        </Typography>
+        <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="right">
           2022 Schedule
         </Typography>
         <Grid container direction="row" justifyContent="space-around" alignItems="end" spacing={1} sx={{marginBottom: '8px'}}>
