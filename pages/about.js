@@ -37,7 +37,7 @@ export default function About() {
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
             URTC is organized around our different “tracks,” which we identify as the most prevailing themes in modern technology research. Each element of the conference hits on one of these key themes; our overarching goal each year is to have everyone participating come out of the conference with better awareness, appreciation, and ambition for the problems posed and the solutions given in each component of the technological world.
           </Typography>
-          <img src="/tracks.png" width="100%"></img>
+          <img src="/tracks2023.png" width="100%"></img>
           <Typography variant="string" component="h2" color="white" gutterBottom>
             Conference Agenda
           </Typography>
