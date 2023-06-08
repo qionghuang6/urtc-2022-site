@@ -96,7 +96,7 @@ export const organizers = [
     "position": "I'm on the logistics team, so I help out with reaching out to speakers and panelists, organizing events during the conference, and coordinating venues, including buildings/rooms and housing for in-person attendees and Hopin for virtual attendees.",
     "interests": "I'm interested in autonomy, robotics, and embedded systems. I am currently doing research on enabling safe human-robot interaction.",
     "spare_time": "I like to play tennis, ultimate frisbee, and basketball. I also enjoy running and hiking with friends.",
-    "random": "I'm a twin, and I get very excited when I find tennis balls."
+    "random": "I'm a twin, and I love grapes."
   },
   {
     "email": "",
