@@ -35,16 +35,16 @@ export default function Submission() {
             Eligibility
           </Typography>
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
-            Each author in a paper submission must be enrolled either full-time as an undergraduate student in an accredited college or university OR as a high school student affiliated with a collegiate research program
-            Undergraduate students may submit non-mentored research work provided it meets IEEE’s standards of quality
-            High school students must be affiliated with faculty-mentored research programs (i.e. ASSIP, RISE, RSI, SSP, etc.) or be working directly and substantially with university students during the course of the research, but not necessarily during the time of application or conference, to submit their work as a paper presentation
-            High school students not affiliated with an undergraduate institution may be eligible to submit their research as poster presentations and lightning talks
-            All submissions must be the full and sole work of the student(s) taking ownership of the material
-            Faculty mentors who supervised the student research may be listed as co-authors on the paper, but are not eligible to be part of the presenting team of said research during the conference
-            The student(s) must have completed their research prior to receiving their undergraduate degree
-            In addition to meeting all URTC guidelines, prospective presenters must also meet all IEEE guidelines for publication
-            The student(s) interested in submitting for the paper presentation must submit a manuscript that is no more than 5 pages long, no exceptions
-            All prospective submissions must align to one of the stated URTC tracks
+            Each author in a paper submission must be enrolled either full-time as an undergraduate student in an accredited college or university OR as a high school student affiliated with a collegiate research program.
+            Undergraduate students may submit non-mentored research work provided it meets IEEE’s standards of quality.
+            High school students must be affiliated with faculty-mentored research programs (i.e. ASSIP, RISE, RSI, SSP, etc.) or be working directly and substantially with university students during the course of the research, but not necessarily during the time of application or conference, to submit their work as a paper presentation.
+            High school students not affiliated with an undergraduate institution may be eligible to submit their research as poster presentations and lightning talks.
+            All submissions must be the full and sole work of the student(s) taking ownership of the material.
+            Faculty mentors who supervised the student research may be listed as co-authors on the paper, but are not eligible to be part of the presenting team of said research during the conference.
+            The student(s) must have completed their research prior to receiving their undergraduate degree.
+            In addition to meeting all URTC guidelines, prospective presenters must also meet all IEEE guidelines for publication.
+            The student(s) interested in submitting for the paper presentation must submit a manuscript that is no more than 5 pages long, no exceptions.
+            All prospective submissions must align to one of the stated URTC tracks.
           </Typography>
 
           <Typography variant="string" component="h2" color="white" gutterBottom>
