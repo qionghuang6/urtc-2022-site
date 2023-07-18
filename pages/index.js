@@ -200,7 +200,7 @@ export default function Index({ events }) {
         </Typography>
         <Grid container direction="row" columnSpacing={4}>
           <Grid item xs={4.5} align='left'>
-             <img style={{width: "100%"}} src="/blackboard.png" />
+             <img style={{width: "100%", maxWidth: mobile? "205px":"410px"}} src="/blackboard.png" />
           </Grid>
           <Grid item xs={5} container direction="column" rowSpacing={4.5} align='left' >
             <Grid item>
@@ -217,7 +217,7 @@ export default function Index({ events }) {
             </Grid>
           </Grid>
           <Grid item xs={2.5} align="right">
-            <img style={{width: "100%"}} src="/rocket_art.png" />
+            <img style={{width: "100%", maxWidth: mobile? "200px":"400px"}} src="/rocket_art.png" />
           </Grid>
         </Grid>
 

@@ -104,30 +104,33 @@ export default function Banner() {
                             </>
                         </Box>
                     </Grid>
-                    <Grid item xs={12} sm={8} >
-                        <Typography variant="h3" align={mid? "center" : "left"} fontFamily="Montserrat" fontWeight="700" color="#fff" fontSize='163px' paddingBottom="5px">
-                        <img style={{ verticalAlign: 'middle', display: mobile || mid ? 'inline' : 'none', width: "100%", maxWidth: '260px', paddingBottom:'24px', paddingRight:'40px'}} src="/MIT-logo-red-gray.png" />
+                    <Grid item xs={12} sm={0.5}>
+                    </Grid>
+                    <Grid item xs={12} sm={7} >
+
+                        <Typography variant="h3" align={mid? "center" : "left"} fontFamily="Montserrat" fontWeight="700" color="#fff" fontSize={mobile?'80px':'160px'} paddingBottom="5px">
+                        <img style={{ verticalAlign: 'middle', horizontalAlign: 'left', display: mobile || mid ? 'inline' : 'none', width: "100%", maxWidth: mobile ? '120px':'235px', paddingBottom:'24px', paddingRight:'20px'}} src="/MIT-logo-red-gray.png" />
                         URTC
                         </Typography>
                         <Typography variant="h3" fontFamily="Montserrat" fontWeight="500" color="#fff">
-                                <GradientTypography zIndex="1" fontFamily="Montserrat" fontWeight="700" paddingLeft="64px"
+                                <GradientTypography zIndex="1" fontFamily="Montserrat" fontWeight="700" paddingLeft="0px"
                                     background='-webkit-linear-gradient(0deg, #f12711, #f5af19)' chosen={gradientBanner === 0}
                                 >
                                     Undergraduate
                                 
                                 </GradientTypography>
-                                <GradientTypography zIndex="1" fontFamily="Montserrat" fontWeight="700" paddingLeft="306px"
+                                <GradientTypography zIndex="1" fontFamily="Montserrat" fontWeight="700" paddingLeft="250px"
                                     background='-webkit-linear-gradient(0deg, #00B4DB, #0083B0)' chosen={gradientBanner === 1}
                                 >
                                     Research
                                 
                                 </GradientTypography>
-                                <GradientTypography  fontFamily="Montserrat" fontWeight="700" paddingLeft="458px"
+                                <GradientTypography  fontFamily="Montserrat" fontWeight="700" paddingLeft="408px"
                                 background='-webkit-linear-gradient(0deg, #c471f2, #f76cc6)' chosen={gradientBanner === 2}
                                 >
                                     Technology
                                 </GradientTypography>
-                                <GradientTypography fontFamily="Montserrat" fontWeight="700" paddingLeft="644px"
+                                <GradientTypography fontFamily="Montserrat" fontWeight="700" paddingLeft="600px"
                                     background='-webkit-linear-gradient(0deg, #36e364, #37f0e3)' chosen={gradientBanner === 3}
                                 >
                                     Conference
@@ -140,7 +143,7 @@ export default function Banner() {
                             <em>October 6 - October 8, 2023</em>
                         </Typography>
                     </Grid>
-                    <Grid xs={12} sm={2}>
+                    <Grid xs={12} sm={2.5}>
                     </Grid>
 
                     <Grid xs={12} sm={0.6}>
