@@ -11,12 +11,16 @@ export default function GradientTypography({ background = '-webkit-linear-gradie
         '-webkit-text-fill-color': 'transparent',
         transition: 'opacity 0.5s linear',
         position: 'absolute',
-        right: mobile ? undefined : 0,
-        left: mobile ? 0: undefined,
-        fontSize: mobile ? '35px' : smaller ? '55px' : '100px',
+        // right: mobile ? undefined : 0,
+        // left: mobile ? 0: undefined,
+        // fontSize: mobile ? '35px' : smaller ? '55px' : '100px',
+        fontSize: '28px',
+        backgroundSize: "100%",
+        backgroundRepeat: "repeat",
+        backgroundClip: "text",
     }
     return (
-        <Box sx={{...sx, height: mobile ? '35px' : smaller ? '55px' : '100px'}} position="relative">
+        <Box sx={{...sx}} position="relative">
             <Typography {...other} sx={{...textStyles, background: 'white', zIndex: 0}}>
                 { children }
             </Typography>
@@ -24,5 +28,13 @@ export default function GradientTypography({ background = '-webkit-linear-gradie
                 { children }
             </Typography>
         </Box>
+        // <Box sx={{...sx, height: mobile ? '35px' : smaller ? '55px' : '100px'}} position="relative">
+        //     <Typography {...other} sx={{...textStyles, background: 'white', zIndex: 0}}>
+        //         { children }
+        //     </Typography>
+        //     <Typography {...other}  sx={{...textStyles, opacity: chosen ? 1 : 0, zIndex: 1}}>
+        //         { children }
+        //     </Typography>
+        // </Box>
     );
 }

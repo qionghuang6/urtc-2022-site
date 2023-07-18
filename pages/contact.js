@@ -10,7 +10,7 @@ import Copyright from '../src/Copyright';
 import GlassBox from '../src/GlassBox';
 
 export default function Contact() {
-  const title = 'Contact | URTC 2022'
+  const title = 'Contact | URTC 2023'
   return (
     <>
       <Head>

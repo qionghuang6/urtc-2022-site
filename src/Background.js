@@ -9,7 +9,7 @@ export default function Background() {
         test.initialize();
         test.animate();
     }, []);
-    
+
       return (
         <div>
           <canvas
@@ -18,4 +18,14 @@ export default function Background() {
             />
         </div>
       );
-    }
+      // const myStyle={
+      //       backgroundImage:'/background_pic.png'
+      //       }
+      //   return (
+      //     <div  >
+      //       <canvas
+      //         id="myStyle"
+      //       />
+      //     </div>
+      //   );
+  }

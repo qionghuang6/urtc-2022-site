@@ -1,16 +1,5 @@
 export const organizers = [
   {
-    "email": "tammyc@mit.edu",
-    "name": "Tammy Chen",
-    "img": "tammy.jpeg",
-    "team": "Conference Co-Chair",
-    "intro": "I'm Tammy Chen, majoring in 6-14. I came to MIT from Brooklyn, New York.",
-    "position": "I am one of this year's conference chairs which means I make sure the conference goes smoothly behind the scene. I am responsible for overseeing the different departments in URTC (logistics, technology, sponsorship, publicity) & conference planning on a large scale.",
-    "interests": "I love learning more about artificial intelligence & investigating more into the virtual reality realm.",
-    "spare_time": "I am a culprit of investing too much time into fantasy sports & analytics (particularly football and basketball) + playing Valorant. I also love taking long walks & visiting new places.",
-    "random": "Chicken nuggets with guacamole is a superior food combination + I am beyond scared of heights."
-  },
-  {
     "email": "",
     "img": "ellie.png",
     "name": "Ellie Montemayor",
@@ -22,27 +11,38 @@ export const organizers = [
     "random": "Two random things about me: I don't know how to ride a bike, and I'm a massive Beatles fangirl."
   },
   {
-    "email": "ggliu@mit.edu",
-    "img": "george.jpg",
-    "name": "George Liu",
+    "email": "lasyab@mit.edu",
+    "img": "lasya.jpg",
+    "name": "Lasya Balachandran",
     "team": "Conference Co-Chair",
-    "intro": "I'm George Liu, majoring in 6-14 (Computer Science, Economics, and Data Science). I'm originally from Naperville, Illinois.",
-    "position": "I'm one of this year's conference chairs, which (supposedly) means I have a lot of responsibility. It's also my first year as part of the URTC team, so much of my time has been spent doing the grunt work while the more experienced conference chairs actually plan the logistics.",
-    "interests": "I'm most interested in computational social sciences. I've done some research so far at MIT, most of which pertains to public policy. ",
-    "spare_time": "I play soccer, video games, and take naps. I wish I had something more interesting to say here.",
-    "random": "I share a birthday (and birthplace) with Justin Bieber, and am very afraid of heights"
+    "intro": "I'm Lasya Balachandran, and I'm a junior majoring in Course 6-2 (Electrical Engineering and Computer Science). I'm from Marlboro, New Jersey.",
+    "position": "I'm one of this year's conference chairs, so I work on aspects related to logistics, technology, sponsorship, and publicity, including helping to find speakers and panelists and working on the website. ", //"I'm on the logistics team, so I help out with reaching out to speakers and panelists, organizing events during the conference, and coordinating venues, including buildings/rooms and housing for in-person attendees and Hopin for virtual attendees.",
+    "interests": "I'm interested in robotics, embedded systems, and computer architecture. I am currently working on research related to using an IMU for location tracking, and I have previously worked on research on enabling safe human-robot interaction.",
+    "spare_time": "I like to play tennis, ultimate frisbee, and basketball. I also enjoy running and hiking with friends.",
+    "random": "I'm a twin, and I love grapes."
   },
-  {
-    "email": "",
-    "img": "gianna.jpg",
-    "name": "Gianna Torpey",
-    "team": "Publicity Chair",
-    "intro": "",
-    "position": "",
-    "interests": "",
-    "spare_time": "",
-    "random": ""
-  },
+  // {
+  //   "email": "ggliu@mit.edu",
+  //   "img": "george.jpg",
+  //   "name": "George Liu",
+  //   "team": "Conference Co-Chair",
+  //   "intro": "I'm George Liu, majoring in 6-14 (Computer Science, Economics, and Data Science). I'm originally from Naperville, Illinois.",
+  //   "position": "I'm one of this year's conference chairs, which (supposedly) means I have a lot of responsibility. It's also my first year as part of the URTC team, so much of my time has been spent doing the grunt work while the more experienced conference chairs actually plan the logistics.",
+  //   "interests": "I'm most interested in computational social sciences. I've done some research so far at MIT, most of which pertains to public policy. ",
+  //   "spare_time": "I play soccer, video games, and take naps. I wish I had something more interesting to say here.",
+  //   "random": "I share a birthday (and birthplace) with Justin Bieber, and am very afraid of heights"
+  // },
+  // {
+  //   "email": "",
+  //   "img": "gianna.jpg",
+  //   "name": "Gianna Torpey",
+  //   "team": "Publicity Chair",
+  //   "intro": "",
+  //   "position": "",
+  //   "interests": "",
+  //   "spare_time": "",
+  //   "random": ""
+  // },
   {
     "email": "huangq@mit.edu",
     "name": "Qiong Zhou Huang",
@@ -54,17 +54,17 @@ export const organizers = [
     "spare_time": "",
     "random": ""
   },
-  {
-    "email": "robertcc@mit.edu",
-    "img": "robert.jpg",
-    "name": "Robert Chen",
-    "team": "Technology",
-    "intro": "My name is Robert Chen, and I'm a Course 6 (Computer Science) major from Lexington, Massachusetts.",
-    "position": "I'm on the technology team, so I help out with the website and other tech-related aspects of the conference.",
-    "interests": "I'm interested in algorithms, machine learning, and finance. I have done research in computational psycholinguistics and applied cryptography.",
-    "spare_time": "I'm a risk-averse adventurer who enjoys hiking and bouldering, horror movie enthusiast, chess beginner, and closeted weeb.",
-    "random": "I'm on a mission to try every Mountain Dew flavor, and my favorite movie character is Megamind."
-  },
+  // {
+  //   "email": "robertcc@mit.edu",
+  //   "img": "robert.jpg",
+  //   "name": "Robert Chen",
+  //   "team": "Technology",
+  //   "intro": "My name is Robert Chen, and I'm a Course 6 (Computer Science) major from Lexington, Massachusetts.",
+  //   "position": "I'm on the technology team, so I help out with the website and other tech-related aspects of the conference.",
+  //   "interests": "I'm interested in algorithms, machine learning, and finance. I have done research in computational psycholinguistics and applied cryptography.",
+  //   "spare_time": "I'm a risk-averse adventurer who enjoys hiking and bouldering, horror movie enthusiast, chess beginner, and closeted weeb.",
+  //   "random": "I'm on a mission to try every Mountain Dew flavor, and my favorite movie character is Megamind."
+  // },
   {
     "email": "",
     "img": "karen.jpg",
@@ -88,17 +88,6 @@ export const organizers = [
     "random": "1. I sneeze when I look at the sun. 2. I hate balsamic vinegar."
   },
   {
-    "email": "lasyab@mit.edu",
-    "img": "lasya.jpg",
-    "name": "Lasya Balachandran",
-    "team": "Logistics",
-    "intro": "I'm Lasya Balachandran, and I'm majoring in Course 6-2 (Electrical Engineering and Computer Science). I'm from Marlboro, New Jersey.",
-    "position": "I'm on the logistics team, so I help out with reaching out to speakers and panelists, organizing events during the conference, and coordinating venues, including buildings/rooms and housing for in-person attendees and Hopin for virtual attendees.",
-    "interests": "I'm interested in autonomy, robotics, and embedded systems. I am currently doing research on enabling safe human-robot interaction.",
-    "spare_time": "I like to play tennis, ultimate frisbee, and basketball. I also enjoy running and hiking with friends.",
-    "random": "I'm a twin, and I love grapes."
-  },
-  {
     "email": "",
     "img": "lucas.jpg",
     "name": "Lucas Chu",
@@ -108,6 +97,17 @@ export const organizers = [
     "interests": "",
     "spare_time": "",
     "random": ""
+  },
+  {
+    "email": "tammyc@mit.edu",
+    "name": "Tammy Chen",
+    "img": "tammy.jpeg",
+    "team": "Advisor",
+    "intro": "I'm Tammy Chen, majoring in 6-14. I came to MIT from Brooklyn, New York.",
+    "position": "", //"I am one of this year's conference chairs which means I make sure the conference goes smoothly behind the scene. I am responsible for overseeing the different departments in URTC (logistics, technology, sponsorship, publicity) & conference planning on a large scale.",
+    "interests": "I love learning more about artificial intelligence & investigating more into the virtual reality realm.",
+    "spare_time": "I am a culprit of investing too much time into fantasy sports & analytics (particularly football and basketball) + playing Valorant. I also love taking long walks & visiting new places.",
+    "random": "Chicken nuggets with guacamole is a superior food combination + I am beyond scared of heights."
   },
   {
     "email": "",
@@ -120,15 +120,15 @@ export const organizers = [
     "spare_time": "I enjoy playing recreational sports, listening to music during my endurance runs, and spending time near/in water (preferably clean bodies of water!)",
     "random": "I enjoy watching Bollywood movies and I’ve met the owner of the Cowboys, Jerry Jones."
   },
-  {
-    "email": "",
-    "img": "meenu.jpg",
-    "name": "Meenu Singh",
-    "team": "Advisor",
-    "intro": "",
-    "position": "",
-    "interests": "",
-    "spare_time": "",
-    "random": ""
-  },
+  // {
+  //   "email": "",
+  //   "img": "meenu.jpg",
+  //   "name": "Meenu Singh",
+  //   "team": "Advisor",
+  //   "intro": "",
+  //   "position": "",
+  //   "interests": "",
+  //   "spare_time": "",
+  //   "random": ""
+  // },
 ]

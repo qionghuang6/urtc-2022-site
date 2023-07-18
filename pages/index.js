@@ -13,15 +13,102 @@ import Calendar from '../src/Calendar';
 import Speakers from '../src/speakers/Speakers';
 import Sponsors from '../src/sponsors/Sponsors';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 export default function Index({ events }) {
   const [calendarExpanded, setCalendarExpanded] = React.useState(false);
+  const mobile = useMediaQuery('(max-width:599px)');
+
   return (
     <>
       <Banner />
       <Container maxWidth="xl">
-        <Grid container spacing="0px">
-          <Grid item xs={12} >
+      {/* <GlassBox background='-webkit-linear-gradient(0deg, rgb(0,180,219, 0.8), rgb(0,131,176, 0.8))'> */}
+        <Grid container direction="row" columnSpacing="8px" sx={{background:'white', paddingTop:'20px', paddingBottom:'15px'}}>
+          <Grid item xs={7.7} container direction="column" rowSpacing="2px" align="center">
+              <Grid item>
+                <Typography variant="text" component="h1" color="black">
+                  MIT URTC @ Ray and Maria Stata Center
+                </Typography>
+              </Grid>
+              <Grid item>
+                <Typography color="black" variant="h5">
+                (32 Vassar St, Cambridge, MA 02139) 
+                </Typography>
+              </Grid> 
+              <Grid item>
+                <Typography color="black" variant="h5" paddingTop="10px">
+                Technical Paper Submission Deadline: <b>August 4, 2023</b> 
+                </Typography>
+              </Grid>
+              <Grid item>
+                <Typography color="black" variant="h5" >
+                Technical Paper Acceptance Notification: <b>August 27, 2023</b> 
+                </Typography>
+              </Grid>
+              <Grid item>
+                <Typography color="black" variant="h5" >
+                Poster and Lighting Talk Submissions Deadline: <b>September 3, 2023</b> 
+                </Typography>
+              </Grid>
+              <Grid item>
+                <Typography color="black" variant="h5" >
+                Poster and Lightning Talk Acceptance Notification: <b>September 10, 2023</b> 
+                </Typography> 
+              </Grid> 
+              <Grid item>
+                <Typography paddingTop='15px'>
+                  <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2023"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
+                          Submit Your Research
+                  </Button>
+                </Typography> 
+              </Grid>
+            </Grid>
+            <Grid item xs={4.3} align="left">
+              <Typography variant="h3" fontFamily="Montserrat" color="#fff" >
+                <img style={{width: "100%", maxWidth:"450px", verticalAlign:"center"}} src="/stata_transparent.png" />
+              </Typography>
+            </Grid>
+
+
+        {/* <Grid item xs={8} >
+            <GlassBox background='-webkit-linear-gradient(0deg, rgb(0,180,219, 0.8), rgb(0,131,176, 0.8))'>
+             <Grid item xs={12}>
+              <Typography align="center" variant="text" component="h1" color="white">
+                  MIT URTC @ Ray and Maria Stata Center
+                </Typography>
+                <Typography color="white" variant="h5" align="center" paddingBottom='20px'>
+                (32 Vassar St, Cambridge, MA 02139) 
+                </Typography>
+                <Typography color="white" variant="h5" align="center">
+                Technical Paper Submission Deadline: <b>August 4, 2023</b> 
+                </Typography>
+                <Typography color="white" variant="h5" align="center">
+                Technical Paper Acceptance Notification: <b>August 27, 2023</b> 
+                </Typography>
+                <Typography color="white" variant="h5" align="center">
+                Poster and Lighting Talk Submissions Deadline: <b>September 3, 2023</b> 
+                </Typography>
+                <Typography color="white" variant="h5" align="center">
+                Poster and Lightning Talk Acceptance Notification: <b>September 10, 2023</b> 
+                </Typography>  
+                <Typography align='center' paddingTop='20px'>
+                  <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2023"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
+                          Submit Your Research
+                  </Button>
+                </Typography> 
+              </Grid>
+            </GlassBox>
+          </Grid>
+          <Grid item xs={4} paddingTop='25px'>
+            <GlassBox background='transparent'>
+              <Typography align='center' variant="h3" fontFamily="Montserrat" color="#fff" >
+                <img style={{ align: 'center', verticalAlign: 'middle', width: "100%", maxWidth: '450px'}} src="/stata.png" />
+              </Typography>
+            </GlassBox>
+          </Grid> */}
+
+          {/* <Grid item xs={12} >
             <GlassBox background='-webkit-linear-gradient(0deg, rgb(0,180,219, 0.8), rgb(0,131,176, 0.8))'>
               <Typography align="center" variant="text" component="h1" color="white">
                 URTC 2023 Dates
@@ -39,7 +126,8 @@ export default function Index({ events }) {
               Poster and Lightning Talk Acceptance Notification: <b>September 10, 2023</b> 
               </Typography>
             </GlassBox>
-          </Grid>
+          </Grid> */}
+    
           {/* <Grid item xs={12} md={6} >
             <GlassBox background="rgba(222, 95, 218, 0.5)" href="https://now.mit.edu/policies/campus-access-and-visitors/">
               <Typography align="center" variant="h6" component="h1" color="white">
@@ -56,20 +144,24 @@ export default function Index({ events }) {
               <Typography align="center" variant="body1" color="white">Tim Tickets are required for all non-MIT affliated guests to enter the conference: https://visitors.mit.edu/?event=53baaf2e-c3b7-4f52-8577-3f235c2ef92f</Typography>
             </GlassBox>
           </Grid> */}
+          
         </ Grid>
+        {/* </GlassBox> */}
       </Container>
       <Container maxWidth="lg">
         <Grid container spacing="6px">
-          <Box paddingTop="24px"></Box>
+          <Box paddingTop="40px"></Box>
           <Grid item xs={12} >
+
             {/* <GlassBox background="rgba(0, 255, 242, 0.5)" href="https://events.vtools.ieee.org/m/322774">
               <Typography align="center" variant="h4" component="h1" color="white">
                 Registration is Now Open!
               </Typography>
               <Typography align="center" variant="h5" color="white">Click Here to Register!</Typography>
             </GlassBox> */}
+
           </Grid>
-          <Grid item xs={12} md={6}>
+          {/* <Grid item xs={12} md={6}>
             <GlassBox href="./about">
               <Typography variant="h4" align="center" fontFamily="Montserrat" fontWeight="700" component="h1" color="white" gutterBottom>
                 What is URTC?
@@ -82,21 +174,9 @@ export default function Index({ events }) {
                 Staffed by a group of students from MIT working in collaboration with the Institute of Electrical and Electronics and Engineers (IEEE), we boast a wide variety of programming at each conference such as paper/poster presentations by our student presenters, talks and panels by industry leaders, and networking and social events.
               </Typography>
             </GlassBox>
-          </ Grid>
-          <Grid item xs={12} md={6}>
-            {/* <GlassBox background='linear-gradient(135deg, rgba(33, 147, 200, 0.6), rgb(109, 213, 237, 0.6))'>
-              <Typography variant="h4" align="center" component="h1" fontFamily="Montserrat" fontWeight="700" color="white" gutterBottom>
-                Logistics
-              </Typography>
-              <Typography variant="body1" component="h1" color="white" gutterBottom>
-                This year, URTC will be held under a hybrid model—we will combine virtual elements from our 2020 and 2021 conferences and in-person elements from all the years that came before that! This change aims to allow participants an authentic conference experience with like-minded peers in the same physical environment while also providing those who are unable to travel to MIT to experience the conference virtually. Both student presenters and general attendees are eligible to participate in either method.
-
-                Note: we are not hosting two separate in-person and virtual conferences! Instead, we are providing a means for URTC participants to attend and present virtually through live streaming. To accommodate this combined method, many of our events will be run in a modified format.
-
-                When registering for the conference, attendees can choose to attend either in-person or virtually.
-              </Typography>
-            </GlassBox> */}
-            <GlassBox background='linear-gradient(45deg, rgba(255,0,0,0.6), rgb(255, 255, 0, 0.6))'>
+          </ Grid> */}
+          {/* <Grid item xs={12} md={6}> */}
+            {/* <GlassBox background='linear-gradient(45deg, rgba(255,0,0,0.6), rgb(255, 255, 0, 0.6))'>
               <Typography variant="h4" align="center" fontFamily="Montserrat" fontWeight="700" component="h1" color="white" gutterBottom>
                 Location
               </Typography>
@@ -109,9 +189,75 @@ export default function Index({ events }) {
                 Find Submission and Presentation Guidelines Here!
               </Typography>
             </GlassBox>
+          </Grid> */}
+        </Grid>
+        
+        <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="left">
+          URTC 2023
+        </Typography>
+        <Typography variant='h5' marginBottom='25px'>
+          <hr align='left' style={{width: mobile? '400px':'800px', height:'6px', backgroundColor: 'white'}}></hr>
+        </Typography>
+        <Grid container direction="row" columnSpacing={4}>
+          <Grid item xs={4.5} align='left'>
+             <img style={{width: "100%"}} src="/blackboard.png" />
+          </Grid>
+          <Grid item xs={5} container direction="column" rowSpacing={4.5} align='left' >
+            <Grid item>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2022_program_table.pdf"><PictureAsPdfIcon/>{'\u00A0'}Program Overview Table (2022) </Button>
+            </Grid>
+            <Grid item>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2022_paper_presentation_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Paper Presentation Schedule (2022) </Button>
+            </Grid>
+            <Grid item>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2022_poster_presentation_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Poster Presentation Schedule (2022) </Button>
+            </Grid>
+            <Grid item>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2022_lightning_talk_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Lightning Talk Schedule (2022)</Button>
+            </Grid>
+          </Grid>
+          <Grid item xs={2.5} align="right">
+            <img style={{width: "100%"}} src="/rocket_art.png" />
           </Grid>
         </Grid>
-        <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="right">
+
+        <Grid container direction="row" columnSpacing={6} sx={{marginTop: '20px'}}>
+          <Grid item>
+            <Button variant='contained' component="a" target="_blank" href="/team"  sx={{fontSize: mobile? '12px':'18px', marginX: '8px', color: 'black', backgroundColor: 'white'}}>
+              Meet the Team
+            </Button>
+          </Grid>
+          <Grid item>
+            <Button variant='contained' component="a" target="_blank" href="https://bit.ly/urtc23-tracks"  sx={{fontSize: mobile? '12px':'18px', marginX: '8px', color: 'black', backgroundColor: 'white'}}>
+              2023 Tracks
+            </Button>
+          </Grid>
+          <Grid item>
+            <Button variant='contained' component="a" target="_blank" href="/submission"  sx={{fontSize: mobile? '12px':'18px', marginX: '8px', color: 'black', backgroundColor: 'white'}}>
+              How to Apply
+            </Button>
+          </Grid>
+        </Grid>
+
+        
+        <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="left" paddingTop='50px'>
+          SPEAKERS
+        </Typography>
+        <Typography variant='h5' marginBottom='20px'>
+          <hr align='left' style={{width: mobile? '400px':'800px', height:'6px', backgroundColor: 'white'}}></hr>
+        </Typography>
+        <Speakers />
+
+        <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="left" paddingTop='50px'>
+          SPONSORS
+        </Typography>
+        <Typography variant='h5' marginBottom='20px'>
+          <hr align='left' style={{width: mobile? '400px':'800px', height:'6px', backgroundColor: 'white'}}></hr>
+        </Typography>
+        <Sponsors/>
+
+
+        {/* <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="right">
           2023 Schedule (Coming Soon)
 
         </Typography>
@@ -147,7 +293,7 @@ export default function Index({ events }) {
           Sponsors
         </Typography>
         <Sponsors />
-        <Box mt="10rem" />
+        <Box mt="10rem" /> */}
       </Container>
     </>
   );

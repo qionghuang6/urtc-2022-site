@@ -11,7 +11,7 @@ import GlassBox from '../src/GlassBox';
 
 
 export default function Submission() {
-  const title = 'Submission | URTC 2022'
+  const title = 'Submission | URTC 2023'
   return (
     <>
       <Head>

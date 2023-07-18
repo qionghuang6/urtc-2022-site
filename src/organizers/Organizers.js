@@ -9,8 +9,8 @@ export default function Organizers() {
         return <Grid key={i} item xs={6} sm={3} lg={2}><OrganizerHeadshot key={organizer.name} {...organizer} /></Grid>
     })
     return (
-        <Box sx={{ marginTop: '36px'}}>
-            <Typography color="white" variant="h2" align="right" fontFamily="Montserrat" fontWeight="700" paddingBottom="12px">Organizers</Typography>
+        <Box sx={{ marginTop: '0px'}}>
+            <Typography color="white" variant="h2" align="left" fontFamily="Montserrat" fontWeight="700" paddingBottom="20px">URTC 2023 Team</Typography>
             <Box>
                 <Grid container spacing={3}>
                     {headshots}

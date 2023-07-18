@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import { Button, AppBar, Container, Toolbar, IconButton, Typography, Box, MenuItem, Menu } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
-const pageMap = { 'About': '/about', 'Submission + Presentation': '/submission', 'Sponsorship': '/sponsorship', 'Contact Us': '/contact', 'FAQ': '/faq' };
+// const pageMap = { 'About': '/about', 'URTC 2023': '/urtc2023', 'Apply': '/apply', 'Submission + Presentation': '/submission', 'Sponsorship': '/sponsorship', 'Contact Us': '/contact', 'FAQ': '/faq' };
+const pageMap = { 'About': '/about', 'Submission': '/submission', 'Sponsorship': '/sponsorship', 'Contact Us': '/contact', 'FAQ': '/faq' };
 const pages = Object.keys(pageMap);
 
 export default function SiteNavigation() {
