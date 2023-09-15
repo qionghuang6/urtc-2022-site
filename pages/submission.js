@@ -107,16 +107,26 @@ export default function Submission() {
 
           <br/>
           <Typography variant="string" component="h1" color="white" gutterBottom>
-            Guidelines in PDF Format:
+            Submission Guidelines:
           </Typography>
-          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/poster_presentation_2022.pdf">
-            Poster Presentation
-          </Button>
           <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/paper_submission_2022.pdf">
-            Paper Presentation
+            Paper Submission
           </Button>
           <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/conference-template-letter.docx">
             Paper Template
+          </Button>
+
+          <Typography variant="string" component="h1" color="white" gutterBottom>
+            Presentation Guidelines:
+          </Typography>
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/paper_presentation_2023.pdf">
+            Paper Presentation
+          </Button>
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/poster_presentation_2023.pdf">
+            Poster Presentation
+          </Button>
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/lightning_talk_presentation_2023.pdf">
+            Lightning Talk
           </Button>
         </GlassBox>
         <Box paddingBottom="3rem"></Box>

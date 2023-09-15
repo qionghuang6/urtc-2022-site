@@ -41,6 +41,7 @@ export default function Banner() {
     }
 
 
+
     return (
         <Container maxWidth="xl">
             <GlassBox
@@ -112,8 +113,8 @@ export default function Banner() {
                         <img style={{ verticalAlign: 'middle', horizontalAlign: 'left', display: mobile || mid ? 'inline' : 'none', width: "100%", maxWidth: mobile ? '120px':'235px', paddingBottom:'24px', paddingRight:'20px'}} src="/MIT-logo-red-gray.png" />
                         URTC
                         </Typography>
-                        <Typography variant="h3" fontFamily="Montserrat" fontWeight="500" color="#fff">
-                                <GradientTypography zIndex="1" fontFamily="Montserrat" fontWeight="700" paddingLeft="0px"
+                        <Typography variant="h3" fontFamily='Montserrat' fontWeight="500" color="#fff">
+                                <GradientTypography zIndex="1" fontFamily='Montserrat' fontWeight="700" paddingLeft="0px"
                                     background='-webkit-linear-gradient(0deg, #f12711, #f5af19)' chosen={gradientBanner === 0}
                                 >
                                     Undergraduate
