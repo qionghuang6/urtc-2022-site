@@ -58,6 +58,15 @@ export const speakers = [
 //     abstact: 'Machines are beginning to catch up with humans in many ways, for example in vision, speech, autonomous driving, and robot locomotion. But humans still put robots to shame when using their hands for everyday tasks. Why are robots so bad at manipulation? After all, robot hands are built with precision parts, while human hands are built from squishy flesh. The trick is that human hands are covered with tactile sensors and filled with proprioceptive sensors, and sensory data is needed for controlling interactions with the world. My lab builds robot fingers that are soft like human fingers and which have higher resolution touch sensing than human fingers. Our goal is to give robots a sense of touch, and to use tactile information to guide skillful manipulation. A robot equipped with our fingers can fold a towel or tell if an avocado is ripe.',
 // },
 {
+    name: 'Andrew Sass, PhD',
+    affiliation: 'Vice Chair of the Long Island Robotics and Automation Chapter, IEEE',
+    img: 'sass.jpg',
+    type: 'Speaker',
+    title: 'ESP32 Robotics System Workshop',
+    abstact: 'The proliferation of the ESP32 series of System-On-Chip (SOC) microcontrollers with Wi-Fi capability, makes possible the development of unique Robotics Systems allowing both operator and autonomous operation. Two Wi-Fi systems will be introduce at the workshop. Both systems have been built and incorporated in a prototype mobile robot.',
+    bio: 'Dr. Sass holds a BSEE from the Massachusetts Institute of Technology and an MSEE and Ph.D.(EE) from Purdue University. He was a 2 nd Lt. in the US Army assigned to NASA working in the field of Superconducting Magnets. As a research engineer at RCA Research Labs in Princeton, NJ, he developed new superconducting memory elements and subsystems. He is the author and co-author of a number of reviewed published papers and the lead author of a chapter on computer memories in a book entitled Applied Superconductivity.. He is a recipient of the David Sarnoff Outstanding Achievement Award in Science. As a Senior Engineer at IBM Development Lab in Fishkill, NY he led the team which developed the first high-capacity semiconductor memory chip. As Director of Technology at Motorola’s Consumer Division in Franklin Park, Illinois, he conceived a multi-game video game Integrated Circuit System. As Director of Product Planning at General instrument\'s Microelectronics Division in Hicksville, NY, he was responsible for video game and other Integrated Circuit development. After retirement from industry, he taught AP Physics, Physics, and Robotics. He helped form and co-coached a high school FIRST robotics team which won the 2007 L.I. FIRST Robotics Regional and competed in the Atlanta Nationals. Dr. Sass is Vice Chair of the Long Island Robotics and Automation chapter of the IEEE. He has been designing and building robots for more than 20 years.',
+},
+{
     name: 'Farzane Yahyanejad, PhD',
     affiliation: 'Senior Data Scientist at Microsoft',
     img: 'yahyanejad.jpg',
@@ -74,15 +83,6 @@ export const speakers = [
     title: 'Women in STEM',
     abstact: '',
     bio: 'Riddhi Shah is a Senior Software Engineer at Vicor, bringing her expertise to the world of technology. Originally from India, she earned her Master of Science in Electrical and Computer Engineering from UMASS Lowell in 2016. Riddhi\'s passion lies in continually expanding her programming skills and staying at the forefront of AI and ML trends. Her research focus is on driving innovation in semiconductor manufacturing to enhance yield and fault detection processes. As a dedicated advocate for women in STEM, Riddhi actively mentors aspiring female engineers, sharing her experiences and knowledge to inspire the next generation.',
-},
-{
-    name: 'Shaileshachandra Pandey',
-    affiliation: '',
-    img: 'default.jpg',
-    type: 'Panelist',
-    title: 'Women in STEM',
-    abstact: '',
-    bio: '',
 },
 {
     name: 'Lujie Yang',
