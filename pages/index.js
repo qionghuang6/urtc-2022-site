@@ -61,6 +61,10 @@ export default function Index({ events }) {
                   <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2023"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Submit Your Research
                   </Button>
+
+                  <Button variant='contained' component="a" target="_blank" href="https://cvent.me/OdW7yz"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
+                          Register
+                  </Button>
                 </Typography> 
               </Grid>
             </Grid>

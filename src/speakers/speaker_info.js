@@ -41,6 +41,15 @@ export const speakers = [
     bio: 'Bryan is a Co-Founder and CEO of OWL Integrations.  Bryan has led OWL to international grand prize awards in the IBM Call for Code and US Army\'s TechSearch competitions, and currently leads OWL\'s efforts across several US Air Force research and development contracts. Bryan has a B.S. in Mechanical Engineering from the University of Rochester. Bryan is passionate about technology, innovation, private-academic partnerships, and the ongoing shift to American semiconductor manufacturing.',
 },
 {
+    name: 'Sarah Maston',
+    affiliation: 'Director of Partner Development and Strategy at Microsoft',
+    img: 'maston.png',
+    type: 'Keynote',
+    title: 'The Fifth Industrial Revolution (5IR) - A New Era for Sustainability and Conservation',
+    abstact: 'The Fifth Industrial Revolution (5IR) is leveraging technologies of the Forth Industrial Revolution (4IR) and offering the opportunity to create wide-reaching environmental benefits, social benefits, and justice benefits through the application of data, the connectivity of devices through the IoT, artificial intelligence and machine learning. The private sector is active across the deployment of 4IR technologies in the global North, closing the digital divide with countries in the global South is our opportunity to support a wide range of environmental benefits delivered through systems improvements with more equitable access to economic opportunities, socio-economic benefits, and job creation. Join Sarah Maston, Principal Solution Architect & Founder of Project 15 from Microsoft as she explores how partnership across the public and private sectors will bring the innovation needed to create scalable solutions and systems of change in both the Global North and the Global South empowering communities and scaling impact across the  SDG targets set by the United Nations.',
+    bio: 'Sarah Maston is a director of partner development and strategy at Microsoft. She is the founder of Project 15 from Microsoft, (aka.ms/project15story), and co-inventor of the Project 15 Open Platform (aka.ms/project15code) developed in partnership with the GEF Small Grants Programme implemented by the United Nations Development Programme. In her 20+ year career, she has architected many global data intelligence platforms and is the recipient of the Microsoft Gold Club Award in 2023 for her invention of the "Mainframe Data Pipe for Azure" in partnership with Kyndryl. Prior to joining Microsoft, she won an Outstanding Innovation Award from IBM for the invention of Simple Data Pipe and received an Excellence & Eminence Award for the invention of the Nutrition Graph as a winner of IBM’s Blue Unicorn Innovation Contest.',
+},
+{
     name: 'Mark Maybury, PhD',
     affiliation: 'Vice President, Commercialization, Engineering, and Technology for Lockheed Martin',
     img: 'maybury.png',
@@ -85,18 +94,27 @@ export const speakers = [
     bio: 'Riddhi Shah is a Senior Software Engineer at Vicor, bringing her expertise to the world of technology. Originally from India, she earned her Master of Science in Electrical and Computer Engineering from UMASS Lowell in 2016. Riddhi\'s passion lies in continually expanding her programming skills and staying at the forefront of AI and ML trends. Her research focus is on driving innovation in semiconductor manufacturing to enhance yield and fault detection processes. As a dedicated advocate for women in STEM, Riddhi actively mentors aspiring female engineers, sharing her experiences and knowledge to inspire the next generation.',
 },
 {
-    name: 'Lujie Yang',
-    affiliation: '',
-    img: 'default.jpg',
+    name: 'Aline Vargas',
+    affiliation: 'Engineer at Proctor & Gamble',
+    img: 'vargas.jpg',
     type: 'Panelist',
     title: 'Women in STEM',
-    abstact: '',
-    bio: '',
+    abstract: '',
+    bio: 'Aline Vargas graduated from MIT, class of 2021 course 2A-10B. At MIT she was involved in the Biomaker space, Archery, GEL, the UA Covid 19 Committee, McCormick House Govt, and startups--winning the MIT Water Innovation Prize for SVETEX, a sustainable fabric. Aline is now an engineer at Procter & Gamble where she has worked across multiple brands. Her technical passions lie in product innovation, startups, sustainability, people understanding, and business model innovation. At the heart of everything Aline does is: wanting, willing, and working for the good of others for their own sake. Having grown up in Mexico, where family and community are highly valued, Aline seeks to build up the community wherever she goes. In her free time Aline loves making the best of every day with loved ones & learning a new skill every month--so as to "become the best version of herself".',
 },
 {
-    name: 'More Speakers',
-    affiliation: 'More Speakers and Panelists will be announced soon!',
-    img: 'default.jpg',
-    Info: 'More Speakers and Panelists will be announced soon!'
-}
+    name: 'Lujie Yang',
+    affiliation: 'EECS Graduate Student at MIT',
+    img: 'lujieyang.jpg',
+    type: 'Panelist',
+    title: 'Women in STEM',
+    abstact: 'Lujie Yang received the B.S. degree in mechanical engineering from the University of California, Berkeley in 2020. She is currently working toward the Ph.D. degree in electrical engineering and computer science at the Massachusetts Institute of Technology. Her research seeks to enable robots to operate robustly and intelligently, with theoretical guarantees, by combining optimization, control theory and machine learning. She was the recipient of the Presidential Graduate Fellowship, Richard C. Dupont Fellowship and Tung/Lewis Fellowship at MIT. She won the best presentation award at MIT LIDS student conference 2023.',
+    bio: '',
+},
+// {
+//     name: 'More Speakers',
+//     affiliation: 'More Speakers and Panelists will be announced soon!',
+//     img: 'default.jpg',
+//     Info: 'More Speakers and Panelists will be announced soon!'
+// }
 ]
