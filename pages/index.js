@@ -38,22 +38,22 @@ export default function Index({ events }) {
               </Grid> 
               <Grid item>
                 <Typography color="black" variant="h5" paddingTop="10px">
-                Technical Paper Submission Deadline: <b>August 4, 2023</b> 
+                Technical Paper Submission Deadline: <b>August 9, 2024</b> 
                 </Typography>
               </Grid>
               <Grid item>
                 <Typography color="black" variant="h5" >
-                Technical Paper Acceptance Notification: <b>September 1, 2023</b> 
+                Technical Paper Acceptance Notification: <b>September 1, 2024</b> 
                 </Typography>
               </Grid>
               <Grid item>
                 <Typography color="black" variant="h5" >
-                Poster and Lighting Talk Submissions Deadline: <b>September 3, 2023</b> 
+                Poster and Lighting Talk Submissions Deadline: <b>September 6, 2024</b> 
                 </Typography>
               </Grid>
               <Grid item>
                 <Typography color="black" variant="h5" >
-                Poster and Lightning Talk Acceptance Notification: <b>September 10, 2023</b> 
+                Poster and Lightning Talk Acceptance Notification: <b>September 13, 2024</b> 
                 </Typography> 
               </Grid> 
               <Grid item>
@@ -197,7 +197,7 @@ export default function Index({ events }) {
         </Grid>
         
         <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="left">
-          URTC 2023
+          URTC 2024
         </Typography>
         <Typography variant='h5' marginBottom='25px'>
           <hr align='left' style={{width: mobile? '400px':'800px', height:'6px', backgroundColor: 'white'}}></hr>
@@ -208,16 +208,16 @@ export default function Index({ events }) {
           </Grid>
           <Grid item xs={5} container direction="column" rowSpacing={4.5} align='left' >
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1dCzb9vKWOcATE77cVMUkuG574Mgd9HlQ/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Program Overview Table </Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1dCzb9vKWOcATE77cVMUkuG574Mgd9HlQ/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Program Overview Table (2023)</Button>
             </Grid>
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1zoajDwG-amGhkUjAp3lMRO7LIQKnMzIt/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Paper Presentation Schedule </Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1zoajDwG-amGhkUjAp3lMRO7LIQKnMzIt/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Paper Presentation Schedule (2023) </Button>
             </Grid>
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1RpYd-rULck2FcGRaE4YQzWQrBvJxLirQ/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Poster Presentation Schedule </Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1RpYd-rULck2FcGRaE4YQzWQrBvJxLirQ/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Poster Presentation Schedule (2023)</Button>
             </Grid>
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/11ZssqZUXChaD4f1ebO3b_z6cmeoYhb14/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Lightning Talk Schedule </Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/11ZssqZUXChaD4f1ebO3b_z6cmeoYhb14/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Lightning Talk Schedule (2023)</Button>
             </Grid>
           </Grid>
           <Grid item xs={2.5} align="right">
@@ -233,7 +233,7 @@ export default function Index({ events }) {
           </Grid>
           <Grid item>
             <Button variant='contained' component="a" target="_blank" href="https://bit.ly/urtc23-tracks"  sx={{fontSize: mobile? '12px':'18px', marginX: '8px', color: 'black', backgroundColor: 'white'}}>
-              2023 Tracks
+              2024 Tracks
             </Button>
           </Grid>
           <Grid item>
@@ -245,7 +245,7 @@ export default function Index({ events }) {
 
         
         <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="left" paddingTop='50px'>
-          SPEAKERS
+          SPEAKERS (2023)
         </Typography>
         <Typography variant='h5' marginBottom='20px'>
           <hr align='left' style={{width: mobile? '400px':'800px', height:'6px', backgroundColor: 'white'}}></hr>
