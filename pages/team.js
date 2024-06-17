@@ -12,7 +12,7 @@ import GlassBox from '../src/GlassBox';
 import Organizers from '../src/organizers/Organizers';
 
 export default function About() {
-  const title = 'Team | URTC 2023'
+  const title = 'Team | URTC 2024'
   return (
     <>
       {/* <Typography variant='h5' marginBottom='20px'>

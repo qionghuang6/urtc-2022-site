@@ -27,36 +27,36 @@ export default function Index({ events }) {
         <Grid container direction="row" columnSpacing="8px" sx={{background:'white', paddingTop:'20px', paddingBottom:'15px'}}>
           <Grid item xs={7.7} container direction="column" rowSpacing="2px" align="center">
               <Grid item>
-                <Typography variant="text" component="h1" color="black">
+                <Typography variant="text" component="h1" color="black"> 
                   MIT URTC @ Ray and Maria Stata Center
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography color="black" variant="h5">
+                <Typography color="black" variant="h5" paddingTop="5px">
                 (32 Vassar St, Cambridge, MA 02139) 
                 </Typography>
               </Grid> 
               <Grid item>
-                <Typography color="black" variant="h5" paddingTop="10px">
+                <Typography color="black" variant="h5" paddingTop="25px"> {/* paddingTop 10px */}
                 Technical Paper Submission Deadline: <b>August 9, 2024</b> 
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography color="black" variant="h5" >
+                <Typography color="black" variant="h5" paddingTop="10px" > {/* paddingTop 0px */}
                 Technical Paper Acceptance Notification: <b>September 1, 2024</b> 
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography color="black" variant="h5" >
+                <Typography color="black" variant="h5" paddingTop="10px"> {/* paddingTop 0px */}
                 Poster and Lighting Talk Submissions Deadline: <b>September 6, 2024</b> 
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography color="black" variant="h5" >
+                <Typography color="black" variant="h5" paddingTop="10px"> {/* paddingTop 0px */}
                 Poster and Lightning Talk Acceptance Notification: <b>September 13, 2024</b> 
                 </Typography> 
               </Grid> 
-              <Grid item>
+              {/* <Grid item>
                 <Typography paddingTop='15px'>
                   <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2023"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Submit Your Research
@@ -66,7 +66,7 @@ export default function Index({ events }) {
                           Register
                   </Button>
                 </Typography> 
-              </Grid>
+              </Grid> */}
             </Grid>
             <Grid item xs={4.3} align="left">
               <Typography variant="h3" fontFamily="Montserrat" color="#fff" >
