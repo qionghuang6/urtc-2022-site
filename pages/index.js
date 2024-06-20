@@ -245,7 +245,7 @@ export default function Index({ events }) {
 
         
         <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="left" paddingTop='50px'>
-          SPEAKERS (2023)
+          SPEAKERS
         </Typography>
         <Typography variant='h5' marginBottom='20px'>
           <hr align='left' style={{width: mobile? '400px':'800px', height:'6px', backgroundColor: 'white'}}></hr>
