@@ -17,7 +17,7 @@ export const organizers = [
     "team": "Conference Co-Chair",
     "intro": "I'm Lasya Balachandran, and I'm a junior majoring in Course 6-2 (Electrical Engineering and Computer Science). I'm from Marlboro, New Jersey.",
     "position": "I'm one of this year's conference chairs, so I work on aspects related to logistics, technology, sponsorship, and publicity, including helping to find speakers and panelists and working on the website. ", //"I'm on the logistics team, so I help out with reaching out to speakers and panelists, organizing events during the conference, and coordinating venues, including buildings/rooms and housing for in-person attendees and Hopin for virtual attendees.",
-    "interests": "I'm interested in robotics, embedded systems, and computer architecture. I am currently working on research related to using an IMU for location tracking, and I have previously worked on research on enabling safe human-robot interaction.",
+    "interests": "I'm interested in digital design, computer architecture, and embedded systems. I've recently done research related to developing a hardware accelerator for a graph-based vector search algorithm.",
     "spare_time": "I like to play tennis, ultimate frisbee, and basketball. I also enjoy running and hiking with friends.",
     "random": "I'm a twin, and I love grapes."
   },
