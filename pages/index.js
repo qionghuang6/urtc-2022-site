@@ -37,36 +37,36 @@ export default function Index({ events }) {
                 </Typography>
               </Grid> 
               <Grid item>
-                <Typography color="black" variant="h5" paddingTop="25px"> {/* paddingTop 10px */}
+                <Typography color="black" variant="h5" paddingTop="10px"> {/* paddingTop 25px */}
                 Technical Paper Submission Deadline: <b>August 9, 2024</b> 
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography color="black" variant="h5" paddingTop="10px" > {/* paddingTop 0px */}
+                <Typography color="black" variant="h5" paddingTop="0px" > {/* paddingTop 10px */}
                 Technical Paper Acceptance Notification: <b>September 1, 2024</b> 
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography color="black" variant="h5" paddingTop="10px"> {/* paddingTop 0px */}
+                <Typography color="black" variant="h5" paddingTop="0px"> {/* paddingTop 10px */}
                 Poster and Lighting Talk Submissions Deadline: <b>September 6, 2024</b> 
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography color="black" variant="h5" paddingTop="10px"> {/* paddingTop 0px */}
+                <Typography color="black" variant="h5" paddingTop="0px"> {/* paddingTop 10px */}
                 Poster and Lightning Talk Acceptance Notification: <b>September 13, 2024</b> 
                 </Typography> 
               </Grid> 
-              {/* <Grid item>
+              <Grid item>
                 <Typography paddingTop='15px'>
-                  <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2023"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
+                  <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2024"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Submit Your Research
                   </Button>
 
-                  <Button variant='contained' component="a" target="_blank" href="https://cvent.me/OdW7yz"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
+                  {/* <Button variant='contained' component="a" target="_blank" href="https://cvent.me/OdW7yz"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Register
-                  </Button>
+                  </Button> */}
                 </Typography> 
-              </Grid> */}
+              </Grid>
             </Grid>
             <Grid item xs={4.3} align="left">
               <Typography variant="h3" fontFamily="Montserrat" color="#fff" >
@@ -245,7 +245,7 @@ export default function Index({ events }) {
 
         
         <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="left" paddingTop='50px'>
-          SPEAKERS
+          SPEAKERS (2023)
         </Typography>
         <Typography variant='h5' marginBottom='20px'>
           <hr align='left' style={{width: mobile? '400px':'800px', height:'6px', backgroundColor: 'white'}}></hr>

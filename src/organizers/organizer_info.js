@@ -15,7 +15,7 @@ export const organizers = [
     "img": "lasya.jpg",
     "name": "Lasya Balachandran",
     "team": "Conference Co-Chair",
-    "intro": "I'm Lasya Balachandran, and I'm a junior majoring in Course 6-2 (Electrical Engineering and Computer Science). I'm from Marlboro, New Jersey.",
+    "intro": "I'm Lasya Balachandran, and I'm a senior double majoring in Course 6-2 (Electrical Engineering and Computer Science) and 18 (Mathematics). I'm from Marlboro, New Jersey.",
     "position": "I'm one of this year's conference chairs, so I work on aspects related to logistics, technology, sponsorship, and publicity, including helping to find speakers and panelists and working on the website. ", //"I'm on the logistics team, so I help out with reaching out to speakers and panelists, organizing events during the conference, and coordinating venues, including buildings/rooms and housing for in-person attendees and Hopin for virtual attendees.",
     "interests": "I'm interested in digital design, computer architecture, and embedded systems. I've recently done research related to developing a hardware accelerator for a graph-based vector search algorithm.",
     "spare_time": "I like to play tennis, ultimate frisbee, and basketball. I also enjoy running and hiking with friends.",
@@ -109,17 +109,17 @@ export const organizers = [
     "spare_time": "I am a culprit of investing too much time into fantasy sports & analytics (particularly football and basketball) + playing Valorant. I also love taking long walks & visiting new places.",
     "random": "Chicken nuggets with guacamole is a superior food combination + I am beyond scared of heights."
   },
-  {
-    "email": "",
-    "img": "ritik.jpeg",
-    "name": "Ritik Patnaik",
-    "team": "Advisor",
-    "intro": "My name is Ritik Patnaik, a senior majoring in Course 6-2 (EECS). I’m originally from Plano, Texas.",
-    "position": "I’m an advisor for this year’s conference. I am supporting the co-chairs as we transition back in to our in-person event, providing a knowledge base of how the conference was run pre-pandemic. This is my fourth year helping organize the event, after co-chairing the virtual conference last year with Meenu. This is my fifth year being involved in URTC as I presented at the conference during my senior year of high school.",
-    "interests": "I love the embedded system and IOT technology space! I love seeing the applications microcontrollers and sensors have in all parts of our lives. PCB design is an art!",
-    "spare_time": "I enjoy playing recreational sports, listening to music during my endurance runs, and spending time near/in water (preferably clean bodies of water!)",
-    "random": "I enjoy watching Bollywood movies and I’ve met the owner of the Cowboys, Jerry Jones."
-  },
+  // {
+  //   "email": "",
+  //   "img": "ritik.jpeg",
+  //   "name": "Ritik Patnaik",
+  //   "team": "Advisor",
+  //   "intro": "My name is Ritik Patnaik, a senior majoring in Course 6-2 (EECS). I’m originally from Plano, Texas.",
+  //   "position": "I’m an advisor for this year’s conference. I am supporting the co-chairs as we transition back in to our in-person event, providing a knowledge base of how the conference was run pre-pandemic. This is my fourth year helping organize the event, after co-chairing the virtual conference last year with Meenu. This is my fifth year being involved in URTC as I presented at the conference during my senior year of high school.",
+  //   "interests": "I love the embedded system and IOT technology space! I love seeing the applications microcontrollers and sensors have in all parts of our lives. PCB design is an art!",
+  //   "spare_time": "I enjoy playing recreational sports, listening to music during my endurance runs, and spending time near/in water (preferably clean bodies of water!)",
+  //   "random": "I enjoy watching Bollywood movies and I’ve met the owner of the Cowboys, Jerry Jones."
+  // },
   // {
   //   "email": "",
   //   "img": "meenu.jpg",
