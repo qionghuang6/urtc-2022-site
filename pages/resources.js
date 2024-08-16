@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 import Link from '../src/Link';
 
 export default function Resources() {
-  const title = 'Resources | URTC 2023'
+  const title = 'Resources | URTC 2024'
   return (
     <>
       <Head>
