@@ -1,15 +1,15 @@
 export const organizers = [
-  {
-    "email": "",
-    "img": "ellie.png",
-    "name": "Ellie Montemayor",
-    "team": "Conference Co-Chair",
-    "intro": "I'm Ellie Montemayor, majoring in Course 8 (Physics). I came to Cambridge from Bethesda, Maryland.",
-    "position": "I'm one of this year's conference chairs, which basically means that I'm one of the four people who get a billion emails the week before the submission deadline from people who have questions about URTC, and am the self-professed most important member of the committee. I also just generally help do stuff in a lot of different aspects of the conference, from editing our website and working on day-of logistics to frantically emailing universities, potential sponsors, and other random people.",
-    "interests": "I'm in love with all things wave physics! I love acoustic and radio engineering, and research work I've done involve thermoelectricity, can-tennas, and music in computers.",
-    "spare_time": "I like to read weird, nerdy books and dusty old technical papers, make fun stuff like digital art on graphing calculators, and gradually wear away at my spare time by tacking on way too many commitments to my schedule.",
-    "random": "Two random things about me: I don't know how to ride a bike, and I'm a massive Beatles fangirl."
-  },
+  // {
+  //   "email": "",
+  //   "img": "ellie.png",
+  //   "name": "Ellie Montemayor",
+  //   "team": "Conference Co-Chair",
+  //   "intro": "I'm Ellie Montemayor, majoring in Course 8 (Physics). I came to Cambridge from Bethesda, Maryland.",
+  //   "position": "I'm one of this year's conference chairs, which basically means that I'm one of the four people who get a billion emails the week before the submission deadline from people who have questions about URTC, and am the self-professed most important member of the committee. I also just generally help do stuff in a lot of different aspects of the conference, from editing our website and working on day-of logistics to frantically emailing universities, potential sponsors, and other random people.",
+  //   "interests": "I'm in love with all things wave physics! I love acoustic and radio engineering, and research work I've done involve thermoelectricity, can-tennas, and music in computers.",
+  //   "spare_time": "I like to read weird, nerdy books and dusty old technical papers, make fun stuff like digital art on graphing calculators, and gradually wear away at my spare time by tacking on way too many commitments to my schedule.",
+  //   "random": "Two random things about me: I don't know how to ride a bike, and I'm a massive Beatles fangirl."
+  // },
   {
     "email": "lasyab@mit.edu",
     "img": "lasya.jpg",
@@ -20,6 +20,17 @@ export const organizers = [
     "interests": "I'm interested in digital design, computer architecture, and embedded systems. I've recently done research related to developing a hardware accelerator for a graph-based vector search algorithm.",
     "spare_time": "I like to play tennis, ultimate frisbee, and basketball. I also enjoy running and hiking with friends.",
     "random": "I'm a twin, and I love grapes."
+  },
+  {
+    "email": "jiew@mit.edu",
+    "img": "jie.jpeg",
+    "name": "Jie Wang",
+    "team": "Conference Co-Chair",
+    "intro": "I am a Postdoctoral Associate affiliated with the Department of Chemical Engineering",
+    "position": "Co-chair",
+    "interests": "science and technologies",
+    "spare_time": "Tennis, cooking, concerts, movies, museum, etc.",
+    "random": "(1) The US is the only country I have traveled to so far; (2) I have never tried roller coasters"
   },
   // {
   //   "email": "ggliu@mit.edu",
@@ -56,17 +67,6 @@ export const organizers = [
     "random": "1. I was born here in the states but raised in China. 2. My favorite drink from Dunkin is the cookie butter cold brew (highly recommend but sadly it's seasonal)."
   },
   {
-    "email": "adarsh@mit.edu",
-    "img": "adarsh.jpeg",
-    "name": "Adarsh Iyer",
-    "team": "Logistics",
-    "intro": "I'm a first-year from San Jose, California, intending to major in Course 6-9 (Computation and Cognition).",
-    "position": "I handle logistics related to finding and coordinating with speakers and panelists as well as organizing special events at the conference.",
-    "interests": "I am fascinated by brain-inspired (neural) computing, dynamical systems, computer graphics, computer vision, and symbolic deep learning. I've done some research work in these areas.",
-    "spare_time": "As a member of the MIT Cross Country and Track teams, you'll usually find me running in my spare time. I also enjoy music composition, piano playing, 3D animation, carpentry, cooking, baking, reading, and making new friends.",
-    "random": "I once ran six miles in flip-flops and I like gnocchi."
-  },
-  {
     "email": "mamidala@mit.edu",
     "img": "srilekha.jpg",
     "name": "Srilekha Mamidala",
@@ -87,6 +87,28 @@ export const organizers = [
     "interests": "All things AI; theoretical computer science",
     "spare_time": "Some of my hobbies include playing guitar, tennis, and frisbee.",
     "random": "1) Currently, my favorite flavor of ice cream is black sesame. 2) I love 90+ degree weather."
+  },
+  {
+    "email": "adarsh@mit.edu",
+    "img": "adarsh.jpeg",
+    "name": "Adarsh Iyer",
+    "team": "Logistics",
+    "intro": "I'm a first-year from San Jose, California, intending to major in Course 6-9 (Computation and Cognition).",
+    "position": "I handle logistics related to finding and coordinating with speakers and panelists as well as organizing special events at the conference.",
+    "interests": "I am fascinated by brain-inspired (neural) computing, dynamical systems, computer graphics, computer vision, and symbolic deep learning. I've done some research work in these areas.",
+    "spare_time": "As a member of the MIT Cross Country and Track teams, you'll usually find me running in my spare time. I also enjoy music composition, piano playing, 3D animation, carpentry, cooking, baking, reading, and making new friends.",
+    "random": "I once ran six miles in flip-flops and I like gnocchi."
+  },
+  {
+    "email": "disaac@mit.edu",
+    "img": "dylan.jpg",
+    "name": "Dylan Isaac",
+    "team": "Sponsorship Chair",
+    "intro": "I'm interested in everything relating to computation. I love learning more about the algorithms and mathematics in computer science that push our world forward. I also enjoy learning about the microscopic hardware in our machines.",
+    "position": "I'm this year's sponsorship chair. In general, my goal is to secure funding and connections for this year's event and future events. ",
+    "interests": "I am fascinated by brain-inspired (neural) computing, dynamical systems, computer graphics, computer vision, and symbolic deep learning. I've done some research work in these areas.",
+    "spare_time": "Outside of academics, I enjoy ice skating, bicycling, and movie nights. You'll usually find me biking in a random place in Boston, falling on ice in MIT's ice rink, or hanging out with friends in Next House.",
+    "random": "1) I'll eat anything sushi-shaped. 2) I've climbed two glaciers."
   },
   // {
   //   "email": "huangq@mit.edu",
