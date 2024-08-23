@@ -5,9 +5,19 @@ export const sponsors = [
         href: 'https://www.ieee.org/'
     },
     {
-        name: 'Petal',
-        img: 'petal.png',
-        href: 'https://www.petal.org/'
+        name: 'Digikey',
+        img: 'digikey.jpg_large',
+        href: 'https://www.digikey.com/'
+    }, 
+    {
+        name: 'Carnegie Mellon University',
+        img: 'carnegie_mellon.png',
+        href: 'https://www.cmu.edu/'
+    }, 
+    {
+        name: 'IEEE Women in Engineering',
+        img: 'wie.jpeg',
+        href: 'https://wie.ieee.org/'
     }, 
     {
         name: 'MIT IEEE/ACM',
@@ -19,9 +29,5 @@ export const sponsors = [
         img: 'yp.png',
         href: 'https://yp.ieee.org/',
     },
-    {
-        name: 'IEEE Women in Engineering',
-        img: 'wie.jpeg',
-        href: 'https://wie.ieee.org/'
-    }, 
+    
 ]
