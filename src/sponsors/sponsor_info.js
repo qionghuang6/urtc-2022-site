@@ -1,7 +1,7 @@
 export const sponsors = [
     {
-        name: 'IEEE',
-        img: 'ieee.png',
+        name: 'IEEE UPP',
+        img: 'ieeeupp.JPG',
         href: 'https://www.ieee.org/'
     },
     {
