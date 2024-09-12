@@ -48,7 +48,7 @@ export default function Index({ events }) {
               </Grid>
               <Grid item>
                 <Typography color="black" variant="h5" paddingTop="0px"> {/* paddingTop 10px */}
-                Poster and Lighting Talk Submissions Deadline: <b>September 6, 2024</b> 
+                Poster and Lightning Talk Submissions Deadline: <b>September 6, 2024</b> 
                 </Typography>
               </Grid>
               <Grid item>
@@ -208,16 +208,16 @@ export default function Index({ events }) {
           </Grid>
           <Grid item xs={5} container direction="column" rowSpacing={4.5} align='left' >
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1dCzb9vKWOcATE77cVMUkuG574Mgd9HlQ/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Program Overview Table (2024)</Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1dCzb9vKWOcATE77cVMUkuG574Mgd9HlQ/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Program Overview Table (2023)</Button>
             </Grid>
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1zoajDwG-amGhkUjAp3lMRO7LIQKnMzIt/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Paper Presentation Schedule (2024) </Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1zoajDwG-amGhkUjAp3lMRO7LIQKnMzIt/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Paper Presentation Schedule (2023) </Button>
             </Grid>
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1RpYd-rULck2FcGRaE4YQzWQrBvJxLirQ/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Poster Presentation Schedule (2024)</Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1RpYd-rULck2FcGRaE4YQzWQrBvJxLirQ/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Poster Presentation Schedule (2023)</Button>
             </Grid>
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/11ZssqZUXChaD4f1ebO3b_z6cmeoYhb14/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Lightning Talk Schedule (2024)</Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/11ZssqZUXChaD4f1ebO3b_z6cmeoYhb14/view?usp=drive_link"><PictureAsPdfIcon/>{'\u00A0'}Lightning Talk Schedule (2023)</Button>
             </Grid>
           </Grid>
           <Grid item xs={2.5} align="right">
