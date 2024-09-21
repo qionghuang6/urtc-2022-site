@@ -62,9 +62,9 @@ export default function Index({ events }) {
                           Submit Your Research
                   </Button>
 
-                  {/* <Button variant='contained' component="a" target="_blank" href="https://cvent.me/OdW7yz"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
+                  <Button variant='contained' component="a" target="_blank" href="https://cvent.me/vxKL84"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Register
-                  </Button> */}
+                  </Button>
                 </Typography> 
               </Grid>
             </Grid>
