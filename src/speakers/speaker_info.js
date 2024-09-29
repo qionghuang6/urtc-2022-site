@@ -113,8 +113,8 @@ export const speakers = [
 // },
 {
     name: 'More Speakers',
-    affiliation: 'More Speakers and Panelists will be announced soon!',
+    affiliation: 'More Speakers will be announced soon!',
     img: 'default.jpg',
-    Info: 'More Speakers and Panelists will be announced soon!'
+    Info: 'More Speakers will be announced soon!'
 }
 ]
