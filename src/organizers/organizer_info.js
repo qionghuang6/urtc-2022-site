@@ -11,7 +11,6 @@ export const organizers = [
   //   "random": "Two random things about me: I don't know how to ride a bike, and I'm a massive Beatles fangirl."
   // },
   {
-    "email": "lasyab@mit.edu",
     "img": "lasya.jpg",
     "name": "Lasya Balachandran",
     "team": "Conference Co-Chair",
@@ -22,7 +21,6 @@ export const organizers = [
     "random": "I'm a twin, and I love grapes."
   },
   {
-    "email": "jiew@mit.edu",
     "img": "jie.jpeg",
     "name": "Jie Wang",
     "team": "Conference Co-Chair",
@@ -56,7 +54,6 @@ export const organizers = [
   // },
 
   {
-    "email": "blin15@mit.edu",
     "img": "bobo.jpeg",
     "name": "Bobo Lin",
     "team": "Publicity & Marketing",
@@ -67,7 +64,6 @@ export const organizers = [
     "random": "1. I was born here in the states but raised in China. 2. My favorite drink from Dunkin is the cookie butter cold brew (highly recommend but sadly it's seasonal)."
   },
   {
-    "email": "mamidala@mit.edu",
     "img": "srilekha.jpg",
     "name": "Srilekha Mamidala",
     "team": "Publicity & Marketing",
@@ -78,7 +74,6 @@ export const organizers = [
     "random": "I've never liked potato chips, and my dream city to visit is Tokyo."
   },
   {
-    "email": "hanngao@mit.edu",
     "img": "hannah.jpg",
     "name": "Hannah Gao",
     "team": "Logistics",
@@ -89,7 +84,6 @@ export const organizers = [
     "random": "1) Currently, my favorite flavor of ice cream is black sesame. 2) I love 90+ degree weather."
   },
   {
-    "email": "adarsh@mit.edu",
     "img": "adarsh.jpeg",
     "name": "Adarsh Iyer",
     "team": "Logistics",
@@ -100,7 +94,6 @@ export const organizers = [
     "random": "I once ran six miles in flip-flops and I like gnocchi."
   },
   {
-    "email": "disaac@mit.edu",
     "img": "dylan.jpg",
     "name": "Dylan Isaac",
     "team": "Sponsorship Chair",
