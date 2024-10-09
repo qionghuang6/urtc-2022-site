@@ -23,6 +23,15 @@ export const speakers = [
 //     bio: 'Ali Abedi received his BSEE and MSEE from Sharif University in 1996 and 1998, and his PhD in Electrical and Computer Engineering, from University of Waterloo in 2004. Dr. Abedi joined the University of Maine, Orono in 2005, where he is currently Professor of Electrical and Computer Engineering and Associate Vice President for Research at UMaine, an R1 Classified Institution by Carnegie foundation. He was visiting Associate Professor at the University of Maryland, College Park, MD and Guest Researcher at NIST in 2012 and Faculty Fellow at NASA in 2016. Dr. Abedi is founding Director of WiSe-Net Lab where he directs research programs in wireless communications and sensor networks for structural monitoring, space explorations and bio-medical applications. Dr. Abedi has completed 60+ funded research grants worth over $34M resulting in 115+ publications with over 44,000+ downloads and 1000+ citations. He is the recipient of several IEEE awards and served as Associate Editor from multiple IEEE journals, and chair for several IEEE conferences. He is 2022 Vice President for Conferences at IEEE Council on Radio Frequency Identification.',
 // },
 {
+    name: 'Phileas Dazeley-Gaist',
+    affiliation: 'Academic Innovation Applications Developer, Wolfram Research',
+    img: 'gaist.jpeg',
+    type: 'Keynote',
+    title: 'Wolfram Language for GIS Applications',
+    abstact: 'This talk showcases Wolfram Language tools to streamline geographic data visualization, spatial analysis, and geographic computation. Attendees will learn effective methods for geographic data processing, creating custom maps, and analyzing spatial patterns.',
+    bio: 'Phileas Dazeley-Gaist is a human ecologist and Academic Innovation Applications Developer at Wolfram Research specializing in geospatial computing, ecology, and complex systems science. As part of the Academic Innovation team, they collaborate with researchers, educators, and institutions to develop innovative partnerships in research and education.',
+},
+{
     name: 'Sreeram (Ram) Dhurjaty, PhD, LSMIEEE, AD2BW',
     affiliation: 'PhD, Senior Member of the Institute of Electrical and Electronics Engineers (SMIEEE)',
     img: 'sreeram.jpeg',

@@ -5,6 +5,16 @@ export const sponsors = [
         href: 'https://www.ieee.org/'
     },
     {
+        name: 'MIT IEEE/ACM',
+        img: 'mitieeeacm.png',
+        href: 'http://ieeeacm.mit.edu/',
+    },
+    {
+        name: 'UVA School of Data Science',
+        img: 'uva.png',
+        href: 'https://datascience.virginia.edu/'
+    },
+    {
         name: 'Digikey',
         img: 'digikey.jpg_large',
         href: 'https://www.digikey.com/'
@@ -19,11 +29,6 @@ export const sponsors = [
         img: 'wie.jpeg',
         href: 'https://wie.ieee.org/'
     }, 
-    {
-        name: 'MIT IEEE/ACM',
-        img: 'mitieeeacm.png',
-        href: 'http://ieeeacm.mit.edu/',
-    },
     {
         name: 'IEEE Young Professionals',
         img: 'yp.png',
