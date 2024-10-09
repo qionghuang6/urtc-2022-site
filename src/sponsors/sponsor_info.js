@@ -11,7 +11,7 @@ export const sponsors = [
     },
     {
         name: 'UVA School of Data Science',
-        img: 'uva.png',
+        img: 'uva.jpg',
         href: 'https://datascience.virginia.edu/'
     },
     {

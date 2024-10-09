@@ -25,7 +25,7 @@ export const speakers = [
 {
     name: 'Phileas Dazeley-Gaist',
     affiliation: 'Academic Innovation Applications Developer, Wolfram Research',
-    img: 'gaist.jpeg',
+    img: 'gaist.jpg',
     type: 'Keynote',
     title: 'Wolfram Language for GIS Applications',
     abstact: 'This talk showcases Wolfram Language tools to streamline geographic data visualization, spatial analysis, and geographic computation. Attendees will learn effective methods for geographic data processing, creating custom maps, and analyzing spatial patterns.',
