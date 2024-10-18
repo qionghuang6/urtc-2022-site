@@ -16,7 +16,7 @@ export const sponsors = [
     },
     {
         name: 'Digikey',
-        img: 'digikey.jpg_large',
+        img: 'DigiKey.png',
         href: 'https://www.digikey.com/'
     }, 
     {
