@@ -38,22 +38,22 @@ export default function Index({ events }) {
               </Grid> 
               <Grid item>
                 <Typography color="black" variant="h5" paddingTop="10px"> {/* paddingTop 25px */}
-                Technical Paper Submission Deadline: <b>August 9, 2024</b> 
+                Technical Paper Submission Deadline: <b>August 3, 2025</b> 
                 </Typography>
               </Grid>
               <Grid item>
                 <Typography color="black" variant="h5" paddingTop="0px" > {/* paddingTop 10px */}
-                Technical Paper Acceptance Notification: <b>September 1, 2024</b> 
+                Technical Paper Acceptance Notification: <b>September 25, 2025</b> 
                 </Typography>
               </Grid>
               <Grid item>
                 <Typography color="black" variant="h5" paddingTop="0px"> {/* paddingTop 10px */}
-                Poster and Lightning Talk Submissions Deadline: <b>September 6, 2024</b> 
+                Poster and Lightning Talk Submissions Deadline: <b>September 5, 2025</b> 
                 </Typography>
               </Grid>
               <Grid item>
                 <Typography color="black" variant="h5" paddingTop="0px"> {/* paddingTop 10px */}
-                Poster and Lightning Talk Acceptance Notification: <b>September 13, 2024</b> 
+                Poster and Lightning Talk Acceptance Notification: <b>September 14, 2025</b> 
                 </Typography> 
               </Grid> 
               <Grid item>
@@ -197,7 +197,7 @@ export default function Index({ events }) {
         </Grid>
         
         <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="left">
-          URTC 2024
+          URTC 2025
         </Typography>
         <Typography variant='h5' marginBottom='25px'>
           <hr align='left' style={{width: mobile? '400px':'800px', height:'6px', backgroundColor: 'white'}}></hr>
@@ -233,7 +233,7 @@ export default function Index({ events }) {
           </Grid>
           <Grid item>
             <Button variant='contained' component="a" target="_blank" href="https://bit.ly/urtc23-tracks"  sx={{fontSize: mobile? '12px':'18px', marginX: '8px', color: 'black', backgroundColor: 'white'}}>
-              2024 Tracks
+              2025 Tracks
             </Button>
           </Grid>
           <Grid item>
