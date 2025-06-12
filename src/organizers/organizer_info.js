@@ -41,6 +41,16 @@ export const organizers = [
     "random": "I once ran six miles in flip-flops and I like gnocchi."
   },
   {
+    "img": "ruben.jpg",
+    "name": "Ruben Stephen",
+    "team": "Logistics",
+    "intro": "My name is Ruben Stephen, I am a CO'27 in course 2A-6, and am originally from West Palm Beach, Florida.",
+    "position": "I handle logistics related to finding and coordinating with speakers and panelists as well as organizing special events at the conference.",
+    "interests": "Basketball, Anime (currently catching up on Demon Slayer), Psychology/philosophy, Entrepreneurship/Content Creation (currently trying to build a personal brand/online education business to help pay tuition).",
+    "spare_time": "Engage in the interests mentioned above. This summer in particular I've been in a content creation training arc, and outside of working towards becoming an entrepreneur, I'm also particularly moved by having meaningful conversations/connections with people (i.e the psychology kick).",
+    "random": "1) In summer of 2023, I got into a pretty bad car accident, and I now like to refer to it as my \"baptism by vehicle\" because it caused me to do a lot of soul searching; 2) I was particularly moved by the film, Now You See Me (2013), and it will forever hold a special place in my heart."
+  },
+  {
     "img": "bobo.jpeg",
     "name": "Bobo Lin",
     "team": "Publicity & Marketing",

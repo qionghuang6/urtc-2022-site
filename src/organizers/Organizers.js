@@ -10,7 +10,7 @@ export default function Organizers() {
     })
     return (
         <Box sx={{ marginTop: '0px'}}>
-            <Typography color="white" variant="h2" align="left" fontFamily="Montserrat" fontWeight="700" paddingBottom="20px">URTC 2024 Team</Typography>
+            <Typography color="white" variant="h2" align="left" fontFamily="Montserrat" fontWeight="700" paddingBottom="20px">URTC 2025 Team</Typography>
             <Box>
                 <Grid container spacing={3}>
                     {headshots}
