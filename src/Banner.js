@@ -141,7 +141,7 @@ export default function Banner() {
                             <em>Cambridge, Massachusetts</em>
                         </Typography>
                         <Typography variant={mobile ? "h5" : "h4"} align={mobile ? 'ce' : 'center'} fontWeight="600" color="#fff" fontSize="22px">
-                            <em>October 10 - October 12, 2025 </em>
+                            <em>October 10 - October 12, 2025</em>
                         </Typography>
                     </Grid>
                     <Grid xs={12} sm={2.5}>
