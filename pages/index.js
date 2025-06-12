@@ -56,7 +56,7 @@ export default function Index({ events }) {
                 Poster and Lightning Talk Acceptance Notification: <b>September 14, 2025</b> 
                 </Typography> 
               </Grid> 
-              <Grid item>
+              {/* <Grid item>
                 <Typography paddingTop='15px'>
                   <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2024"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Submit Your Research
@@ -66,7 +66,7 @@ export default function Index({ events }) {
                           Register
                   </Button>
                 </Typography> 
-              </Grid>
+              </Grid> */}
             </Grid>
             <Grid item xs={4.3} align="left">
               <Typography variant="h3" fontFamily="Montserrat" color="#fff" >
