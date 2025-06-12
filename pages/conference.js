@@ -18,7 +18,7 @@ import LiveTvIcon from '@mui/icons-material/LiveTv';
 import Calendar from '../src/Calendar';
 
 export default function URTC({events}) {
-  const title = '2024 Info | URTC 2024'
+  const title = '2025 Info | URTC 2025'
   return (
     <>
       <Head>

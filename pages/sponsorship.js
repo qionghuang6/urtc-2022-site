@@ -11,7 +11,7 @@ import GlassBox from '../src/GlassBox';
 import Sponsors from '../src/sponsors/Sponsors';
 
 export default function Sponsorship() {
-  const title = 'Sponsorship | URTC 2024'
+  const title = 'Sponsorship | URTC 2025'
   return (
     <>
       <Head>
