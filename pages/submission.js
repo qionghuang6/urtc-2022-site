@@ -109,7 +109,7 @@ export default function Submission() {
           <Typography variant="string" component="h1" color="white" gutterBottom>
             Submission Guidelines:
           </Typography>
-          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/paper_submission_2024.pdf">
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/paper_submission_2025.pdf">
             Paper Submission
           </Button>
           <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/conference-template-letter.docx">
@@ -119,13 +119,13 @@ export default function Submission() {
           <Typography variant="string" component="h1" color="white" gutterBottom>
             Presentation Guidelines:
           </Typography>
-          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/paper_presentation_2024.pdf">
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/paper_presentation_2025.pdf">
             Paper Presentation
           </Button>
-          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/poster_presentation_2024.pdf">
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/poster_presentation_2025.pdf">
             Poster Presentation
           </Button>
-          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/lightning_talk_presentation_2024.pdf">
+          <Button variant="outlined" size="large" sx={{color: 'white', borderColor: 'white', mx: '6px'}} component={Link} noLinkStyle href="/lightning_talk_presentation_2025.pdf">
             Lightning Talk
           </Button>
         </GlassBox>
