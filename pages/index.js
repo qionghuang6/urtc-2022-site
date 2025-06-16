@@ -58,9 +58,9 @@ export default function Index({ events }) {
               </Grid> 
               { <Grid item>
                 <Typography paddingTop='15px'>
-                  <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2025"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
+                  {/* <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2025"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Submit Your Research
-                  </Button>
+                  </Button> */}
 
                   {/* <Button variant='contained' component="a" target="_blank" href="https://cvent.me/vxKL84"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Register
@@ -70,9 +70,10 @@ export default function Index({ events }) {
             </Grid>
             <Grid item xs={4.3} align="left">
               <Typography variant="h3" fontFamily="Montserrat" color="#fff" >
-                <img style={{width: "100%", maxWidth:"450px", verticalAlign:"center"}} src="/stata_transparent.png" />
+                <img style={{width: "100%", maxWidth:"350px", verticalAlign:"center"}} src="/stata_transparent.png" /> {/*450 px*/}
               </Typography>
             </Grid>
+
 
 
         {/* <Grid item xs={8} >
