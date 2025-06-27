@@ -254,7 +254,7 @@ export default function Index({ events }) {
         <Speakers />
 
         <Typography id="calendar" variant="h2" color="white" fontFamily="Montserrat" fontWeight="700" align="left" paddingTop='50px'>
-          SPONSORS
+          2024 PATRON SPONSORS
         </Typography>
         <Typography variant='h5' marginBottom='20px'>
           <hr align='left' style={{width: mobile? '400px':'800px', height:'6px', backgroundColor: 'white'}}></hr>

@@ -79,7 +79,7 @@ export default function Submission() {
             Presentation Guidelines
           </Typography>
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
-            Presenters are solely responsible for the creation of their presentation. The presentation should be based on the approved/accepted submission but may include updates and related additional content. Papers must be presented, or they will not be published in the IEEE Xplore database. Only listed authors on the URTC schedule may present their submissions.
+            Presenters are solely responsible for the creation of their presentation. The presentation should be based on the approved/accepted submission but may include updates and related additional content. Papers must be presented, or they will not be submitted for possible inclusion in the IEEE Xplore database. Only listed authors on the URTC schedule may present their submissions.
           </Typography>
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
             Please contact [gimsoon@ieee.org] as soon as possible if you are unable to attend the conference.
