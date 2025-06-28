@@ -45,7 +45,7 @@ export default function About() {
             Opening Ceremony
           </Typography>
           <Typography variant="string" paragraph="true" color="white" gutterBottom>
-            URTC begins formally with an opening ceremony led by our conference chairs—Ellie Montemayor and Lasya Balachandran, as well as our IEEE advisor Gim Soon Wan—to welcome participants and affirm the need and utility of the conference’s organization, as well as to provide a further introduction into the state of the technological world to motivate interest in and prelude into the main elements of the conference.
+            URTC begins formally with an opening ceremony led by our conference chairs—Hannah Gao and Dylan Isaac, as well as our IEEE advisor Gim Soon Wan—to welcome participants and affirm the need and utility of the conference’s organization, as well as to provide a further introduction into the state of the technological world to motivate interest in and prelude into the main elements of the conference.
           </Typography>
           <Typography variant="overline" component="h3" color="white" gutterBottom>
             Papers, Posters and Lightning Talks
