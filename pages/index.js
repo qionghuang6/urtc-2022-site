@@ -24,7 +24,7 @@ export default function Index({ events }) {
       <Banner />
       <Container maxWidth="xl">
       {/* <GlassBox background='-webkit-linear-gradient(0deg, rgb(0,180,219, 0.8), rgb(0,131,176, 0.8))'> */}
-        <Grid container direction="row" columnSpacing="8px" sx={{background:'white', paddingTop:'20px', paddingBottom:'15px'}}>
+        <Grid container direction="row" columnSpacing="8px" sx={{background:'white', paddingTop:'10px', paddingBottom:'15px'}}>
           <Grid item xs={7.7} container direction="column" rowSpacing="2px" align="center">
               <Grid item>
                 <Typography variant="text" component="h1" color="black"> 
@@ -32,7 +32,7 @@ export default function Index({ events }) {
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography color="black" variant="h5" paddingTop="5px">
+                <Typography color="black" variant="h5" paddingTop="0px">
                 (32 Vassar St, Cambridge, MA 02139) 
                 </Typography>
               </Grid> 
@@ -65,12 +65,25 @@ export default function Index({ events }) {
                   {/* <Button variant='contained' component="a" target="_blank" href="https://cvent.me/vxKL84"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Register
                   </Button> */}
+
+                  <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2025"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
+                          Submission (Will be opened soon)
+                  </Button>
+
                 </Typography> 
+
+                <Grid item>
+                  <Typography align="left" color="black" paddingLeft="15px" paddingTop="15px" > 
+                  The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support. 
+                  </Typography> 
+                </Grid> 
+
+        
               </Grid> }
             </Grid>
             <Grid item xs={4.3} align="left">
-              <Typography variant="h3" fontFamily="Montserrat" color="#fff" >
-                <img style={{width: "100%", maxWidth:"350px", verticalAlign:"center"}} src="/stata_transparent.png" /> {/*450 px*/}
+              <Typography variant="h3" fontFamily="Montserrat" color="#fff" paddingTop="40px">
+                <img style={{width: "100%", maxWidth:"450px", verticalAlign:"center"}} src="/stata_transparent.png" /> {/*450 px*/}
               </Typography>
             </Grid>
 
