@@ -43,7 +43,7 @@ export default function Index({ events }) {
               </Grid>
               <Grid item>
                 <Typography color="black" variant="h5" paddingTop="0px" > {/* paddingTop 10px */}
-                Technical Paper Acceptance Notification: <b>August 25, 2025</b> 
+                Technical Paper Acceptance Notification: <b>August 29, 2025</b> 
                 </Typography>
               </Grid>
               <Grid item>
