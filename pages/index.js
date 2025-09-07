@@ -62,9 +62,9 @@ export default function Index({ events }) {
                           Submit Your Research
                   </Button>
 
-                  {/* <Button variant='contained' component="a" target="_blank" href="https://cvent.me/vxKL84"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
+                  <Button variant='contained' component="a" target="_blank" href="https://cvent.me/kYgPAO"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Register
-                  </Button> */}
+                  </Button>
 
                   {/* <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2025"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Submission (Will be opened soon)
@@ -222,16 +222,16 @@ export default function Index({ events }) {
           </Grid>
           <Grid item xs={5} container direction="column" rowSpacing={4.5} align='left' >
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2024_program_table.pdf"><PictureAsPdfIcon/>{'\u00A0'}Program Overview Table </Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2024_program_table.pdf"><PictureAsPdfIcon/>{'\u00A0'}Program Overview Table (2024) </Button>
             </Grid>
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2024_paper_presentation_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Paper Presentation Schedule </Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2024_paper_presentation_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Paper Presentation Schedule (2024) </Button>
             </Grid>
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2024_poster_presentation_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Poster Presentation Schedule</Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2024_poster_presentation_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Poster Presentation Schedule (2024)</Button>
             </Grid>
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2024_lightning_talk_presentation_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Lightning Talk Schedule</Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2024_lightning_talk_presentation_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Lightning Talk Schedule (2024)</Button>
             </Grid>
           </Grid>
           <Grid item xs={2.5} align="right">

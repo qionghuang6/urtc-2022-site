@@ -226,11 +226,15 @@ export default function Banner() {
                     
                     <Grid item xs={12} sm={6} >
                         <Box align={mobile ? 'ce' : 'right'}>
-                            <Typography  color="#fff" paddingBottom="30px" fontSize="18px" paddingTop="35px">
+                            <Typography  color="#fff" paddingBottom="10px" fontSize="18px" paddingTop="30px">
                                 <b>MIT URTC</b> is an internationally-renowned research conference for undergraduates and
                                 by undergraduates. Our annual conference is themed around incredible breakthroughs in engineering
                                 and technological research made by student researchers at the undergraduate level all over the
                                 country.
+                            </Typography>
+
+                            <Typography  color="#f55" paddingBottom="15px" fontSize="26px" paddingTop="-10px">
+                                <b>Registration now open!</b>
                             </Typography>
                         </Box>    
                     </Grid>
