@@ -234,7 +234,7 @@ export default function Banner() {
                             </Typography>
 
                             <Typography  color="#f55" paddingBottom="15px" fontSize="26px" paddingTop="-10px">
-                                <b>Registration now open!</b>
+                                <b>Registration temporarily suspended. </b>
                             </Typography>
                         </Box>    
                     </Grid>

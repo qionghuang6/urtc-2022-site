@@ -62,9 +62,9 @@ export default function Index({ events }) {
                           Submit Your Research
                   </Button>
 
-                  <Button variant='contained' component="a" target="_blank" href="https://cvent.me/kYgPAO"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
+                  {/* <Button variant='contained' component="a" target="_blank" href="https://cvent.me/kYgPAO"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Register
-                  </Button>
+                  </Button> */}
 
                   {/* <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2025"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Submission (Will be opened soon)
