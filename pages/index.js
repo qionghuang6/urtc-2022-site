@@ -74,7 +74,7 @@ export default function Index({ events }) {
 
                 <Grid item>
                   <Typography align="left" variant="h5" color="black" paddingLeft="15px" paddingTop="15px" > 
-                  Minors must be accompanied by an adult at all times. No unaccompanied minors may participate in this conference.
+                  <mark>Minors must be accompanied by an adult at all times. No unaccompanied minors may participate in this conference.</mark>
                   </Typography> 
                 </Grid> 
 
