@@ -62,15 +62,21 @@ export default function Index({ events }) {
                           Submit Your Research
                   </Button>
 
-                  {/* <Button variant='contained' component="a" target="_blank" href="https://cvent.me/kYgPAO"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
+                  <Button variant='contained' component="a" target="_blank" href="https://cvent.me/kYgPAO"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Register
-                  </Button> */}
+                  </Button>
 
                   {/* <Button variant='contained' component="a" target="_blank" href="https://cmt3.research.microsoft.com/URTC2025"  sx={{fontSize: mobile? '16px':'24px', marginX: '8px', color: 'white', backgroundColor: 'black', borderColor: 'black'}}>
                           Submission (Will be opened soon)
                   </Button> */}
 
                 </Typography> 
+
+                <Grid item>
+                  <Typography align="left" variant="h5" color="black" paddingLeft="15px" paddingTop="15px" > 
+                  <mark> Minors must be accompanied by an adult at all times. No unaccompanied minors may participate in this conference. </mark>
+                  </Typography> 
+                </Grid> 
 
                 <Grid item>
                   <Typography align="left" color="black" paddingLeft="15px" paddingTop="15px" > 

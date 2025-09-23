@@ -233,8 +233,8 @@ export default function Banner() {
                                 country.
                             </Typography>
 
-                            <Typography  color="#f55" paddingBottom="15px" fontSize="26px" paddingTop="-10px">
-                                <b>Registration temporarily suspended. </b>
+                            <Typography  color="#fff" paddingBottom="15px" fontSize="26px" paddingTop="-10px">
+                                <mark><b>  Registration reopened!  </b></mark>
                             </Typography>
                         </Box>    
                     </Grid>
