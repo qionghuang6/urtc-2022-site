@@ -228,7 +228,7 @@ export default function Index({ events }) {
           </Grid>
           <Grid item xs={5} container direction="column" rowSpacing={4.5} align='left' >
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2024_program_table.pdf"><PictureAsPdfIcon/>{'\u00A0'}Program Overview Table (2024) </Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2025_program_table.pdf"><PictureAsPdfIcon/>{'\u00A0'}Program Overview Table (2025) </Button>
             </Grid>
             <Grid item>
               <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2024_paper_presentation_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Paper Presentation Schedule (2024) </Button>
