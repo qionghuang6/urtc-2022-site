@@ -30,35 +30,85 @@ export const organizers = [
     "spare_time": "Outside of academics, I enjoy ice skating, bicycling, and movie nights. You'll usually find me biking in a random place in Boston, falling on ice in MIT's ice rink, or hanging out with friends in Next House.",
     "random": "1) I'll eat anything sushi-shaped. 2) I've climbed two glaciers."
   },
-  {
-    "img": "adarsh.jpeg",
-    "name": "Adarsh Iyer",
-    "team": "Logistics",
-    "intro": "I'm a sophomore from San Jose, California, majoring in Course 6-9 (Computation and Cognition).",
-    "position": "I handle logistics related to finding and coordinating with speakers and panelists as well as organizing special events at the conference.",
-    "interests": "I am fascinated by brain-inspired (neural) computing, dynamical systems, computer graphics, computer vision, and symbolic deep learning. I've done some research work in these areas.",
-    "spare_time": "As a member of the MIT Cross Country and Track teams, you'll usually find me running in my spare time. I also enjoy music composition, piano playing, 3D animation, carpentry, cooking, baking, reading, and making new friends.",
-    "random": "I once ran six miles in flip-flops and I like gnocchi."
+    {
+    // "img": "adarsh.jpeg",
+    "name": "Andria Bao",
+    "team": "Logistics (Speakers)",
+    //"intro": "I'm a sophomore from San Jose, California, majoring in Course 6-9 (Computation and Cognition).",
+    //"position": "I handle logistics related to finding and coordinating with speakers and panelists as well as organizing special events at the conference.",
+    //"interests": "I am fascinated by brain-inspired (neural) computing, dynamical systems, computer graphics, computer vision, and symbolic deep learning. I've done some research work in these areas.",
+    //"spare_time": "As a member of the MIT Cross Country and Track teams, you'll usually find me running in my spare time. I also enjoy music composition, piano playing, 3D animation, carpentry, cooking, baking, reading, and making new friends.",
+    //"random": "I once ran six miles in flip-flops and I like gnocchi."
   },
   {
-    "img": "ruben.jpg",
-    "name": "Ruben Stephen",
-    "team": "Logistics",
-    "intro": "My name is Ruben Stephen, I am a CO'27 in course 2A-6, and am originally from West Palm Beach, Florida.",
-    "position": "I handle logistics related to finding and coordinating with speakers and panelists as well as organizing special events at the conference.",
-    "interests": "Basketball, Anime (currently catching up on Demon Slayer), Psychology/philosophy, Entrepreneurship/Content Creation (currently trying to build a personal brand/online education business to help pay tuition).",
-    "spare_time": "Engage in the interests mentioned above. This summer in particular I've been in a content creation training arc, and outside of working towards becoming an entrepreneur, I'm also particularly moved by having meaningful conversations/connections with people (i.e the psychology kick).",
-    "random": "1) In summer of 2023, I got into a pretty bad car accident, and I now like to refer to it as my \"baptism by vehicle\" because it caused me to do a lot of soul searching; 2) I was particularly moved by the film, Now You See Me (2013), and it will forever hold a special place in my heart."
+    "img": "maggie.jpg",
+    "name": "Maggie Shi",
+    "team": "Logistics (Speakers)",
+    "intro": "I'm Maggie, a junior majoring in 8 and 6-2, and I'm from San Jose, California.",
+    "position": "I help find and coordinate speakers for the conference.",
+    "interests": "I'm interested in physics and AI and have done some research in these areas.",
+    "spare_time": "I enjoy playing ping pong in the lounge and spending time with friends.",
+    "random": "I love flowers and acai bowls."
   },
   {
-    "img": "bobo.jpeg",
+    "img": "fatemah.jpg",
+    "name": "Fatemeh Fardin",
+    "team": "Logistics (Speakers, Workshops)",
+    "intro": "Hi, I am Fatemeh, a freshman majoring in course 2. I am from Dallas, Texas. ",
+    //"position": "I handle logistics related to finding and coordinating with speakers and panelists as well as organizing special events at the conference.",
+    "interests": "I am interested in robotics and CAD software + using shop machinery. ",
+    "spare_time": "In my spare time, I love to watch movies, analyzing them! ",
+    "random": "I used to rollerblade competitively when I was younger!"
+  },
+  {
+    "img": "beatrice.jpg",
+    "name": "Beatrice Jiang",
+    "team": "Logistics (Workshops)",
+    "intro": "I'm Beatrice Jiang, a freshman planning to major in Course 6-5 (Electrical Engineering with Computing). I'm from Thousand Oaks, California.",
+    //"position": "I handle logistics related to finding and coordinating with speakers and panelists as well as organizing special events at the conference.",
+    "interests": "I'm interested in chip architecture and hardware accelerators for AI applications.",
+    //"spare_time": "As a member of the MIT Cross Country and Track teams, you'll usually find me running in my spare time. I also enjoy music composition, piano playing, 3D animation, carpentry, cooking, baking, reading, and making new friends.",
+    "random": "I love all things music, thrifting, exploring museums, and being in nature. I also have three cats!"
+  },
+  {
+    "img": "claire.jpg",
+    "name": "Claire Mao",
+    "team": "Logistics (Volunteers)",
+    "intro": "I'm interested in how systems work at their deepest levels. I enjoy understanding not just the “what” but the “why” and “how” that drive these systems forward, especially finding out how different subjects connect.",
+    //"position": "I handle logistics related to finding and coordinating with speakers and panelists as well as organizing special events at the conference.",
+    "interests": "I am fascinated by financial networks, quantum communication protocols, and the logic behind how things work.",
+    "spare_time": "Outside of academics, I love swimming, volunteering, and building new ideas. You'll often find me training in the pool or doing something new.",
+    "random": "I'm from CA and I have a cute grey cat."
+  },
+  {
+    //"img": "michelle.jpg",
+    "name": "Michelle Su",
+    "team": "Logistics (Volunteers)",
+    //"intro": "I'm a sophomore from San Jose, California, majoring in Course 6-9 (Computation and Cognition).",
+    //"position": "I handle logistics related to finding and coordinating with speakers and panelists as well as organizing special events at the conference.",
+    //"interests": "I am fascinated by brain-inspired (neural) computing, dynamical systems, computer graphics, computer vision, and symbolic deep learning. I've done some research work in these areas.",
+    //"spare_time": "As a member of the MIT Cross Country and Track teams, you'll usually find me running in my spare time. I also enjoy music composition, piano playing, 3D animation, carpentry, cooking, baking, reading, and making new friends.",
+    //"random": "I once ran six miles in flip-flops and I like gnocchi."
+  },
+  {
+    "img": "vrishank.jpg",
+    "name": "Vrishank Chandrasekhar",
+    "team": "Technology Chair",
+    "intro": "I'm a freshman from San Jose, California, majoring in 20 (Biological Engineering) and/or 6-4 (Artificial Intelligence and Decision-Making).",
+    "position": "I help maintain the URTC website and organize the conference with the rest of the executive team!",
+    "interests": "I am fascinated by bioinformatics and hope to contribute to research in this space.",
+    "spare_time": "In my spare time, I like to hang out with friends, make music, sing as part of the MIT Ohms (MIT's premier South Asian a capella group), and dance as part of MIT Mirchi (MIT's premier, competitive South Asian fusion dance team). ",
+    "random": "I've been singing Carnatic (Indian classical) music for 15 years, and playing the Carnatic violin for 11 years. I can also play the viola!"
+  },
+  {
+    "img": "bobo.JPG",
     "name": "Bobo Lin",
     "team": "Publicity & Marketing",
     "intro": "I'm Bobo, currently a sophomore, majoring in Course 6-4 (Artificial Intelligence and Decision Making). I'm from Chicago, Illinois.",
     "position": "I'm one of the publicity and marketing co-chairs, and am responsible for designing the logo and spreading information about the conference.",
-    "interests": "I'm interested in the applications of math and computer science, especially in biology and medicine. I'm also interested in AI and its use in fields of computational biology and bioinformatics.",
-    "spare_time": "In my spare time, I like taking walks around my neighborhood, get coffee and matcha, and reading new books.",
-    "random": "1. I was born here in the states but raised in China. 2. My favorite drink from Dunkin is the cookie butter cold brew (highly recommend but sadly it's seasonal)."
+    //"interests": "I'm interested in the applications of math and computer science, especially in biology and medicine. I'm also interested in AI and its use in fields of computational biology and bioinformatics.",
+    "spare_time": "In my free time, I like to work out and trying new cafes & restaurants (and rank them on Beli)!",
+    "random": "I have a total of 945 Sudoku games played."
   },
   {
     "img": "srilekha.jpg",
@@ -74,7 +124,7 @@ export const organizers = [
     "img": "lasya.jpg",
     "name": "Lasya Balachandran",
     "team": "Conference Advisor",
-    "intro": "I'm Lasya Balachandran, and I'm an EECS Master's student. I recently completed a double major in Course 6-2 (Electrical Engineering and Computer Science) and 18 (Mathematics), and I'm from Marlboro, New Jersey.",
+    "intro": "I'm Lasya Balachandran, and I'm an EECS MEng student. I recently completed a double major in Course 6-2 (Electrical Engineering and Computer Science) and 18 (Mathematics), and I'm from Marlboro, New Jersey.",
     //"position":  "I'm one of this year's conference chairs, so I work on aspects related to logistics, technology, sponsorship, and publicity, including helping to find speakers and panelists and working on the website. ", 
     "interests": "I'm interested in digital design, computer architecture, and embedded systems. I've recently done research related to developing a hardware accelerator for a graph-based vector search algorithm.",
     "spare_time": "I like to play tennis, ultimate frisbee, and basketball. I also enjoy running and hiking with friends.",
