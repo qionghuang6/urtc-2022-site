@@ -31,7 +31,7 @@ export const organizers = [
     "random": "1) I'll eat anything sushi-shaped. 2) I've climbed two glaciers."
   },
     {
-    // "img": "adarsh.jpeg",
+    "img": "default.jpg",
     "name": "Andria Bao",
     "team": "Logistics (Speakers)",
     //"intro": "I'm a sophomore from San Jose, California, majoring in Course 6-9 (Computation and Cognition).",
@@ -61,7 +61,7 @@ export const organizers = [
     "random": "I used to rollerblade competitively when I was younger!"
   },
   {
-    "img": "beatrice.jpg",
+    "img": "beatrice.JPG",
     "name": "Beatrice Jiang",
     "team": "Logistics (Workshops)",
     "intro": "I'm Beatrice Jiang, a freshman planning to major in Course 6-5 (Electrical Engineering with Computing). I'm from Thousand Oaks, California.",
@@ -71,7 +71,7 @@ export const organizers = [
     "random": "I love all things music, thrifting, exploring museums, and being in nature. I also have three cats!"
   },
   {
-    "img": "claire.jpg",
+    "img": "claire.jpeg",
     "name": "Claire Mao",
     "team": "Logistics (Volunteers)",
     "intro": "I'm interested in how systems work at their deepest levels. I enjoy understanding not just the “what” but the “why” and “how” that drive these systems forward, especially finding out how different subjects connect.",
@@ -81,7 +81,7 @@ export const organizers = [
     "random": "I'm from CA and I have a cute grey cat."
   },
   {
-    //"img": "michelle.jpg",
+    "img": "default.jpg",
     "name": "Michelle Su",
     "team": "Logistics (Volunteers)",
     //"intro": "I'm a sophomore from San Jose, California, majoring in Course 6-9 (Computation and Cognition).",
