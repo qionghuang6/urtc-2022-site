@@ -42,7 +42,7 @@ export const sponsors = [
     {
         name: 'STMicroelectronics',
         img: '',
-        href: '',
+        href: 'https://www.st.com/',
     },
     
 ]
