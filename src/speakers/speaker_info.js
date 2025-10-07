@@ -54,10 +54,10 @@ export const speakers = [
 //     abstact: '',
 //     bio: 'Farzane is a senior data scientist at Microsoft and has been working on Microsoft Azure cloud services.  Before that, she was working for Humana, a healthcare company, as a senior data scientist. Her responsibilities were to build and maintain predictive models to improve healthcare programs by utilizing machine learning techniques. She graduated from the University of Illinois at Chicago with a PhD in Computer Science in 2019. She also has MSc and BSc degrees in Computer Science.',
 // },
-{
-    name: 'Speakers',
-    affiliation: 'Speakers will be announced soon!',
-    img: 'default.jpg',
-    Info: 'Speakers will be announced soon!'
+//{
+  //  name: 'Speakers',
+  //  affiliation: 'Speakers will be announced soon!',
+ //   img: 'default.jpg',
+   // Info: 'Speakers will be announced soon!'
 }
 ]
