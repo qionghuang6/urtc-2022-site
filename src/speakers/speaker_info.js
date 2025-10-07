@@ -8,6 +8,15 @@ export const speakers = [
     abstact: 'Robotics breakthroughs are exciting—but launching them in fast-moving operations is where the real challenge begins. This keynote walks through how industry teams integrate autonomous mobile robots and robotic systems into live facilities, from readiness gates and “golden-path” installs to site-acceptance tests and early-operation KPIs that keep launches stable and safe. I’ll share public examples, practical lessons learned, and a quick map of roles/skills students can develop now to contribute on day one—spanning software, perception, controls, systems, and operations integration. (Views are my own; examples are sanitized.)',
     bio: 'Uday Iruku leads Robotics Deployment Engineering at Amazon Robotics, overseeing deployment, integration, and launch teams that bring world-class robotics into live operations at scale. He builds the operating system that decomplexifies launches—strategy, decision frameworks, and cross-functional execution—to make scale repeatable. Uday also serves as a U.S. expert to ISO/TC 299 WGs 3, 7, and 10.'
 },
+{
+    name: 'Guru Madhavan',
+    affiliation: 'National Academy of Engineering, Norman R. Augustine Senior Scholar and Senior Director of Programs',
+    img: 'madhavan.jpg',
+    type: 'Keynote',
+    title: 'Wicked Problems',
+    abstact: 'Our toughest challenges rarely yield to simple fixes. They blur the boundaries between what we design, how we live, and what we value. This talk explores how engineers can engage with such “wicked problems” on their own terms, balancing efficiency with safety, vagueness with maintenance, and vulnerability with resilience. Engineering is less about control than care, and about the courage to shape and steward the systems that shape us.',
+    bio: 'Guru Madhavan is the Norman R. Augustine Senior Scholar and senior director of programs at the National Academy of Engineering, and author of "Applied Minds: How Engineers Think" and "Wicked Problems: How to Engineer a Better World." He is a former vice president of IEEE-USA and his honors include the IEEE Norbert Wiener Award, IEEE Alfred Goldsmith Award, and the IEEE-USA Award for Distinguished Literary Contributions and the George McClure Citation of Honor.'
+},
 // {
 //     name: 'Sreeram (Ram) Dhurjaty, PhD, LSMIEEE, AD2BW',
 //     affiliation: 'PhD, Senior Member of the Institute of Electrical and Electronics Engineers (SMIEEE)',
