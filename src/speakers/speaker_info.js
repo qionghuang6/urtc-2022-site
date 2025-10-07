@@ -17,6 +17,15 @@ export const speakers = [
     abstact: 'Our toughest challenges rarely yield to simple fixes. They blur the boundaries between what we design, how we live, and what we value. This talk explores how engineers can engage with such “wicked problems” on their own terms, balancing efficiency with safety, vagueness with maintenance, and vulnerability with resilience. Engineering is less about control than care, and about the courage to shape and steward the systems that shape us.',
     bio: 'Guru Madhavan is the Norman R. Augustine Senior Scholar and senior director of programs at the National Academy of Engineering, and author of "Applied Minds: How Engineers Think" and "Wicked Problems: How to Engineer a Better World." He is a former vice president of IEEE-USA and his honors include the IEEE Norbert Wiener Award, IEEE Alfred Goldsmith Award, and the IEEE-USA Award for Distinguished Literary Contributions and the George McClure Citation of Honor.'
 },
+{
+    name: 'Marco De Fazio',
+    affiliation: 'ST Microelectronics',
+    img: 'deFazio.jpg',
+    type: 'Talk',
+    title: 'Technologies to Enable Sustainable AI at the Edge',
+    abstact: 'AI, Large Language Models in particular, poses serious concerns for the environment due to the extreme power demand of current data centers and supercomputers. Moving AI at the edge can lower the burden for many applications where trained Neural Networks can run on optimized devices. When a semiconductor company designs and manufactures heterogeneous edge devices, developers expect a seamless experience and the freedom to choose different hardware components. This is challenging due to the memory and computational constraints of tiny devices like sensors and microcontrollers, which must operate under milliwatt power. Let\'s explore how ST is addressing these challenges with its Core Technology and Suite',
+    bio: 'Marco joined STMicroelectronics in 2001 working in microfluidics design, fabrication and packaging. Since 2006 he worked on MEMS, photonics and microfluidics, with focus on applications and prototyping of demos, he built ST’s “More than Moore” research lab with the mission of supporting product divisions with longer term research, he was tutor of several master thesis and PhDs works with strong collaborations with European Universities. He worked in several European Research Projects has been Assistant Professor at the “Politecnico di Milano” for several years. \n Marco moved to US in 2013 as ST’s visiting scientist at MIT working on new technologies for power electronics and has since then joined the Strategic Marketing team in the Americas focusing on developing collaborations with academia and research partners. \n Marco holds a master’s degree in Nuclear Engineering at “Politecnico di Milano” with specialization in solid state physics.'
+},
 // {
 //     name: 'Sreeram (Ram) Dhurjaty, PhD, LSMIEEE, AD2BW',
 //     affiliation: 'PhD, Senior Member of the Institute of Electrical and Electronics Engineers (SMIEEE)',
