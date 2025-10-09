@@ -237,7 +237,7 @@ export default function Index({ events }) {
               <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1Dmd4JgffWmqsa-fGYlq-YsiXwngzNyJX/view?usp=sharing"><PictureAsPdfIcon/>{'\u00A0'}Poster Presentation Schedule (2025)</Button>
             </Grid>
             <Grid item>
-              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="/urtc_2024_lightning_talk_presentation_schedule.pdf"><PictureAsPdfIcon/>{'\u00A0'}Lightning Talk Schedule (2024)</Button>
+              <Button variant="outlined" sx={{fontSize: mobile? '12px':'18px', color: 'white', borderColor: 'transparent'}} href="https://drive.google.com/file/d/1mmddxuo4sgV8arC1yXg81Oa4XKSK219F/view?usp=sharing"><PictureAsPdfIcon/>{'\u00A0'}Lightning Talk Schedule (2025)</Button>
             </Grid>
           </Grid>
           <Grid item xs={2.5} align="right">
